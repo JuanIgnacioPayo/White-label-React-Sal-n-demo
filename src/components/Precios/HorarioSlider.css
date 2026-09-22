@@ -1,0 +1,106 @@
+.time-slider-container {
+    display: flex;
+    margin: 2rem auto;
+    width: 90%;
+    max-width: 300px; /* Reduced max-width for a more compact look */
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    user-select: none; /* Prevents text selection during drag */
+  }
+  
+  .time-axis {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+    font-size: 12px;
+    color: #555;
+  }
+  
+  .time-label {
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: #888;
+  }
+
+  .time-label::after {
+    content: '';
+    position: absolute;
+    left: 30px; /* Start line after the text */
+    right: -10px; /* Extend into the wrapper area */
+    height: 1px;
+    background-color: #e0e0e0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .time-slot-wrapper {
+    flex-grow: 1;
+    position: relative;
+    background-image: linear-gradient(to bottom, #f0f0f0 1px, transparent 1px);
+    background-size: 100% 20px; /* 40px/2 = 20px for 30-min intervals */
+  }
+  
+  .selected-time-range {
+    position: absolute;
+    left: 2px;
+    right: 2px;
+    background-color: rgba(0, 140, 186, 0.8);
+    border: 1px solid #007a9e;
+    border-radius: 6px;
+    cursor: grab;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; /* Pushes handles to top/bottom */
+    color: white;
+    font-weight: bold;
+    min-height: 20px; /* Minimum visible height for a 30-min slot */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: box-shadow 0.1s ease;
+  }
+  
+  .selected-time-range:active {
+    cursor: grabbing;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  }
+  
+  .time-info {
+    padding: 8px 5px;
+    text-align: center;
+    font-size: 13px;
+    pointer-events: none; /* Make sure it doesn't interfere with mouse events */
+    line-height: 1.4;
+  }
+
+  .resize-handle {
+    width: 100%;
+    height: 10px; /* Increased clickable area */
+    cursor: ns-resize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Visual indicator for the handles */
+  .resize-handle::before {
+    content: '';
+    width: 30px;
+    height: 4px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 2px;
+  }
+
+  .resize-handle.top {
+    position: absolute;
+    top: 0;
+  }
+  
+  .resize-handle.bottom {
+    position: absolute;
+    bottom: 0;
+  }
+  

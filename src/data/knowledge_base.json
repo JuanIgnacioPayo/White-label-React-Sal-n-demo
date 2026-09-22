@@ -1,0 +1,92 @@
+{
+  "business_info": {
+    "name": "Salón Magic Eventos",
+    "description": "Un espacio único para tus eventos. Ofrecemos un ambiente versátil para cumpleaños, reuniones y todo tipo de celebraciones.",
+    "location": {
+      "address": "Av. Corrientes 1234, Ciudad Autónoma de Buenos Aires, Argentina",
+      "maps_link": "https://maps.google.com"
+    },
+    "contact": {
+      "phone": "1100000000",
+      "email": "contacto@salonmagiceventos.com.ar",
+      "website": "https://melishare-redirect-payo.web.app"
+    },
+    "hours": {
+      "all_days": "Todos los eventos finalizan como máximo a las 21:00 hs."
+    }
+  },
+  "services": [
+    {
+      "name": "Alquiler de Salón (Viernes, Sábados, Domingos y Feriados)",
+      "description": "Alquiler base del salón por un mínimo de 4 horas. 2 horas previas de organización sin cargo",
+      "price": "Consultar"
+    },
+    {
+      "name": "Alquiler de Salón (Lunes a Jueves no feriados)",
+      "description": "Alquiler base del salón por un mínimo de 3 horas en días de semana.",
+      "price": "Consultar"
+    },
+    {
+      "name": "Hora Extra de Evento",
+      "description": "Extiende la duración de tu evento más allá del alquiler base. Solo se pueden alquilar horas extras hasta el horario máximo de alquiler",
+      "price": "Consultar"
+    },
+    {
+      "name": "Servicio de Camarera",
+      "description": "Contratación de personal de servicio por hora, con un mínimo de 3 horas.",
+      "price": "Consultar"
+    },
+    {
+      "name": "Servicio de Parrillero",
+      "description": "Contratación de parrillero profesional para tu evento.",
+      "price": "Consultar"
+    },
+    {
+      "name": "Alquiler de Inflable",
+      "description": "Agrega diversión para los más chicos con nuestro castillo inflable.",
+      "price": "Consultar"
+    },
+    {
+      "name": "Alquiler de Metegol",
+      "description": "Un clásico para entretener a tus invitados.",
+      "price": "Consultar"
+    },
+    {
+      "name": "Alquiler de Proyector y Pantalla",
+      "description": "Ideal para pasar videos, fotos o presentaciones.",
+      "price": "Consultar"
+    },
+    {
+      "name": "Alquiler de Arcade Multijuego",
+      "description": "Revive los clásicos videojuegos con nuestra máquina arcade.",
+      "price": "Consultar"
+    },
+    {
+      "name": "Alquiler de Ping Pong",
+      "description": "Mesa de ping pong profesional para sumar un desafío a tu fiesta.",
+      "price": "Consultar"
+    }
+  ],
+  "faq": [
+    {
+      "question": "¿Qué capacidad tiene el salón?",
+      "answer": "Nuestro salón tiene una capacidad máxima de 50 personas sentadas o 65 personas en formato cóctel (comiendo parados)."
+    },
+    {
+      "question": "¿Tienen estacionamiento?",
+      "answer": "No, lamentablemente no contamos con estacionamiento privado"
+    },
+    {
+      "question": "¿Puedo llevar mi propio catering?",
+      "answer": "Sí, permitimos catering externo. También podemos recomendarte proveedores de confianza si lo necesitas."
+    },
+    {
+      "question": "¿Con cuánta antelación debo reservar?",
+      "answer": "Recomendamos reservar con la mayor antelación posible, especialmente para fechas populares como fines de semana y feriados, para asegurar la disponibilidad."
+    }
+  ],
+  "rules_and_policies": {
+    "booking": "Se requiere una seña para confirmar la reserva. El monto varía según el mes. El saldo restante puede ser abonado hasta el día del evento",
+    "cancellation": "Los eventos no son cancelables"
+  }
+}

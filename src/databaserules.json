@@ -1,0 +1,105 @@
+{
+  "rules": {
+    "siteStats": {
+      ".read": true,
+      ".write": true
+    },
+    "contact-messages": {
+      ".read": "auth != null",
+      ".write": true
+    },
+    "datosId": {
+      ".read": true,
+      ".write": "auth != null && auth.uid === 'zmz5PzhU1WRuhLXMmG4fHAYNG1l1'"
+    },
+    "private": {
+      ".read": "auth != null && auth.uid === 'zmz5PzhU1WRuhLXMmG4fHAYNG1l1'",
+      ".write": "auth != null && auth.uid === 'zmz5PzhU1WRuhLXMmG4fHAYNG1l1'"
+    },
+    "appSettings": {
+      "shareUrl": {
+        ".read": true,
+        ".write": "auth != null && auth.uid === 'zmz5PzhU1WRuhLXMmG4fHAYNG1l1'"
+      },
+      "shareText": {
+        ".read": true,
+        ".write": "auth != null && auth.uid === 'zmz5PzhU1WRuhLXMmG4fHAYNG1l1'"
+      },
+      "theme": {
+        ".read": true,
+        ".write": "auth != null && auth.uid === 'zmz5PzhU1WRuhLXMmG4fHAYNG1l1'"
+      },
+      ".read": false,
+      ".write": false
+    },
+    "iaTexts": {
+      ".read": true,
+      ".write": "auth != null && auth.uid === 'zmz5PzhU1WRuhLXMmG4fHAYNG1l1'"
+    },
+    "feriados_modificados": {
+      ".read": true,
+      ".write": "auth != null && auth.uid === 'zmz5PzhU1WRuhLXMmG4fHAYNG1l1'"
+    },
+    "feriados_recurrentes": {
+      ".read": true,
+      ".write": "auth != null && auth.uid === 'zmz5PzhU1WRuhLXMmG4fHAYNG1l1'"
+    },
+    "componentOrder": {
+      ".read": true,
+      ".write": "auth != null && auth.uid === 'zmz5PzhU1WRuhLXMmG4fHAYNG1l1'"
+    },
+    "config": {
+      ".read": true,
+      ".write": "auth != null && auth.uid === 'zmz5PzhU1WRuhLXMmG4fHAYNG1l1'"
+    },
+    "optionalServices": {
+      ".read": true,
+      ".write": "auth != null && auth.uid === 'zmz5PzhU1WRuhLXMmG4fHAYNG1l1'"
+    },
+    "nombresServicios": {
+      ".read": true,
+      ".write": "auth != null && auth.uid === 'zmz5PzhU1WRuhLXMmG4fHAYNG1l1'"
+    },
+    "horarios": {
+      ".read": true,
+      ".write": "auth != null && auth.uid === 'zmz5PzhU1WRuhLXMmG4fHAYNG1l1'"
+    },
+    "serviceNames": {
+      ".read": true,
+      ".write": "auth != null && auth.uid === 'zmz5PzhU1WRuhLXMmG4fHAYNG1l1'"
+    },
+    "navbar": {
+      ".read": true,
+      ".write": "auth != null && auth.uid === 'zmz5PzhU1WRuhLXMmG4fHAYNG1l1'"
+    },
+    "floatingButtons": {
+      ".read": true,
+      ".write": "auth != null && auth.uid === 'zmz5PzhU1WRuhLXMmG4fHAYNG1l1'"
+    },
+    "reciboContent": {
+      ".read": "auth != null && auth.uid === 'zmz5PzhU1WRuhLXMmG4fHAYNG1l1'",
+      ".write": "auth!= null && auth.uid === 'zmz5PzhU1WRuhLXMmG4fHAYNG1l1'"
+    },
+    "presupuestos": {
+      "$year": {
+        "$month": {
+          "$day": {
+            "$id": {
+              ".read": true,
+              ".write": "auth != null"
+            }
+          }
+        }
+      },
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+    "presupuestos_por_id": {
+      "$id": {
+        ".read": true
+      },
+      ".read": "auth != null",
+      ".write": "auth != null"
+    }
+  }
+}

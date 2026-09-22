@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="./src/assets/logo.png" />
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="apple-touch-icon" href="./src/assets/logo.png" />
+  <link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
+  <link rel="preconnect" href="https://firebasestorage.googleapis.com" crossorigin />
+  <link rel="preload" href="./src/assets/playlist_script-webfont.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="./src/assets/product_sans_regular.woff2" as="font" type="font/woff2" crossorigin />
+  <script defer src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js'></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Salón de Eventos Demo | Plataforma para Salones</title>
+  <meta name="description" content="Plataforma y cotizador digital para salones de fiestas y eventos. Gestión de presupuestos, reservas y facturación." />
+  <meta name="theme-color" content="#4f46e5" />
+  
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="es_AR" />
+  <meta property="og:site_name" content="Salón de Eventos Demo" />
+  <meta property="og:title" content="Salón de Eventos Demo | Plataforma para Salones" />
+  <meta property="og:description" content="Plataforma y cotizador digital para salones de fiestas y eventos. Gestión de presupuestos, reservas y facturación." />
+  <meta property="og:url" content="https://melishare-redirect-payo.web.app" />
+  
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Salón de eventos | Salón Magic Eventos" />
+  <meta name="twitter:description" content="Plataforma y cotizador digital para salones de fiestas y eventos. Gestión de presupuestos, reservas y facturación." />
+
+</head>
+<!-- Google Analytics / Ads placeholder (Configurable para el cliente adquirente) -->
+
+<body>
+  <script>
+    window.addEventListener('error', function(e) {
+      if (e.target && e.target.tagName === 'SCRIPT' && e.target.src && e.target.src.includes('/assets/')) {
+        console.warn("Script chunk failed to load. Recargando versión actual...");
+        if ('serviceWorker' in navigator) {
+          navigator.serviceWorker.getRegistrations().then(function(regs) {
+            for(let r of regs) r.unregister();
+          });
+        }
+        var last = sessionStorage.getItem('last_script_recovery');
+        var now = Date.now();
+        if (!last || (now - parseInt(last, 10)) > 4000) {
+          sessionStorage.setItem('last_script_recovery', String(now));
+          var url = new URL(window.location.href);
+          url.searchParams.set('v', String(now));
+          window.location.replace(url.toString());
+        }
+      }
+    }, true);
+
+    function removeAppInitialLoader() {
+      var l = document.getElementById('app-initial-loader');
+      if (l) {
+        l.style.opacity = '0';
+        setTimeout(function() {
+          if (l && l.parentNode) l.parentNode.removeChild(l);
+        }, 400);
+      }
+    }
+    window.addEventListener('force-clear-loader', removeAppInitialLoader);
+    setTimeout(removeAppInitialLoader, 5000);
+  </script>
+  <div id="fb-root"></div>
+  <!-- Pantalla de Carga Inicial Premium (Carga instantánea) -->
+  <div id="app-initial-loader" style="
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: linear-gradient(135deg, #ffffec 0%, #fdfbf5 100%);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999999;
+      transition: opacity 0.5s ease-out;
+    ">
+      <div style="
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        text-align: center;
+      ">
+        
+        <!-- Nombre del Salón con Entrada Suave -->
+        <div id="loader-title-container" style="display: flex; flex-direction: column; gap: 6px;">
+          <div id="loader-title" role="heading" aria-level="1" style="
+            font-family: 'playlistscript', cursive;
+            font-size: 2.5rem;
+            font-weight: normal;
+            color: #160529;
+            margin: 0;
+            letter-spacing: 2px;
+            opacity: 0;
+            transform: translateY(10px);
+            animation: loaderFadeInUp 0.8s forwards cubic-bezier(0.16, 1, 0.3, 1);
+            animation-delay: 0.2s;
+          ">Salón de eventos</div>
+        </div>
+        
+        <!-- Spinner de Línea Fina Minimalista -->
+        <div style="
+          width: 46px;
+          height: 46px;
+          border: 4px solid rgba(148, 137, 36, 0.15);
+          border-top-color: #948924;
+          border-radius: 50%;
+          margin: 15px auto 0 auto;
+          box-sizing: border-box;
+          opacity: 0;
+          animation-name: loaderSpin, loaderFadeIn;
+          animation-duration: 0.75s, 0.5s;
+          animation-iteration-count: infinite, 1;
+          animation-fill-mode: none, forwards;
+          animation-delay: 0s, 0.6s;
+        "></div>
+        <div style="
+           font-size: 0.85rem; color: #a79997; margin-top: 10px; font-weight: 500; 
+           font-family: system-ui, sans-serif; letter-spacing: 1px; text-transform: uppercase;
+           opacity: 0;
+           animation: loaderFadeInUp 0.8s forwards cubic-bezier(0.16, 1, 0.3, 1);
+           animation-delay: 0.5s;
+        ">
+           Cargando...
+        </div>
+      </div>
+
+      <!-- Estilos CSS Inyectados directamente para ejecución instantánea -->
+      <style>
+        @keyframes loaderPulse {
+          0% {
+            transform: scale(0.95);
+            filter: drop-shadow(0 4px 12px rgba(148, 137, 36, 0.15));
+          }
+          50% {
+            transform: scale(1.05);
+            filter: drop-shadow(0 8px 20px rgba(148, 137, 36, 0.25));
+          }
+          100% {
+            transform: scale(0.95);
+            filter: drop-shadow(0 4px 12px rgba(148, 137, 36, 0.15));
+          }
+        }
+        @keyframes loaderFadeInUp {
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+        @keyframes loaderFadeIn {
+          to {
+            opacity: 1;
+          }
+        }
+        @keyframes loaderSpin {
+          to {
+            transform: rotate(360deg);
+          }
+        }
+      </style>
+    </div>
+  <div id="root">
+  </div>
+
+  <script type="module" src="/src/main.jsx"></script>
+  <script async defer crossorigin="anonymous"
+    src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v13.0"></script>
+  <script>
+    // Cargar configuración dinámica de precarga desde Firebase Realtime Database
+    fetch('https://melishare-redirect-payo-default-rtdb.firebaseio.com/config/loader.json')
+      .then(res => res.json())
+      .then(data => {
+        if (!data) return;
+        window.__LOADER_CONFIG__ = data;
+        
+        if (data.showLogo && data.logoUrl) { // Compatibilidad con logoUrl
+          const container = document.getElementById('loader-title-container');
+          if (container) {
+            container.innerHTML = '<img src="' + data.logoUrl + '" alt="Logo" style="max-height: 80px; opacity: 0; animation: loaderFadeInUp 0.8s forwards cubic-bezier(0.16, 1, 0.3, 1); animation-delay: 0.2s;" />';
+          }
+        } else if (data.title) {
+          const titleEl = document.getElementById('loader-title');
+          if (titleEl) titleEl.innerText = data.title;
+        }
+      })
+      .catch(err => console.warn('Error fetching loader config:', err));
+
+    // También intentar cargar el nombre del sitio desde appSettings por si data.title no está
+    fetch('https://melishare-redirect-payo-default-rtdb.firebaseio.com/appSettings/siteName.json')
+      .then(res => res.json())
+      .then(name => {
+        if (name && typeof name === 'string') {
+          const titleEl = document.getElementById('loader-title');
+          if (titleEl) titleEl.innerText = name;
+        }
+      })
+      .catch(err => console.warn('Error fetching siteName:', err));
+  </script>
+</body>
+
+</html>

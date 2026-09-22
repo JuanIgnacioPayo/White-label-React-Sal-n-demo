@@ -1,0 +1,185 @@
+@font-face {
+  font-family: 'product_sansregular';
+  src: url('./assets/product_sans_regular.woff2') format('woff2'),
+       url('./assets/product_sans_regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+  overflow-x: hidden; 
+    margin: 0 5rem;
+    margin-top: 2rem;
+    font-family: "product_sansregular", "Segoe UI", "Roboto", "Oxygen",
+  "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  sans-serif, "playlistscript";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: var(--app-background-color, #ffffff);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  ::-webkit-scrollbar {
+    width: 0.5rem;
+    
+  }
+
+
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--app-primary-text-color, var(--primary-color));
+  }
+
+  :root {
+    --primary-color: #948924;
+    --app-background-color: #ffffec;
+    --card-grey: #fdfbf5;
+    --primary-text: #160529;
+    --secondary-text: #a79997;
+    --default-transition: 0.5s ease-in-out;
+    --span-color: #c61d1d;
+    --white-text: #ffffff;
+    --border-color: #dee2e6;
+    --input-bg: #ffffff;
+    --hover-bg: #eae6c6;
+    --shadow-color: #e5e5e5;
+  }
+
+  
+
+@media screen and (min-width: 280px) and (max-width: 1080px) {
+body {
+  overflow-x: hidden;
+margin: 0;
+}
+
+html {
+scroll-behavior: smooth;
+}
+
+  
+}
+@keyframes shaking {
+10% {
+transform: scale(1.15) rotate(10deg);
+}
+20% {
+transform: scale(1.15) rotate(-10deg);
+}
+30% {
+transform: scale (1.15) rotate(10deg);
+}
+40% {
+transform: none;
+}
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.quill-editor-container .save-button,
+.quill-editor-container .cancel-button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-top: 5px;
+  margin-right: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+  .quill-editor-container .cancel-button {
+  background-color: #6c757d;
+}
+
+.react-datepicker__day--highlighted {
+  background-color: rgba(255, 152, 0, 0.45) !important;
+  color: black !important;
+}
+
+.logout-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.search-item-card {
+  transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s ease, border-color 0.2s ease !important;
+}
+
+.search-item-card:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08) !important;
+  border-color: #10b981 !important;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.spinner {
+  animation: spin 1.2s linear infinite !important;
+}
+
+@media screen and (min-width: 1081px) { .zoomed-container { zoom: 0.825; width: 100%; height: 100%; flex-grow: 1; display: flex; flex-direction: column; } }
+
+@media screen and (max-width: 1080px) { .home-background-hero { height: auto !important; aspect-ratio: 16/9 !important; } .home-title-h1 { font-size: 1.8rem !important; } .content .name { bottom: 5rem !important; top: auto !important; } }
+
+
+@media print { body { margin: 0 !important; } }
+
+/* ==========================================================================
+   Quill Rich Text Classes (Global support for rendered text & printables)
+   ========================================================================== */
+.ql-size-small, span.ql-size-small, p.ql-size-small {
+  font-size: 0.75em !important;
+}
+
+.ql-size-large, span.ql-size-large, p.ql-size-large {
+  font-size: 1.45em !important;
+}
+
+.ql-size-huge, span.ql-size-huge, p.ql-size-huge {
+  font-size: 2.0em !important;
+}
+
+.ql-align-center {
+  text-align: center !important;
+}
+
+.ql-align-right {
+  text-align: right !important;
+}
+
+.ql-align-justify {
+  text-align: justify !important;
+}
+

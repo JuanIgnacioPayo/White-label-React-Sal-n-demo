@@ -1,0 +1,16 @@
+export const serviciosOpcionalesTemplate = [
+  { id: 1, nombre: "Alquiler de las instalaciones por 3hs" },
+  { id: 2, nombre: "Hora extra promo" },
+  { id: 3, nombre: "Alquiler de las instalaciones por 4hs" },
+  { id: 4, nombre: "Hora extra" },
+  { id: 5, nombre: "Camarera para 20 personas" },
+  { id: 6, nombre: "Metegol" },
+  { id: 7, nombre: "Inflable 3 x 3 mts" },
+  { id: 8, nombre: "Ping pong" },
+  { id: 9, nombre: "Arcade multijuego" },
+  { id: 10, nombre: "Proyector de video con pantalla" },
+  { id: 11, nombre: "Hora extra previa de organización" },
+  { id: 12, nombre: "Servicio de parrillero" },
+  { id: 13, nombre: "Alquiler de las instalaciones en víspera de navidad" },
+  { id: 14, nombre: "Alquiler de las instalaciones en víspera de año nuevo" },
+];

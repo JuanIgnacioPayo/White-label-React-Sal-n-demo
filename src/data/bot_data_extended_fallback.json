@@ -1,0 +1,38 @@
+{
+  "business": {
+    "name": "Salón Magic Eventos",
+    "desc": "Salón para eventos hasta 50 personas sentadas o 65 paradas.",
+    "address": "Av. Corrientes 1234 CABA",
+    "contact": "1100000000 (solo WhatsApp)"
+  },
+  "hours": {
+    "Todos los días": "Hasta 21hs máximo"
+  },
+  "amenities": "Patio exterior, cocina (horno pizzero, heladera, freezer, cafetera, microondas), 2 baños, parrilla, horno a leña, wifi, luces, sonido.",
+  "services": [
+    { "name": "Alquiler Finde/Feriado", "desc": "Min 4hs, 2hs pre-armado, max 21hs." },
+    { "name": "Alquiler Día de Semana", "desc": "Min 3hs, 1.5hs pre-armado, max 21hs." },
+    { "name": "Hora Extra", "desc": "Precio por hora (hasta 21hs)." },
+    { "name": "Camarera", "desc": "Min 3hs." },
+    { "name": "Parrillero", "desc": "Profesional." },
+    { "name": "Inflable", "desc": "3x3 mts." },
+    { "name": "Metegol", "desc": "Clásico." },
+    { "name": "Proyector", "desc": "Ideal videos." },
+    { "name": "Arcade", "desc": "Máquina multijuego." },
+    { "name": "Ping Pong", "desc": "Mesa profesional." },
+    { "name": "Hora previa extra", "desc": "Tiempo extra de armado." }
+  ],
+  "rules": {
+    "deposit": "La seña es obligatoria y no reembolsable. El valor se encuentra especificado en el precio de sena_actual_obligatoria.",
+    "cancellation": "No cancelable.",
+    "external": "Catering externo permitido (retirar mismo día).",
+    "music": "No bandas en vivo ni parlantes externos. Sin ruido en calle."
+  },
+  "faq": [
+    { "q": "¿Estacionamiento?", "a": "No, solo carga y descarga." },
+    { "q": "¿Incluye limpieza?", "a": "Sí, antes y después." },
+    { "q": "¿Incluye vajilla/comida?", "a": "No. Incluye 10 mesas, 50 sillas." },
+    { "q": "¿Grupo electrógeno?", "a": "Sí (no cubre aires)." },
+    { "q": "¿Papel picado?", "a": "Prohibido (destiñe)." }
+  ]
+}

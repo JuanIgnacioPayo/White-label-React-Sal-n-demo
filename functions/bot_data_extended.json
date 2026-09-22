@@ -1,0 +1,183 @@
+{
+  "business_info": {
+    "name": "Salón Magic Eventos",
+    "description": "Un espacio único para tus eventos. Ofrecemos un ambiente versátil para cumpleaños, reuniones y todo tipo de celebraciones que terminen antes de las 00hs los días viernes, sábados y vísperasde feriados o que finalicen antes de las 21hs el resto de los días.",
+    "location": {
+      "address": "Av. Corrientes 1234, Ciudad Autónoma de Buenos Aires, Argentina",
+      "maps_link": "podés encontrar el mapa con nuestra ubicacion en el boton de google maps de la pagina principal "
+    },
+    "contact": {
+      "phone": "1100000000, aunque para recibir llamadas hay que coordinar previamente por whatsapp",
+      "email": "contacto@salonmagiceventos.com.ar",
+      "whatsapp": "1100000000",
+      "facebook":  "buscanos como Salón Magic Eventos en facebook",
+      "instagram":  "buscanos como salonmagiceventos en instagram"
+    },
+    "hours": {
+      "monday_thursday": "Eventos hasta las 21:00 hs.",
+      "friday_saturday_holidays": "Eventos hasta las 00:00 hs.",
+      "attention_hours": "Lunes a viernes de 10 a 18 hs."
+    },
+    "slogan": "Hacé tu fiesta a tu medida!"
+  },
+  "general_description": "¡Bienvenido a Salón Magic Eventos! Somos un salón de fiestas ubicado en la Ciudad Autónoma de Buenos Aires con capacidad para 50 personas sentadas o 65 personas en formato cóctel. Ofrecemos dos propuestas de alquiler: una para fines de semana y feriados, y otra promocional para días de semana de lunes a jueves. Contamos con cocina equipada (horno pizzero, heladera, freezer, cafetera, parrilla y horno a leña), sistema de música y luces en la pista de baile. Puedes sumar juegos, camareras o parrillero. El primer paso es usar el calendario interactivo para ver las fechas libres en tiempo real. Para reservar tu fecha se requiere una seña que además congela el precio. Por cualquier consulta o si querés coordinar una visita, escribinos por WhatsApp. ¡Te esperamos!",
+  "salon_amenities": {
+    "capacity": "El salón se recomienda para 50 personas sentadas a la mesa como máximo, pero pueden entrar hasta 65 personas cómodamente si elijen un menú que no sea para comer al plato, es decir lunch o cóctel",
+    "covered_area": "Recinto techado y climatizado",
+    "bathrooms": "2 baños en planta baja",
+    "outdoor_patio": "Patio al aire libre con parrilla techada y horno a leña",
+    "lighting_sound": "Luces y sonido a disposición (equipo de audio de alta fidelidad, computadora con Spotify y Youtube Premium, luces en pista de baile)",
+    "equipped_kitchen": "Cocina con horno pizzero de 6 moldes, hornalla, heladera exhibidora, freezer de pozo, cafetera, horno microondas, pava eléctrica. Parrilla y horno a leña en el patio descubierto.",
+    "wifi": "WIFI."
+  },
+  "services": [
+    {
+      "name": "Alquiler de Salón (Viernes, Sábados, Domingos y Feriados)",
+      "description": "Alquiler base del salón por un mínimo de 4 horas. Incluye 2 horas previas de organización sin cargo. Máximo hasta las 00 hs.",
+      "price": "460000 ARS"
+    },
+    {
+      "name": "Alquiler de Salón (Lunes a Jueves no feriados)",
+      "description": "Alquiler base del salón por un mínimo de 3 horas en días de semana. Incluye 1.5 horas previas de organización sin cargo. Máximo hasta las 21 hs.",
+      "price": "260000 ARS"
+    },
+    {
+      "name": "Hora Extra de Evento (Fines de semana y feriados)",
+      "description": "Extiende la duración de tu evento más allá del alquiler base. Solo se pueden alquilar horas extras hasta el horario máximo de alquiler.",
+      "price": "80000 ARS por hora"
+    },
+    {
+      "name": "Hora Extra de Evento (Lunes a Jueves)",
+      "description": "Extiende la duración de tu evento más allá del alquiler base. Solo se pueden alquilar horas extras hasta el horario máximo de alquiler.",
+      "price": "80000 ARS por hora"
+    },
+    {
+      "name": "Servicio de Camarera",
+      "description": "Contratación de personal de servicio por hora, con un mínimo de 3 horas.",
+      "price": "19000 ARS por hora"
+    },
+    {
+      "name": "Servicio de Parrillero",
+      "description": "Contratación de parrillero profesional para tu evento.",
+      "price": "77000 ARS"
+    },
+    {
+      "name": "Alquiler de Inflable",
+      "description": "Agrega diversión para los más chicos con nuestro castillo inflable (3x3 mts).",
+      "price": "58000 ARS"
+    },
+    {
+      "name": "Alquiler de Metegol",
+      "description": "Un clásico para entretener a tus invitados.",
+      "price": "37000 ARS"
+    },
+    {
+      "name": "Alquiler de Proyector y Pantalla",
+      "description": "Ideal para pasar videos, fotos o presentaciones.",
+      "price": "39000 ARS"
+    },
+    {
+      "name": "Alquiler de Arcade Multijuego",
+      "description": "Revive los clásicos videojuegos con nuestra máquina arcade.",
+      "price": "39000 ARS"
+    },
+    {
+      "name": "Alquiler de Ping Pong",
+      "description": "Mesa de ping pong profesional para sumar un desafío a tu fiesta.",
+      "price": "46000 ARS"
+    },
+    {
+      "name": "Hora Previa Adicional para Organización",
+      "description": "Tiempo extra para organizar el salón antes del evento, si necesitas más de lo incluido sin cargo.",
+      "price": "19000 ARS por hora"
+    }
+  ],
+  "pricing_notes": {
+    "deposit": "Seña de 140000 ARS para congelar el precio. El restante se puede pagar hasta el día del evento. Las señas no se devuelven bajo ningún concepto.",
+    "payment_methods": "Aceptamos todos los medios de pago: efectivo, transferencia bancaria, tarjeta de débito o a través de Mercado Pago con tarjetas de crédito.",
+    "price_updates": "Los precios se calculaban con 6 meses de anticipación basándose en el índice de precios al consumidor (IPC) del INDEC, pero a partir de abril de 2025 se decidió mantener los precios sin aumentos confiando en la estabilización de la inflación."
+  },
+  "faq": [
+    {
+      "question": "¿Qué capacidad tiene el salón?",
+      "answer": "Nuestro salón tiene una capacidad máxima de 50 personas sentadas o 65 personas en formato cóctel (comiendo parados)."
+    },
+    {
+      "question": "¿Tienen estacionamiento?",
+      "answer": "No, lamentablemente no contamos con estacionamiento privado. Pedimos dejar liberada la entrada del salón. Se puede estacionar temporalmente para bajar mercadería."
+    },
+    {
+      "question": "¿Puedo llevar mi propio catering?",
+      "answer": "Sí, permitimos catering externo. También podemos recomendarte proveedores de confianza si lo necesitas."
+    },
+    {
+      "question": "¿Con cuánta antelación debo reservar?",
+      "answer": "Recomendamos reservar con la mayor antelación posible, especialmente para fechas populares como fines de semana y feriados, para asegurar la disponibilidad."
+    },
+    {
+      "question": "¿Qué incluye el alquiler y qué no?",
+      "answer": "El alquiler incluye las instalaciones del salón con capacidad para 50 personas sentadas o 65 paradas, 10 mesas rectangulares y 50 sillas, cocina equipada (heladera, freezer, horno pizzero, cafetera - SIN VAJILLA), WIFI, y pista de baile con parlantes y luces + Computadora con Spotify y Youtube Premium. No incluye comida, bebida, servicio de camareras o catering, animación, vajilla ni mantelería fina (solo manteles de cuerina negra para las 10 mesas)."
+    },
+    {
+      "question": "¿Se pueden traer elementos el día anterior o dejarlos después del evento?",
+      "answer": "No se permite traer elementos el día anterior al evento ni dejarlos posteriormente."
+    },
+    {
+      "question": "¿Se puede tocar música en vivo o traer parlantes externos?",
+      "answer": "No se permite que toquen bandas de música o traer parlantes externos al salón. Si contrató algún servicio de animación o entretenimiento, es muy importante acordar lo relativo al sonido con Juan. No se permiten animaciones con parlantes o micrófonos en el patio, solo en el ambiente acustizado (pista de baile)."
+    },
+    {
+      "question": "¿La limpieza está incluida?",
+      "answer": "Sí, la limpieza del salón corre por cuenta del salón, tanto antes como después del evento. No es necesario que traiga elementos de limpieza ni que limpie el salón al retirarse."
+    },
+    {
+      "question": "¿Qué hay en los baños y la cocina?",
+      "answer": "Los baños ya tienen toallas, papel higiénico y jabones, sprays de alcohol líquido. La cocina tiene esponja, esponja metálica, detergente y trapo absorbente. En el horno hay 3 bandejas para calentar. También hay una cafetera para café de filtro. Si necesita utensilios de cocina, vajilla o repasadores, debe traerlos usted. No están incluidos los vasos ni platos."
+    },
+    {
+      "question": "¿Hay grupo electrógeno?",
+      "answer": "Sí, el salón cuenta con un grupo electrógeno que puede suministrar energía (sin incluir aires acondicionados) durante algunas horas en caso de corte de suministro eléctrico."
+    },
+    {
+      "question": "¿Se pueden tirar papel picado o bengalas?",
+      "answer": "Por favor, evite el uso de papel picado o bengalas de papel metalizado. Destiñen los pisos."
+    }
+  ],
+  "rules_and_policies": {
+    "booking": "Se requiere un depósito para confirmar la reserva de 140000 pesos. El saldo restante puede ser abonado hasta el día del evento. Las señas no se devuelven bajo ningún concepto.",
+    "cancellation": "Los eventos no son cancelables.",
+    "event_duration_notes": "Los eventos son contratados por hora. Para fiestas de 4 horas, se otorgan 2 horas previas sin cargo para organización. Para fiestas de 3 horas, se otorgan 1.5 horas previas sin cargo. Horas extras previas pueden contratarse. Luego del horario de finalización, se tiene 1 hora sin cargo para retirar pertenencias.",
+    "external_services_policy": "Se pueden contratar servicios externos (caterings, alquiler de juegos, mobiliario), pero todo debe retirarse el mismo día del evento.",
+    "noise_policy": "Es muy importante para nosotros que no haya ruido en la vía pública. Por favor, despida a sus invitados dentro del salón para evitar molestar a los vecinos y por seguridad.",
+    "visit_policy": "Las visitas al salón se coordinan previamente por WhatsApp. No se reciben visitas sin previo aviso.",
+    "phone_call_policy": "Las llamadas telefónicas se coordinan previamente por WhatsApp. No se atienden llamadas sin previo aviso.",
+    "client_responsibility": "El cliente leyó las condiciones y toma la responsabilidad de cumplir con lo escrito. De no aceptarlas tiene dos días para solicitar el reintegro de la seña, pasado este tiempo la misma no es reembolsable bajo ningún concepto."
+  },
+  "recommended_contacts": [
+    {
+      "service": "Alquiler de vajilla y mesas y sillas para niños",
+      "contact_name": "Rocío y Candela",
+      "whatsapp": "1136414383"
+    },
+    {
+      "service": "Alquiler de vajilla y mantelería",
+      "contact_name": "Carlos",
+      "whatsapp": "1162066501"
+    },
+    {
+      "service": "Alquiler de plaza blanda",
+      "contact_name": "Martina",
+      "whatsapp": "1125189378"
+    },
+    {
+      "service": "Catering de pizza y pernil",
+      "contact_name": "Hugo",
+      "whatsapp": "1166819781"
+    },
+    {
+      "service": "Catering de parrilla premium Los Hierros",
+      "contact_name": "Lucas o Daniela",
+      "whatsapp": "1172378964"
+    }
+  ]
+}

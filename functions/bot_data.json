@@ -1,0 +1,93 @@
+{
+  "business_info": {
+    "name": "Salón Magic Eventos",
+    "description": "Un espacio único para tus eventos. Ofrecemos un ambiente versátil para cumpleaños, reuniones y todo tipo de celebraciones.",
+    "location": {
+      "address": "Av. Corrientes 1234, Ciudad Autónoma de Buenos Aires, Argentina",
+      "maps_link": "https://maps.google.com"
+    },
+    "contact": {
+      "phone": "1100000000",
+      "email": "contacto@salonmagiceventos.com.ar",
+      "website": "https://melishare-redirect-payo.web.app"
+    },
+    "hours": {
+      "monday_thursday": "Eventos hasta las 21:00 hs.",
+      "friday_saturday_holidays": "Eventos hasta las 00:00 hs."
+    }
+  },
+  "services": [
+    {
+      "name": "Alquiler de Salón (Viernes, Sábados, Domingos y Feriados)",
+      "description": "Alquiler base del salón por un mínimo de 4 horas. 2 horas previas de organización sin cargo",
+      "price": "$460.000 ARS"
+    },
+    {
+      "name": "Alquiler de Salón (Lunes a Jueves no feriados)",
+      "description": "Alquiler base del salón por un mínimo de 3 horas en días de semana.",
+      "price": "$260.000 ARS"
+    },
+    {
+      "name": "Hora Extra de Evento",
+      "description": "Extiende la duración de tu evento más allá del alquiler base. Solo se pueden alquilar horas extras hasta el horario máximo de alquiler",
+      "price": "$80.000 ARS por hora"
+    },
+    {
+      "name": "Servicio de Camarera",
+      "description": "Contratación de personal de servicio por hora, con un mínimo de 3 horas.",
+      "price": "$19.000 ARS por hora"
+    },
+    {
+      "name": "Servicio de Parrillero",
+      "description": "Contratación de parrillero profesional para tu evento.",
+      "price": "$78.000 ARS"
+    },
+    {
+      "name": "Alquiler de Inflable",
+      "description": "Agrega diversión para los más chicos con nuestro castillo inflable.",
+      "price": "$57.000 ARS"
+    },
+    {
+      "name": "Alquiler de Metegol",
+      "description": "Un clásico para entretener a tus invitados.",
+      "price": "$47.000 ARS"
+    },
+    {
+      "name": "Alquiler de Proyector y Pantalla",
+      "description": "Ideal para pasar videos, fotos o presentaciones.",
+      "price": "$47.000 ARS"
+    },
+    {
+      "name": "Alquiler de Arcade Multijuego",
+      "description": "Revive los clásicos videojuegos con nuestra máquina arcade.",
+      "price": "$47.000 ARS"
+    },
+    {
+      "name": "Alquiler de Ping Pong",
+      "description": "Mesa de ping pong profesional para sumar un desafío a tu fiesta.",
+      "price": "$47.000 ARS"
+    }
+  ],
+  "faq": [
+    {
+      "question": "¿Qué capacidad tiene el salón?",
+      "answer": "Nuestro salón tiene una capacidad máxima de 50 personas sentadas o 65 personas en formato cóctel (comiendo parados)."
+    },
+    {
+      "question": "¿Tienen estacionamiento?",
+      "answer": "No, lamentablemente no contamos con estacionamiento privado"
+    },
+    {
+      "question": "¿Puedo llevar mi propio catering?",
+      "answer": "Sí, permitimos catering externo. También podemos recomendarte proveedores de confianza si lo necesitas."
+    },
+    {
+      "question": "¿Con cuánta antelación debo reservar?",
+      "answer": "Recomendamos reservar con la mayor antelación posible, especialmente para fechas populares como fines de semana y feriados, para asegurar la disponibilidad."
+    }
+  ],
+  "rules_and_policies": {
+    "booking": "Se requiere un depósito para confirmar la reserva de 140000 pesos. El saldo restante puede ser abonado hasta el día del evento",
+    "cancellation": "Los eventos no son cancelables"
+  }
+}

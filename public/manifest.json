@@ -1,0 +1,21 @@
+{
+  "name": "Salón Magic Eventos - Salón de eventos",
+  "short_name": "Magic Eventos",
+  "description": "Salón de eventos ideal para tu fiesta, cumpleaños o evento corporativo.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffec",
+  "theme_color": "#948924",
+  "icons": [
+    {
+      "src": "/src/assets/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/src/assets/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

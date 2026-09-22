@@ -1,0 +1,99 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+web_modules/
+
+# Build outputs
+dist/
+dist-ssr/
+build/
+out/
+
+# Local env files (MUST NEVER BE COMMITTED)
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Firebase files
+.firebase/
+firebase-debug.log
+firestore-debug.log
+pubsub-debug.log
+ui-debug.log
+firebase-export-*/
+.runtimeconfig.json
+credentials.json
+elpatiodesalcedofullcalendar-*.json
+elpatiodesalcedo-*.json
+*-secrets.json
+salon-secrets.json
+
+# Backups and temp files
+db_backup_latest.json
+backup_full_rtdb_*.json
+scratch/
+scratch*.py
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Utility and scratch scripts in root (ignore them from git tracking)
+/analyze_prices.js
+/check_db.js
+/check_logo.js
+/check_presupuestos.js
+/check_prices.js
+/fetch_gcal.cjs
+/fetch_gcal.js
+/fetch_gcal_extras.cjs
+/fix_version.js
+/import_calendar.js
+/migrate_v3.js
+/shift_prices.js
+/test_api.js
+/update_optional_prices.js
+/update_sena.js
+
+# Cloud Functions secrets and player files
+/functions/*-player-script.js
+/functions/updateKnowledgeBase.js
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+/src/components/Calendar/Clave.js
+oauth.html
+# AFIP Keys
+functions/keys/*
+
+# Scratch and debug files in root
+*.py
+*.txt
+deploy.json
+dummy.json
+runs.json
+solucion-llave.json
+test.css
+implementation_plan.md
+script.js
+script2.py
+debug_client.js
+inspect_db.js
+test_bot.js
+test_parser.js
+update_db.js
+write_empleos.js
+normalizeString_mock.js

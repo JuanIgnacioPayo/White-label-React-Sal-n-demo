@@ -1,0 +1,50 @@
+# This file was created to automate deployments to Firebase Hosting.
+name: Deploy to Firebase Hosting on merge
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - name: Install dependencies and build
+        run: npm install --legacy-peer-deps && npm run build
+      - uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: ${{ secrets.GITHUB_TOKEN }}
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_MELISHARE_REDIRECT_PAYO }}
+          projectId: melishare-redirect-payo
+          channelId: live
+
+      - name: Deploy Firebase Functions
+        env:
+          GOOGLE_APPLICATION_CREDENTIALS: /tmp/service_account.json
+        run: |
+          export GOOGLE_APPLICATION_CREDENTIALS="/tmp/service_account.json"
+          echo '${{ secrets.FIREBASE_SERVICE_ACCOUNT_MELISHARE_REDIRECT_PAYO }}' > /tmp/service_account.json
+          cd functions && npm install && cd ..
+          npx firebase-tools deploy --only functions --project melishare-redirect-payo
+
+      - name: Deploy Firebase Database Rules
+        env:
+          GOOGLE_APPLICATION_CREDENTIALS: /tmp/service_account.json
+        run: |
+          export GOOGLE_APPLICATION_CREDENTIALS="/tmp/service_account.json"
+          echo '${{ secrets.FIREBASE_SERVICE_ACCOUNT_MELISHARE_REDIRECT_PAYO }}' > /tmp/service_account.json
+          npx firebase-tools deploy --only database --project melishare-redirect-payo
+
+      - name: Report success to Firebase
+        if: success()
+        env:
+          FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_MELISHARE_REDIRECT_PAYO }}
+        run: node scripts/write-deploy-status.cjs success
+
+      - name: Report failure to Firebase
+        if: failure()
+        env:
+          FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_MELISHARE_REDIRECT_PAYO }}
+        run: node scripts/write-deploy-status.cjs failed "El deploy de GitHub Actions fallo."

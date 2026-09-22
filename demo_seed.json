@@ -1,0 +1,2565 @@
+{
+  "appSettings": {
+    "siteName": "Salón Magic Eventos",
+    "shareUrl": "¡Conocé el salón ideal para tu evento! www.salonmagic.com.ar",
+    "theme": {
+      "appBackgroundColor": "#f8fafc",
+      "cardGrey": "#ffffff",
+      "primaryColor": "#4f46e5",
+      "primaryText": "#0f172a",
+      "secondaryText": "#64748b",
+      "spanColor": "#e11d48",
+      "whiteText": "#ffffff"
+    }
+  },
+  "componentOrder": [
+    {
+      "isVisible": true,
+      "name": "Navbar"
+    },
+    {
+      "isVisible": true,
+      "name": "Header"
+    },
+    {
+      "isVisible": true,
+      "name": "Home"
+    },
+    {
+      "isVisible": true,
+      "name": "Calendar"
+    },
+    {
+      "isVisible": true,
+      "name": "QuienesSomos"
+    },
+    {
+      "isVisible": true,
+      "name": "Grid2x2"
+    },
+    {
+      "isVisible": true,
+      "name": "ReviewsAndTestimonials"
+    },
+    {
+      "isVisible": true,
+      "name": "SocialMediaRow"
+    },
+    {
+      "isVisible": true,
+      "name": "HorariosVisita"
+    },
+    {
+      "isVisible": true,
+      "name": "NewContactSection"
+    },
+    {
+      "isVisible": true,
+      "name": "Footer"
+    },
+    {
+      "isVisible": true,
+      "name": "Branding"
+    },
+    {
+      "isVisible": true,
+      "name": "ScrollToTop"
+    }
+  ],
+  "config": {
+    "browserTitle": "Salón Magic Eventos | Plataforma para Salones",
+    "activePriceVersion": 3,
+    "active_version": 3,
+    "activeScheduleStructure": "fixed",
+    "gridMode": "2x2",
+    "apiKeys": {
+      "demo_mode": true
+    },
+    "afip": {
+      "demo_mode": true,
+      "isDemo": true
+    },
+    "loader": {
+      "logoUrl": "https://res.cloudinary.com/dp6znoxry/image/upload/v1779455338/s5j1kmpafw6m6vzstpll.png",
+      "messages": "Cargando salón demo...\nSincronizando agenda...\nCargando servicios y precios...\nPreparando cotizador interactivo...\n¡Listo!"
+    },
+    "preciosDinamicoHeader": {
+      "datepickerBgColor": "#6366f1",
+      "logoUrl": "https://res.cloudinary.com/dp6znoxry/image/upload/v1779445405/csrycbzyeeqpn3soznwo.png",
+      "pricesHeaderText": "Precios para el día"
+    }
+  },
+  "datosId": [
+    {
+      "a_precio_4hs_": "380000",
+      "b_precio_3hs_": "240000",
+      "c_hora_extra_finde_": "70000",
+      "d_hora_extra_semana_": "60000",
+      "e_camarera_": "18000",
+      "f_metegol_": "30000",
+      "g_pingPong_": "35000",
+      "h_inflable_": "50000",
+      "i_proyector_": "",
+      "j_arcade_": "35000",
+      "k_hora_organizacion_": "18000",
+      "l_seña_": "150000",
+      "m_ipc_": "",
+      "n_mes_": "enero",
+      "o_mostrar_mes": "false",
+      "p_texto_alternativo_": "",
+      "publicaciones_embebidas": [
+        {
+          "height": "200",
+          "src": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fveronica.raina%2Fposts%2Fpfbid0hGNdqqNpHs3CcVDECMB2TWunvteodbMdEsJFz2qYPue24WhpCeQ8LXp9ZSLYKZtAl&show_text=true"
+        },
+        {
+          "height": "180",
+          "src": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpaula.mola.92%2Fposts%2Fpfbid02wzcc77etQYdDA93HgV1KaikrzuwvsTvDkSqjC7oXsdDNbbRLiQSSSruw2HSpxdY7l&width=552&show_text=true&appId=184961238840953"
+        },
+        {
+          "height": "210px",
+          "src": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fariel.vico%2Fposts%2Fpfbid0QqjZ5CTqxpqZZpFNd1Dd6AGZH8UaBBxGTQF2nRkEUTJ2pGE1SfBuJvnNAJNFXvL5l&show_text=true&width="
+        },
+        {
+          "height": "180",
+          "src": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fjulietasofia.ochoa%2Fposts%2Fpfbid0FS88dKHWhxbM6ZCXEVffKAbCqpWjxENoDFscW7zkAQGNt44jsKRnZXyJYjrt2VBEl&width=auto&show_text=true&appId=184961238840953"
+        },
+        {
+          "height": "275",
+          "src": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmatias.zamorano.1%2Fposts%2Fpfbid02jkXx2V8Ahptj9jhhDfcm8PGMtPjeVyeRF5vvZH3F9G6s9vA2aHHWXsaUPa1NNzqEl&show_text=true&width=auto"
+        },
+        {
+          "height": "188",
+          "src": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmartinalejandro.zito%2Fposts%2Fpfbid02czMrwUEP6DLPvkEuD34QzPmuTGcqGExRZXLAuqypWCueUbdT6vE3EfWcPaiwz4Uyl&show_text=true&width=auto"
+        },
+        {
+          "height": "188",
+          "src": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fnatalia.r.lezaun%2Fposts%2Fpfbid0WaPgaQWAVgkSKECFHfpAKrSF9fKRRZyn9YysZPRuJGQa4F4rpNbWkLxPnRmLFBoWl&show_text=true&width=auto"
+        },
+        {
+          "height": "180",
+          "src": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fivansasha.osky%2Fposts%2Fpfbid02VUq8KEMAka79Q9HYBy36CSgBphrU7jA4N6DqPDzTbKzArbKfzv9WyxtJ8hNbeKwjl&show_text=true&width=auto"
+        },
+        {
+          "height": "167",
+          "src": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fjuanluis.aciar%2Fposts%2Fpfbid02MXdrjN6vFFJPTQDUJTHxWwK2bKYNVVXKmegQGtGFnErbkVc9bGwcEs4jbHQpkFdsl&show_text=true&width=500"
+        },
+        {
+          "height": "198",
+          "src": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fgabrielaalejandra.martinelli%2Fposts%2Fpfbid02NXJJrNbvRXHtHoDcTdSBokAtA6vo6r524Rhf9vJYmh3Uc3MY6muhUghXpU3XCmSbl&show_text=true&width=auto"
+        },
+        {
+          "height": "240",
+          "src": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fluisina.fernandez.7%2Fposts%2Fpfbid02ErVAguZsB5h5HCRutKtjkGKaggYrxKAGRBwrMkUPDHNkfxafPHh916JnaYoRaDwql&show_text=true&width=auto"
+        },
+        {
+          "height": "165",
+          "src": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fgrape.eyes%2Fposts%2Fpfbid0kZ4M8ouDnEmYHb8GW4CPBv2QV9evd4YZZ6SbhuzSmrgdCpKrsR36PEtw1d2f3qipl&show_text=true&width=500"
+        },
+        {
+          "height": "187",
+          "src": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fsolange.simone.92%2Fposts%2Fpfbid04vx6DJeqwNJTZgKA13TJL3FeDo5iKmdH2sqJtu9cBsFSijiMUcdhY77kmnoSWoeUl&show_text=true&width=500"
+        }
+      ],
+      "q_mostrar_texto_alternativo_": false,
+      "r_parrillero_": "80000",
+      "testimonios": [
+        {
+          "nombre": "Mariana Soria",
+          "calificacion": "5",
+          "fecha": "2026-08-15",
+          "red": "Google",
+          "texto": "¡Excelente experiencia! Festejamos el cumple de 5 de mi hijo y todo fue impecable. Las instalaciones son hermosas y súper cuidadas."
+        },
+        {
+          "nombre": "Carlos Méndez",
+          "calificacion": "5",
+          "fecha": "2026-07-20",
+          "red": "Google",
+          "texto": "Muy lindo lugar, súper amplio y cómodo. La atención del personal y los coordinadores fue un 10 en todo momento."
+        },
+        {
+          "nombre": "Valeria Benítez",
+          "calificacion": "5",
+          "fecha": "2026-06-10",
+          "red": "Google",
+          "texto": "Hicimos un festejo familiar de 50 años y quedamos encantados. La parrilla y el patio al aire libre son lo mejor."
+        }
+      ],
+      "direccion_mail": "contacto@salonmagic.com.ar",
+      "lema_marca": "¡Tu evento soñado, simple y organizado!"
+    },
+    {
+      "a_precio_4hs_": "380000",
+      "b_precio_3hs_": "240000",
+      "c_hora_extra_finde_": "70000",
+      "d_hora_extra_semana_": "60000",
+      "e_camarera_": "18000",
+      "f_metegol_": "30000",
+      "g_pingPong_": "35000",
+      "h_inflable_": "50000",
+      "i_proyector_": "39000",
+      "j_arcade_": "35000",
+      "k_hora_organizacion_": "18000",
+      "l_seña_": "150000",
+      "m_ipc_": "2",
+      "n_mes_": "febrero",
+      "o_mostrar_mes": "no",
+      "p_texto_alternativo_": "",
+      "q_mostrar_texto_alternativo_": false,
+      "r_parrillero_": "80000",
+      "s_usan_parrilla_": "0",
+      "direccion_mail": "contacto@salonmagic.com.ar",
+      "lema_marca": "¡Tu evento soñado, simple y organizado!",
+      "testimonios": [
+        {
+          "nombre": "Mariana Soria",
+          "calificacion": "5",
+          "fecha": "2026-08-15",
+          "red": "Google",
+          "texto": "¡Excelente experiencia! Festejamos el cumple de 5 de mi hijo y todo fue impecable. Las instalaciones son hermosas y súper cuidadas."
+        },
+        {
+          "nombre": "Carlos Méndez",
+          "calificacion": "5",
+          "fecha": "2026-07-20",
+          "red": "Google",
+          "texto": "Muy lindo lugar, súper amplio y cómodo. La atención del personal y los coordinadores fue un 10 en todo momento."
+        },
+        {
+          "nombre": "Valeria Benítez",
+          "calificacion": "5",
+          "fecha": "2026-06-10",
+          "red": "Google",
+          "texto": "Hicimos un festejo familiar de 50 años y quedamos encantados. La parrilla y el patio al aire libre son lo mejor."
+        }
+      ]
+    },
+    {
+      "a_precio_4hs_": "380000",
+      "b_precio_3hs_": "240000",
+      "c_hora_extra_finde_": "70000",
+      "d_hora_extra_semana_": "60000",
+      "e_camarera_": "18000",
+      "f_metegol_": "30000",
+      "g_pingPong_": "35000",
+      "h_inflable_": "50000",
+      "i_proyector_": "39000",
+      "j_arcade_": "35000",
+      "k_hora_organizacion_": "18000",
+      "l_seña_": "150000",
+      "m_ipc_": "3",
+      "n_mes_": "marzo",
+      "o_mostrar_mes": "no",
+      "p_texto_alternativo_": "",
+      "q_mostrar_texto_alternativo_": false,
+      "r_parrillero_": "80000",
+      "s_usan_parrilla_": "0",
+      "direccion_mail": "contacto@salonmagic.com.ar",
+      "lema_marca": "¡Tu evento soñado, simple y organizado!",
+      "testimonios": [
+        {
+          "nombre": "Mariana Soria",
+          "calificacion": "5",
+          "fecha": "2026-08-15",
+          "red": "Google",
+          "texto": "¡Excelente experiencia! Festejamos el cumple de 5 de mi hijo y todo fue impecable. Las instalaciones son hermosas y súper cuidadas."
+        },
+        {
+          "nombre": "Carlos Méndez",
+          "calificacion": "5",
+          "fecha": "2026-07-20",
+          "red": "Google",
+          "texto": "Muy lindo lugar, súper amplio y cómodo. La atención del personal y los coordinadores fue un 10 en todo momento."
+        },
+        {
+          "nombre": "Valeria Benítez",
+          "calificacion": "5",
+          "fecha": "2026-06-10",
+          "red": "Google",
+          "texto": "Hicimos un festejo familiar de 50 años y quedamos encantados. La parrilla y el patio al aire libre son lo mejor."
+        }
+      ]
+    },
+    {
+      "a_precio_4hs_": "380000",
+      "b_precio_3hs_": "240000",
+      "c_hora_extra_finde_": "70000",
+      "d_hora_extra_semana_": "60000",
+      "e_camarera_": "18000",
+      "f_metegol_": "30000",
+      "g_pingPong_": "35000",
+      "h_inflable_": "50000",
+      "i_proyector_": "39000",
+      "j_arcade_": "35000",
+      "k_hora_organizacion_": "18000",
+      "l_seña_": "150000",
+      "m_ipc_": "4",
+      "n_mes_": "abril",
+      "o_mostrar_mes": "no",
+      "p_texto_alternativo_": "",
+      "q_mostrar_texto_alternativo_": false,
+      "r_parrillero_": "80000",
+      "s_usan_parrilla_": "0",
+      "direccion_mail": "contacto@salonmagic.com.ar",
+      "lema_marca": "¡Tu evento soñado, simple y organizado!",
+      "testimonios": [
+        {
+          "nombre": "Mariana Soria",
+          "calificacion": "5",
+          "fecha": "2026-08-15",
+          "red": "Google",
+          "texto": "¡Excelente experiencia! Festejamos el cumple de 5 de mi hijo y todo fue impecable. Las instalaciones son hermosas y súper cuidadas."
+        },
+        {
+          "nombre": "Carlos Méndez",
+          "calificacion": "5",
+          "fecha": "2026-07-20",
+          "red": "Google",
+          "texto": "Muy lindo lugar, súper amplio y cómodo. La atención del personal y los coordinadores fue un 10 en todo momento."
+        },
+        {
+          "nombre": "Valeria Benítez",
+          "calificacion": "5",
+          "fecha": "2026-06-10",
+          "red": "Google",
+          "texto": "Hicimos un festejo familiar de 50 años y quedamos encantados. La parrilla y el patio al aire libre son lo mejor."
+        }
+      ]
+    },
+    {
+      "a_precio_4hs_": "380000",
+      "b_precio_3hs_": "240000",
+      "c_hora_extra_finde_": "70000",
+      "d_hora_extra_semana_": "60000",
+      "e_camarera_": "18000",
+      "f_metegol_": "30000",
+      "g_pingPong_": "35000",
+      "h_inflable_": "50000",
+      "i_proyector_": "39000",
+      "j_arcade_": "35000",
+      "k_hora_organizacion_": "18000",
+      "l_seña_": "150000",
+      "m_ipc_": "5",
+      "n_mes_": "mayo",
+      "o_mostrar_mes": "",
+      "p_texto_alternativo_": "",
+      "q_mostrar_texto_alternativo_": false,
+      "r_parrillero_": "80000",
+      "s_usan_parrilla_": "0",
+      "direccion_mail": "contacto@salonmagic.com.ar",
+      "lema_marca": "¡Tu evento soñado, simple y organizado!",
+      "testimonios": [
+        {
+          "nombre": "Mariana Soria",
+          "calificacion": "5",
+          "fecha": "2026-08-15",
+          "red": "Google",
+          "texto": "¡Excelente experiencia! Festejamos el cumple de 5 de mi hijo y todo fue impecable. Las instalaciones son hermosas y súper cuidadas."
+        },
+        {
+          "nombre": "Carlos Méndez",
+          "calificacion": "5",
+          "fecha": "2026-07-20",
+          "red": "Google",
+          "texto": "Muy lindo lugar, súper amplio y cómodo. La atención del personal y los coordinadores fue un 10 en todo momento."
+        },
+        {
+          "nombre": "Valeria Benítez",
+          "calificacion": "5",
+          "fecha": "2026-06-10",
+          "red": "Google",
+          "texto": "Hicimos un festejo familiar de 50 años y quedamos encantados. La parrilla y el patio al aire libre son lo mejor."
+        }
+      ]
+    },
+    {
+      "a_precio_4hs_": "380000",
+      "b_precio_3hs_": "240000",
+      "c_hora_extra_finde_": "70000",
+      "d_hora_extra_semana_": "60000",
+      "e_camarera_": "18000",
+      "f_metegol_": "30000",
+      "g_pingPong_": "35000",
+      "h_inflable_": "50000",
+      "i_proyector_": "39000",
+      "j_arcade_": "35000",
+      "k_hora_organizacion_": "18000",
+      "l_seña_": "150000",
+      "m_ipc_": "6",
+      "n_mes_": "junio",
+      "o_mostrar_mes": "si",
+      "p_texto_alternativo_": "",
+      "q_mostrar_texto_alternativo_": true,
+      "r_parrillero_": "80000",
+      "s_usan_parrilla_": "0",
+      "direccion_mail": "contacto@salonmagic.com.ar",
+      "lema_marca": "¡Tu evento soñado, simple y organizado!",
+      "testimonios": [
+        {
+          "nombre": "Mariana Soria",
+          "calificacion": "5",
+          "fecha": "2026-08-15",
+          "red": "Google",
+          "texto": "¡Excelente experiencia! Festejamos el cumple de 5 de mi hijo y todo fue impecable. Las instalaciones son hermosas y súper cuidadas."
+        },
+        {
+          "nombre": "Carlos Méndez",
+          "calificacion": "5",
+          "fecha": "2026-07-20",
+          "red": "Google",
+          "texto": "Muy lindo lugar, súper amplio y cómodo. La atención del personal y los coordinadores fue un 10 en todo momento."
+        },
+        {
+          "nombre": "Valeria Benítez",
+          "calificacion": "5",
+          "fecha": "2026-06-10",
+          "red": "Google",
+          "texto": "Hicimos un festejo familiar de 50 años y quedamos encantados. La parrilla y el patio al aire libre son lo mejor."
+        }
+      ]
+    },
+    {
+      "a_precio_4hs_": "380000",
+      "b_precio_3hs_": "240000",
+      "c_hora_extra_finde_": "70000",
+      "d_hora_extra_semana_": "60000",
+      "e_camarera_": "18000",
+      "f_metegol_": "30000",
+      "g_pingPong_": "35000",
+      "h_inflable_": "50000",
+      "i_proyector_": "0",
+      "j_arcade_": "35000",
+      "k_hora_organizacion_": "18000",
+      "l_seña_": "150000",
+      "m_ipc_": "7",
+      "n_mes_": "julio",
+      "o_mostrar_mes": "no",
+      "p_texto_alternativo_": "Los precios de julio se publicarán a partir del 16/1",
+      "q_mostrar_texto_alternativo_": false,
+      "r_parrillero_": "80000",
+      "servicio_13_": "",
+      "servicio_14_": "",
+      "direccion_mail": "contacto@salonmagic.com.ar",
+      "lema_marca": "¡Tu evento soñado, simple y organizado!",
+      "testimonios": [
+        {
+          "nombre": "Mariana Soria",
+          "calificacion": "5",
+          "fecha": "2026-08-15",
+          "red": "Google",
+          "texto": "¡Excelente experiencia! Festejamos el cumple de 5 de mi hijo y todo fue impecable. Las instalaciones son hermosas y súper cuidadas."
+        },
+        {
+          "nombre": "Carlos Méndez",
+          "calificacion": "5",
+          "fecha": "2026-07-20",
+          "red": "Google",
+          "texto": "Muy lindo lugar, súper amplio y cómodo. La atención del personal y los coordinadores fue un 10 en todo momento."
+        },
+        {
+          "nombre": "Valeria Benítez",
+          "calificacion": "5",
+          "fecha": "2026-06-10",
+          "red": "Google",
+          "texto": "Hicimos un festejo familiar de 50 años y quedamos encantados. La parrilla y el patio al aire libre son lo mejor."
+        }
+      ]
+    },
+    {
+      "a_precio_4hs_": "380000",
+      "b_precio_3hs_": "240000",
+      "c_hora_extra_finde_": "70000",
+      "d_hora_extra_semana_": "60000",
+      "e_camarera_": "18000",
+      "f_metegol_": "30000",
+      "g_pingPong_": "35000",
+      "h_inflable_": "50000",
+      "i_proyector_": "0",
+      "j_arcade_": "35000",
+      "k_hora_organizacion_": "18000",
+      "l_seña_": "150000",
+      "m_ipc_": "8",
+      "n_mes_": "agosto",
+      "o_mostrar_mes": "no",
+      "p_texto_alternativo_": "Los precios de agosto se publicarán a partir del 16/2",
+      "q_mostrar_texto_alternativo_": false,
+      "r_parrillero_": "80000",
+      "s_usan_parrilla_": "",
+      "servicio_10_": "0",
+      "servicio_11_": "21000\n21000",
+      "servicio_12_": "100000",
+      "servicio_13_": "",
+      "servicio_14_": "",
+      "servicio_15_": "",
+      "servicio_1_": "320000",
+      "servicio_2_": "93000",
+      "servicio_3_": "525000",
+      "servicio_4_": "93000",
+      "servicio_5_": "22000",
+      "servicio_6_": "42000",
+      "servicio_7_": "70000",
+      "servicio_8_": "53000",
+      "servicio_9_": "40000",
+      "z_sueldo_hora_": "12300",
+      "z_sueldo_limpieza_": "54000",
+      "z_sueldo_visita_": "6150",
+      "direccion_mail": "contacto@salonmagic.com.ar",
+      "lema_marca": "¡Tu evento soñado, simple y organizado!",
+      "testimonios": [
+        {
+          "nombre": "Mariana Soria",
+          "calificacion": "5",
+          "fecha": "2026-08-15",
+          "red": "Google",
+          "texto": "¡Excelente experiencia! Festejamos el cumple de 5 de mi hijo y todo fue impecable. Las instalaciones son hermosas y súper cuidadas."
+        },
+        {
+          "nombre": "Carlos Méndez",
+          "calificacion": "5",
+          "fecha": "2026-07-20",
+          "red": "Google",
+          "texto": "Muy lindo lugar, súper amplio y cómodo. La atención del personal y los coordinadores fue un 10 en todo momento."
+        },
+        {
+          "nombre": "Valeria Benítez",
+          "calificacion": "5",
+          "fecha": "2026-06-10",
+          "red": "Google",
+          "texto": "Hicimos un festejo familiar de 50 años y quedamos encantados. La parrilla y el patio al aire libre son lo mejor."
+        }
+      ]
+    },
+    {
+      "a_precio_4hs_": "380000",
+      "b_precio_3hs_": "240000",
+      "c_hora_extra_finde_": "70000",
+      "d_hora_extra_semana_": "60000",
+      "e_camarera_": "18000",
+      "f_metegol_": "30000",
+      "g_pingPong_": "35000",
+      "h_inflable_": "50000",
+      "i_proyector_": "0",
+      "j_arcade_": "35000",
+      "k_hora_organizacion_": "18000",
+      "l_seña_": "150000",
+      "m_ipc_": "9",
+      "n_mes_": "septiembre",
+      "o_mostrar_mes": "no",
+      "p_texto_alternativo_": "Los precios de septiembre se publicarán a partir del 16/3",
+      "q_mostrar_texto_alternativo_": false,
+      "r_parrillero_": "80000",
+      "s_usan_parrilla_": "",
+      "servicio_10_": "0",
+      "servicio_11_": "22000",
+      "servicio_12_": "100000",
+      "servicio_13_": "",
+      "servicio_14_": "",
+      "servicio_15_": "",
+      "servicio_1_": "320000",
+      "servicio_2_": "93000",
+      "servicio_3_": "525000",
+      "servicio_4_": "93000",
+      "servicio_5_": "22000",
+      "servicio_6_": "42000",
+      "servicio_7_": "70000",
+      "servicio_8_": "53000",
+      "servicio_9_": "40000",
+      "z_sueldo_hora_": "12300",
+      "z_sueldo_limpieza_": "54000",
+      "z_sueldo_visita_": "6150",
+      "direccion_mail": "contacto@salonmagic.com.ar",
+      "lema_marca": "¡Tu evento soñado, simple y organizado!",
+      "testimonios": [
+        {
+          "nombre": "Mariana Soria",
+          "calificacion": "5",
+          "fecha": "2026-08-15",
+          "red": "Google",
+          "texto": "¡Excelente experiencia! Festejamos el cumple de 5 de mi hijo y todo fue impecable. Las instalaciones son hermosas y súper cuidadas."
+        },
+        {
+          "nombre": "Carlos Méndez",
+          "calificacion": "5",
+          "fecha": "2026-07-20",
+          "red": "Google",
+          "texto": "Muy lindo lugar, súper amplio y cómodo. La atención del personal y los coordinadores fue un 10 en todo momento."
+        },
+        {
+          "nombre": "Valeria Benítez",
+          "calificacion": "5",
+          "fecha": "2026-06-10",
+          "red": "Google",
+          "texto": "Hicimos un festejo familiar de 50 años y quedamos encantados. La parrilla y el patio al aire libre son lo mejor."
+        }
+      ]
+    },
+    {
+      "a_precio_4hs_": "380000",
+      "b_precio_3hs_": "240000",
+      "c_hora_extra_finde_": "70000",
+      "d_hora_extra_semana_": "60000",
+      "e_camarera_": "18000",
+      "f_metegol_": "30000",
+      "g_pingPong_": "35000",
+      "h_inflable_": "50000",
+      "i_proyector_": "0",
+      "j_arcade_": "35000",
+      "k_hora_organizacion_": "18000",
+      "l_seña_": "150000",
+      "m_ipc_": "11",
+      "n_mes_": "octubre",
+      "o_mostrar_mes": "no",
+      "p_texto_alternativo_": "Los precios de octubre se publicarán a partir del 17/4",
+      "q_mostrar_texto_alternativo_": false,
+      "r_parrillero_": "80000",
+      "s_usan_parrilla_": "",
+      "servicio_10_": "0",
+      "servicio_11_": "22000",
+      "servicio_12_": "100000",
+      "servicio_13_": "",
+      "servicio_14_": "",
+      "servicio_15_": "",
+      "servicio_1_": "320000",
+      "servicio_2_": "93000",
+      "servicio_3_": "525000",
+      "servicio_4_": "93000",
+      "servicio_5_": "22000",
+      "servicio_6_": "42000",
+      "servicio_7_": "70000",
+      "servicio_8_": "53000",
+      "servicio_9_": "40000",
+      "z_sueldo_hora_": "12300",
+      "z_sueldo_limpieza_": "54000",
+      "z_sueldo_visita_": "6150",
+      "direccion_mail": "contacto@salonmagic.com.ar",
+      "lema_marca": "¡Tu evento soñado, simple y organizado!",
+      "testimonios": [
+        {
+          "nombre": "Mariana Soria",
+          "calificacion": "5",
+          "fecha": "2026-08-15",
+          "red": "Google",
+          "texto": "¡Excelente experiencia! Festejamos el cumple de 5 de mi hijo y todo fue impecable. Las instalaciones son hermosas y súper cuidadas."
+        },
+        {
+          "nombre": "Carlos Méndez",
+          "calificacion": "5",
+          "fecha": "2026-07-20",
+          "red": "Google",
+          "texto": "Muy lindo lugar, súper amplio y cómodo. La atención del personal y los coordinadores fue un 10 en todo momento."
+        },
+        {
+          "nombre": "Valeria Benítez",
+          "calificacion": "5",
+          "fecha": "2026-06-10",
+          "red": "Google",
+          "texto": "Hicimos un festejo familiar de 50 años y quedamos encantados. La parrilla y el patio al aire libre son lo mejor."
+        }
+      ]
+    },
+    {
+      "a_precio_4hs_": "380000",
+      "b_precio_3hs_": "240000",
+      "c_hora_extra_finde_": "70000",
+      "d_hora_extra_semana_": "60000",
+      "e_camarera_": "18000",
+      "f_metegol_": "30000",
+      "g_pingPong_": "35000",
+      "h_inflable_": "50000",
+      "i_proyector_": "0",
+      "j_arcade_": "35000",
+      "k_hora_organizacion_": "18000",
+      "l_seña_": "150000",
+      "m_ipc_": "11",
+      "n_mes_": "noviembre",
+      "o_mostrar_mes": "no",
+      "p_texto_alternativo_": "Los precios de noviembre se publicarán a partir del 16/5",
+      "q_mostrar_texto_alternativo_": false,
+      "r_parrillero_": "80000",
+      "s_usan_parrilla_": "0",
+      "servicio_10_": "0",
+      "servicio_11_": "23000",
+      "servicio_12_": "100000",
+      "servicio_13_": "",
+      "servicio_14_": "",
+      "servicio_15_": "0",
+      "servicio_1_": "340000",
+      "servicio_2_": "95000",
+      "servicio_3_": "550000",
+      "servicio_4_": "95000",
+      "servicio_5_": "23000",
+      "servicio_6_": "44000",
+      "servicio_7_": "73000",
+      "servicio_8_": "55000",
+      "servicio_9_": "40000",
+      "z_sueldo_hora_": "13000",
+      "z_sueldo_limpieza_": "57000",
+      "z_sueldo_visita_": "6500",
+      "direccion_mail": "contacto@salonmagic.com.ar",
+      "lema_marca": "¡Tu evento soñado, simple y organizado!",
+      "testimonios": [
+        {
+          "nombre": "Mariana Soria",
+          "calificacion": "5",
+          "fecha": "2026-08-15",
+          "red": "Google",
+          "texto": "¡Excelente experiencia! Festejamos el cumple de 5 de mi hijo y todo fue impecable. Las instalaciones son hermosas y súper cuidadas."
+        },
+        {
+          "nombre": "Carlos Méndez",
+          "calificacion": "5",
+          "fecha": "2026-07-20",
+          "red": "Google",
+          "texto": "Muy lindo lugar, súper amplio y cómodo. La atención del personal y los coordinadores fue un 10 en todo momento."
+        },
+        {
+          "nombre": "Valeria Benítez",
+          "calificacion": "5",
+          "fecha": "2026-06-10",
+          "red": "Google",
+          "texto": "Hicimos un festejo familiar de 50 años y quedamos encantados. La parrilla y el patio al aire libre son lo mejor."
+        }
+      ]
+    },
+    {
+      "a_precio_4hs_": "380000",
+      "b_precio_3hs_": "240000",
+      "c_hora_extra_finde_": "70000",
+      "d_hora_extra_semana_": "60000",
+      "e_camarera_": "18000",
+      "f_metegol_": "30000",
+      "g_pingPong_": "35000",
+      "h_inflable_": "50000",
+      "i_proyector_": "0",
+      "j_arcade_": "35000",
+      "k_hora_organizacion_": "18000",
+      "l_seña_": "150000",
+      "m_ipc_": "12",
+      "n_mes_": "diciembre",
+      "o_mostrar_mes": "no",
+      "p_texto_alternativo_": "Los precios de diciembre se publicarán a partir del 16/6",
+      "q_mostrar_texto_alternativo_": false,
+      "r_parrillero_": "80000",
+      "s_usan_parrilla_": "0",
+      "servicio_10_": "0",
+      "servicio_11_": "23000",
+      "servicio_12_": "100000",
+      "servicio_13_": "",
+      "servicio_14_": "",
+      "servicio_15_": "0",
+      "servicio_1_": "340000",
+      "servicio_2_": "95000",
+      "servicio_3_": "550000",
+      "servicio_4_": "95000",
+      "servicio_5_": "23000",
+      "servicio_6_": "44000",
+      "servicio_7_": "75000",
+      "servicio_8_": "55000",
+      "servicio_9_": "40000",
+      "z_sueldo_hora_": "13000",
+      "z_sueldo_limpieza_": "57000",
+      "z_sueldo_visita_": "6500",
+      "direccion_mail": "contacto@salonmagic.com.ar",
+      "lema_marca": "¡Tu evento soñado, simple y organizado!",
+      "testimonios": [
+        {
+          "nombre": "Mariana Soria",
+          "calificacion": "5",
+          "fecha": "2026-08-15",
+          "red": "Google",
+          "texto": "¡Excelente experiencia! Festejamos el cumple de 5 de mi hijo y todo fue impecable. Las instalaciones son hermosas y súper cuidadas."
+        },
+        {
+          "nombre": "Carlos Méndez",
+          "calificacion": "5",
+          "fecha": "2026-07-20",
+          "red": "Google",
+          "texto": "Muy lindo lugar, súper amplio y cómodo. La atención del personal y los coordinadores fue un 10 en todo momento."
+        },
+        {
+          "nombre": "Valeria Benítez",
+          "calificacion": "5",
+          "fecha": "2026-06-10",
+          "red": "Google",
+          "texto": "Hicimos un festejo familiar de 50 años y quedamos encantados. La parrilla y el patio al aire libre son lo mejor."
+        }
+      ]
+    },
+    {
+      "a_precio_4hs_": "380000",
+      "b_precio_3hs_": "240000",
+      "c_hora_extra_finde_": "70000",
+      "d_hora_extra_semana_": "60000",
+      "e_camarera_": "18000",
+      "f_metegol_": "30000",
+      "g_pingPong_": "35000",
+      "h_inflable_": "50000",
+      "i_proyector_": "0",
+      "j_arcade_": "35000",
+      "k_hora_organizacion_": "18000",
+      "l_seña_": "150000",
+      "m_ipc_": "1",
+      "n_mes_": "enero",
+      "o_mostrar_mes": "no",
+      "p_texto_alternativo_": "",
+      "q_mostrar_texto_alternativo_": false,
+      "r_parrillero_": "80000",
+      "s_usan_parrilla_": "",
+      "servicio_10_": "0",
+      "servicio_11_": "24000",
+      "servicio_12_": "105000",
+      "servicio_13_": "",
+      "servicio_14_": "",
+      "servicio_15_": "",
+      "servicio_1_": "360000",
+      "servicio_2_": "100000",
+      "servicio_3_": "580000",
+      "servicio_4_": "100000",
+      "servicio_5_": "24000",
+      "servicio_6_": "46000",
+      "servicio_7_": "80000",
+      "servicio_8_": "57000",
+      "servicio_9_": "42000",
+      "z_sueldo_hora_": "13600",
+      "z_sueldo_limpieza_": "60000",
+      "z_sueldo_visita_": "6800",
+      "direccion_mail": "contacto@salonmagic.com.ar",
+      "lema_marca": "¡Tu evento soñado, simple y organizado!",
+      "testimonios": [
+        {
+          "nombre": "Mariana Soria",
+          "calificacion": "5",
+          "fecha": "2026-08-15",
+          "red": "Google",
+          "texto": "¡Excelente experiencia! Festejamos el cumple de 5 de mi hijo y todo fue impecable. Las instalaciones son hermosas y súper cuidadas."
+        },
+        {
+          "nombre": "Carlos Méndez",
+          "calificacion": "5",
+          "fecha": "2026-07-20",
+          "red": "Google",
+          "texto": "Muy lindo lugar, súper amplio y cómodo. La atención del personal y los coordinadores fue un 10 en todo momento."
+        },
+        {
+          "nombre": "Valeria Benítez",
+          "calificacion": "5",
+          "fecha": "2026-06-10",
+          "red": "Google",
+          "texto": "Hicimos un festejo familiar de 50 años y quedamos encantados. La parrilla y el patio al aire libre son lo mejor."
+        }
+      ]
+    },
+    {
+      "a_precio_4hs_": "380000",
+      "b_precio_3hs_": "240000",
+      "c_hora_extra_finde_": "70000",
+      "d_hora_extra_semana_": "60000",
+      "e_camarera_": "18000",
+      "f_metegol_": "30000",
+      "g_pingPong_": "35000",
+      "h_inflable_": "50000",
+      "i_proyector_": "0",
+      "j_arcade_": "35000",
+      "k_hora_organizacion_": "18000",
+      "l_seña_": "150000",
+      "m_ipc_": "2",
+      "n_mes_": "febrero",
+      "o_mostrar_mes": "no",
+      "p_texto_alternativo_": "",
+      "q_mostrar_texto_alternativo_": false,
+      "r_parrillero_": "80000",
+      "s_usan_parrilla_": "",
+      "servicio_10_": "0",
+      "servicio_11_": "24000",
+      "servicio_12_": "105000",
+      "servicio_13_": "",
+      "servicio_14_": "",
+      "servicio_15_": "",
+      "servicio_1_": "360000",
+      "servicio_2_": "100000",
+      "servicio_3_": "580000",
+      "servicio_4_": "100000",
+      "servicio_5_": "20000",
+      "servicio_6_": "46000",
+      "servicio_7_": "80000",
+      "servicio_8_": "57000",
+      "servicio_9_": "42000",
+      "direccion_mail": "contacto@salonmagic.com.ar",
+      "lema_marca": "¡Tu evento soñado, simple y organizado!",
+      "testimonios": [
+        {
+          "nombre": "Mariana Soria",
+          "calificacion": "5",
+          "fecha": "2026-08-15",
+          "red": "Google",
+          "texto": "¡Excelente experiencia! Festejamos el cumple de 5 de mi hijo y todo fue impecable. Las instalaciones son hermosas y súper cuidadas."
+        },
+        {
+          "nombre": "Carlos Méndez",
+          "calificacion": "5",
+          "fecha": "2026-07-20",
+          "red": "Google",
+          "texto": "Muy lindo lugar, súper amplio y cómodo. La atención del personal y los coordinadores fue un 10 en todo momento."
+        },
+        {
+          "nombre": "Valeria Benítez",
+          "calificacion": "5",
+          "fecha": "2026-06-10",
+          "red": "Google",
+          "texto": "Hicimos un festejo familiar de 50 años y quedamos encantados. La parrilla y el patio al aire libre son lo mejor."
+        }
+      ]
+    },
+    {
+      "a_precio_4hs_": "380000",
+      "b_precio_3hs_": "240000",
+      "c_hora_extra_finde_": "70000",
+      "d_hora_extra_semana_": "60000",
+      "e_camarera_": "18000",
+      "f_metegol_": "30000",
+      "g_pingPong_": "35000",
+      "h_inflable_": "50000",
+      "i_proyector_": "0",
+      "j_arcade_": "35000",
+      "k_hora_organizacion_": "18000",
+      "l_seña_": "150000",
+      "m_ipc_": "3",
+      "n_mes_": "marzo",
+      "o_mostrar_mes": "no",
+      "p_texto_alternativo_": "",
+      "q_mostrar_texto_alternativo_": false,
+      "r_parrillero_": "80000",
+      "s_usan_parrilla_": "",
+      "servicio_10_": "0",
+      "servicio_11_": "24000",
+      "servicio_12_": "105000",
+      "servicio_13_": "",
+      "servicio_14_": "",
+      "servicio_15_": "",
+      "servicio_1_": "360000",
+      "servicio_2_": "100000",
+      "servicio_3_": "580000",
+      "servicio_4_": "100000",
+      "servicio_5_": "20000",
+      "servicio_6_": "46000",
+      "servicio_7_": "80000",
+      "servicio_8_": "57000",
+      "servicio_9_": "42000",
+      "direccion_mail": "contacto@salonmagic.com.ar",
+      "lema_marca": "¡Tu evento soñado, simple y organizado!",
+      "testimonios": [
+        {
+          "nombre": "Mariana Soria",
+          "calificacion": "5",
+          "fecha": "2026-08-15",
+          "red": "Google",
+          "texto": "¡Excelente experiencia! Festejamos el cumple de 5 de mi hijo y todo fue impecable. Las instalaciones son hermosas y súper cuidadas."
+        },
+        {
+          "nombre": "Carlos Méndez",
+          "calificacion": "5",
+          "fecha": "2026-07-20",
+          "red": "Google",
+          "texto": "Muy lindo lugar, súper amplio y cómodo. La atención del personal y los coordinadores fue un 10 en todo momento."
+        },
+        {
+          "nombre": "Valeria Benítez",
+          "calificacion": "5",
+          "fecha": "2026-06-10",
+          "red": "Google",
+          "texto": "Hicimos un festejo familiar de 50 años y quedamos encantados. La parrilla y el patio al aire libre son lo mejor."
+        }
+      ]
+    },
+    {
+      "a_precio_4hs_": "380000",
+      "b_precio_3hs_": "240000",
+      "c_hora_extra_finde_": "70000",
+      "d_hora_extra_semana_": "60000",
+      "e_camarera_": "18000",
+      "f_metegol_": "30000",
+      "g_pingPong_": "35000",
+      "h_inflable_": "50000",
+      "i_proyector_": "0",
+      "j_arcade_": "35000",
+      "k_hora_organizacion_": "18000",
+      "l_seña_": "150000",
+      "m_ipc_": "4",
+      "n_mes_": "abril",
+      "o_mostrar_mes": "no",
+      "p_texto_alternativo_": "Los precios de abril se publicarán a partir del 16/10",
+      "q_mostrar_texto_alternativo_": false,
+      "r_parrillero_": "80000",
+      "s_usan_parrilla_": "0",
+      "direccion_mail": "contacto@salonmagic.com.ar",
+      "lema_marca": "¡Tu evento soñado, simple y organizado!",
+      "testimonios": [
+        {
+          "nombre": "Mariana Soria",
+          "calificacion": "5",
+          "fecha": "2026-08-15",
+          "red": "Google",
+          "texto": "¡Excelente experiencia! Festejamos el cumple de 5 de mi hijo y todo fue impecable. Las instalaciones son hermosas y súper cuidadas."
+        },
+        {
+          "nombre": "Carlos Méndez",
+          "calificacion": "5",
+          "fecha": "2026-07-20",
+          "red": "Google",
+          "texto": "Muy lindo lugar, súper amplio y cómodo. La atención del personal y los coordinadores fue un 10 en todo momento."
+        },
+        {
+          "nombre": "Valeria Benítez",
+          "calificacion": "5",
+          "fecha": "2026-06-10",
+          "red": "Google",
+          "texto": "Hicimos un festejo familiar de 50 años y quedamos encantados. La parrilla y el patio al aire libre son lo mejor."
+        }
+      ]
+    },
+    {
+      "a_precio_4hs_": "380000",
+      "b_precio_3hs_": "240000",
+      "c_hora_extra_finde_": "70000",
+      "d_hora_extra_semana_": "60000",
+      "e_camarera_": "18000",
+      "f_metegol_": "30000",
+      "g_pingPong_": "35000",
+      "h_inflable_": "50000",
+      "i_proyector_": "0",
+      "j_arcade_": "35000",
+      "k_hora_organizacion_": "18000",
+      "l_seña_": "150000",
+      "m_ipc_": "5",
+      "n_mes_": "mayo",
+      "o_mostrar_mes": "no",
+      "p_texto_alternativo_": "Los precios de mayo se publicarán a partir del 16/11",
+      "q_mostrar_texto_alternativo_": false,
+      "r_parrillero_": "80000",
+      "s_usan_parrilla_": "0",
+      "direccion_mail": "contacto@salonmagic.com.ar",
+      "lema_marca": "¡Tu evento soñado, simple y organizado!",
+      "testimonios": [
+        {
+          "nombre": "Mariana Soria",
+          "calificacion": "5",
+          "fecha": "2026-08-15",
+          "red": "Google",
+          "texto": "¡Excelente experiencia! Festejamos el cumple de 5 de mi hijo y todo fue impecable. Las instalaciones son hermosas y súper cuidadas."
+        },
+        {
+          "nombre": "Carlos Méndez",
+          "calificacion": "5",
+          "fecha": "2026-07-20",
+          "red": "Google",
+          "texto": "Muy lindo lugar, súper amplio y cómodo. La atención del personal y los coordinadores fue un 10 en todo momento."
+        },
+        {
+          "nombre": "Valeria Benítez",
+          "calificacion": "5",
+          "fecha": "2026-06-10",
+          "red": "Google",
+          "texto": "Hicimos un festejo familiar de 50 años y quedamos encantados. La parrilla y el patio al aire libre son lo mejor."
+        }
+      ]
+    },
+    {
+      "a_precio_4hs_": "380000",
+      "b_precio_3hs_": "240000",
+      "c_hora_extra_finde_": "70000",
+      "d_hora_extra_semana_": "60000",
+      "e_camarera_": "18000",
+      "f_metegol_": "30000",
+      "g_pingPong_": "35000",
+      "h_inflable_": "50000",
+      "i_proyector_": "0",
+      "j_arcade_": "35000",
+      "k_hora_organizacion_": "18000",
+      "l_seña_": "150000",
+      "m_ipc_": "6",
+      "n_mes_": "junio",
+      "o_mostrar_mes": "no",
+      "p_texto_alternativo_": "Los precios de junio se publicarán a partir del 16/12",
+      "q_mostrar_texto_alternativo_": false,
+      "r_parrillero_": "80000",
+      "servicio_13_": "",
+      "servicio_14_": "",
+      "direccion_mail": "contacto@salonmagic.com.ar",
+      "lema_marca": "¡Tu evento soñado, simple y organizado!",
+      "testimonios": [
+        {
+          "nombre": "Mariana Soria",
+          "calificacion": "5",
+          "fecha": "2026-08-15",
+          "red": "Google",
+          "texto": "¡Excelente experiencia! Festejamos el cumple de 5 de mi hijo y todo fue impecable. Las instalaciones son hermosas y súper cuidadas."
+        },
+        {
+          "nombre": "Carlos Méndez",
+          "calificacion": "5",
+          "fecha": "2026-07-20",
+          "red": "Google",
+          "texto": "Muy lindo lugar, súper amplio y cómodo. La atención del personal y los coordinadores fue un 10 en todo momento."
+        },
+        {
+          "nombre": "Valeria Benítez",
+          "calificacion": "5",
+          "fecha": "2026-06-10",
+          "red": "Google",
+          "texto": "Hicimos un festejo familiar de 50 años y quedamos encantados. La parrilla y el patio al aire libre son lo mejor."
+        }
+      ]
+    },
+    {
+      "a_precio_4hs_": "380000",
+      "b_precio_3hs_": "240000",
+      "c_hora_extra_finde_": "70000",
+      "d_hora_extra_semana_": "60000",
+      "e_camarera_": "18000",
+      "f_metegol_": "30000",
+      "g_pingPong_": "35000",
+      "h_inflable_": "50000",
+      "i_proyector_": "39000",
+      "j_arcade_": "35000",
+      "k_hora_organizacion_": "18000",
+      "l_seña_": "150000",
+      "m_ipc_": "7",
+      "n_mes_": "julio",
+      "o_mostrar_mes": "no",
+      "p_texto_alternativo_": "Los precios de julio se publicarán a partir del 16/1",
+      "q_mostrar_texto_alternativo_": false,
+      "r_parrillero_": "80000",
+      "s_usan_parrilla_": "0",
+      "direccion_mail": "contacto@salonmagic.com.ar",
+      "lema_marca": "¡Tu evento soñado, simple y organizado!",
+      "testimonios": [
+        {
+          "nombre": "Mariana Soria",
+          "calificacion": "5",
+          "fecha": "2026-08-15",
+          "red": "Google",
+          "texto": "¡Excelente experiencia! Festejamos el cumple de 5 de mi hijo y todo fue impecable. Las instalaciones son hermosas y súper cuidadas."
+        },
+        {
+          "nombre": "Carlos Méndez",
+          "calificacion": "5",
+          "fecha": "2026-07-20",
+          "red": "Google",
+          "texto": "Muy lindo lugar, súper amplio y cómodo. La atención del personal y los coordinadores fue un 10 en todo momento."
+        },
+        {
+          "nombre": "Valeria Benítez",
+          "calificacion": "5",
+          "fecha": "2026-06-10",
+          "red": "Google",
+          "texto": "Hicimos un festejo familiar de 50 años y quedamos encantados. La parrilla y el patio al aire libre son lo mejor."
+        }
+      ]
+    },
+    {
+      "a_precio_4hs_": "380000",
+      "b_precio_3hs_": "240000",
+      "c_hora_extra_finde_": "70000",
+      "d_hora_extra_semana_": "60000",
+      "e_camarera_": "18000",
+      "f_metegol_": "30000",
+      "g_pingPong_": "35000",
+      "h_inflable_": "50000",
+      "i_proyector_": "39000",
+      "j_arcade_": "35000",
+      "k_hora_organizacion_": "18000",
+      "l_seña_": "150000",
+      "m_ipc_": "8",
+      "n_mes_": "agosto",
+      "o_mostrar_mes": "no",
+      "p_texto_alternativo_": "",
+      "q_mostrar_texto_alternativo_": false,
+      "r_parrillero_": "80000",
+      "s_usan_parrilla_": "0",
+      "direccion_mail": "contacto@salonmagic.com.ar",
+      "lema_marca": "¡Tu evento soñado, simple y organizado!",
+      "testimonios": [
+        {
+          "nombre": "Mariana Soria",
+          "calificacion": "5",
+          "fecha": "2026-08-15",
+          "red": "Google",
+          "texto": "¡Excelente experiencia! Festejamos el cumple de 5 de mi hijo y todo fue impecable. Las instalaciones son hermosas y súper cuidadas."
+        },
+        {
+          "nombre": "Carlos Méndez",
+          "calificacion": "5",
+          "fecha": "2026-07-20",
+          "red": "Google",
+          "texto": "Muy lindo lugar, súper amplio y cómodo. La atención del personal y los coordinadores fue un 10 en todo momento."
+        },
+        {
+          "nombre": "Valeria Benítez",
+          "calificacion": "5",
+          "fecha": "2026-06-10",
+          "red": "Google",
+          "texto": "Hicimos un festejo familiar de 50 años y quedamos encantados. La parrilla y el patio al aire libre son lo mejor."
+        }
+      ]
+    },
+    {
+      "a_precio_4hs_": "380000",
+      "b_precio_3hs_": "240000",
+      "c_hora_extra_finde_": "70000",
+      "d_hora_extra_semana_": "60000",
+      "e_camarera_": "18000",
+      "f_metegol_": "30000",
+      "g_pingPong_": "35000",
+      "h_inflable_": "50000",
+      "i_proyector_": "39000",
+      "j_arcade_": "35000",
+      "k_hora_organizacion_": "18000",
+      "l_seña_": "150000",
+      "m_ipc_": "9",
+      "n_mes_": "septiembre",
+      "o_mostrar_mes": "no",
+      "p_texto_alternativo_": "Los precios de septiembre se publicarán a partir del 16/3",
+      "q_mostrar_texto_alternativo_": false,
+      "r_parrillero_": "80000",
+      "s_usan_parrilla_": "0",
+      "direccion_mail": "contacto@salonmagic.com.ar",
+      "lema_marca": "¡Tu evento soñado, simple y organizado!",
+      "testimonios": [
+        {
+          "nombre": "Mariana Soria",
+          "calificacion": "5",
+          "fecha": "2026-08-15",
+          "red": "Google",
+          "texto": "¡Excelente experiencia! Festejamos el cumple de 5 de mi hijo y todo fue impecable. Las instalaciones son hermosas y súper cuidadas."
+        },
+        {
+          "nombre": "Carlos Méndez",
+          "calificacion": "5",
+          "fecha": "2026-07-20",
+          "red": "Google",
+          "texto": "Muy lindo lugar, súper amplio y cómodo. La atención del personal y los coordinadores fue un 10 en todo momento."
+        },
+        {
+          "nombre": "Valeria Benítez",
+          "calificacion": "5",
+          "fecha": "2026-06-10",
+          "red": "Google",
+          "texto": "Hicimos un festejo familiar de 50 años y quedamos encantados. La parrilla y el patio al aire libre son lo mejor."
+        }
+      ]
+    },
+    {
+      "a_precio_4hs_": "380000",
+      "b_precio_3hs_": "240000",
+      "c_hora_extra_finde_": "70000",
+      "d_hora_extra_semana_": "60000",
+      "e_camarera_": "18000",
+      "f_metegol_": "30000",
+      "g_pingPong_": "35000",
+      "h_inflable_": "50000",
+      "i_proyector_": "39000",
+      "j_arcade_": "35000",
+      "k_hora_organizacion_": "18000",
+      "l_seña_": "150000",
+      "m_ipc_": "10",
+      "n_mes_": "octubre",
+      "o_mostrar_mes": "no",
+      "p_texto_alternativo_": "",
+      "q_mostrar_texto_alternativo_": false,
+      "r_parrillero_": "80000",
+      "s_usan_parrilla_": "0",
+      "direccion_mail": "contacto@salonmagic.com.ar",
+      "lema_marca": "¡Tu evento soñado, simple y organizado!",
+      "testimonios": [
+        {
+          "nombre": "Mariana Soria",
+          "calificacion": "5",
+          "fecha": "2026-08-15",
+          "red": "Google",
+          "texto": "¡Excelente experiencia! Festejamos el cumple de 5 de mi hijo y todo fue impecable. Las instalaciones son hermosas y súper cuidadas."
+        },
+        {
+          "nombre": "Carlos Méndez",
+          "calificacion": "5",
+          "fecha": "2026-07-20",
+          "red": "Google",
+          "texto": "Muy lindo lugar, súper amplio y cómodo. La atención del personal y los coordinadores fue un 10 en todo momento."
+        },
+        {
+          "nombre": "Valeria Benítez",
+          "calificacion": "5",
+          "fecha": "2026-06-10",
+          "red": "Google",
+          "texto": "Hicimos un festejo familiar de 50 años y quedamos encantados. La parrilla y el patio al aire libre son lo mejor."
+        }
+      ]
+    },
+    {
+      "a_precio_4hs_": "380000",
+      "b_precio_3hs_": "240000",
+      "c_hora_extra_finde_": "70000",
+      "d_hora_extra_semana_": "60000",
+      "e_camarera_": "18000",
+      "f_metegol_": "30000",
+      "g_pingPong_": "35000",
+      "h_inflable_": "50000",
+      "i_proyector_": "39000",
+      "j_arcade_": "35000",
+      "k_hora_organizacion_": "18000",
+      "l_seña_": "150000",
+      "m_ipc_": "11",
+      "n_mes_": "noviembre",
+      "o_mostrar_mes": "no",
+      "p_texto_alternativo_": "",
+      "q_mostrar_texto_alternativo_": false,
+      "r_parrillero_": "80000",
+      "s_usan_parrilla_": "0",
+      "direccion_mail": "contacto@salonmagic.com.ar",
+      "lema_marca": "¡Tu evento soñado, simple y organizado!",
+      "testimonios": [
+        {
+          "nombre": "Mariana Soria",
+          "calificacion": "5",
+          "fecha": "2026-08-15",
+          "red": "Google",
+          "texto": "¡Excelente experiencia! Festejamos el cumple de 5 de mi hijo y todo fue impecable. Las instalaciones son hermosas y súper cuidadas."
+        },
+        {
+          "nombre": "Carlos Méndez",
+          "calificacion": "5",
+          "fecha": "2026-07-20",
+          "red": "Google",
+          "texto": "Muy lindo lugar, súper amplio y cómodo. La atención del personal y los coordinadores fue un 10 en todo momento."
+        },
+        {
+          "nombre": "Valeria Benítez",
+          "calificacion": "5",
+          "fecha": "2026-06-10",
+          "red": "Google",
+          "texto": "Hicimos un festejo familiar de 50 años y quedamos encantados. La parrilla y el patio al aire libre son lo mejor."
+        }
+      ]
+    },
+    {
+      "a_precio_4hs_": "380000",
+      "b_precio_3hs_": "240000",
+      "c_hora_extra_finde_": "70000",
+      "d_hora_extra_semana_": "60000",
+      "e_camarera_": "18000",
+      "f_metegol_": "30000",
+      "g_pingPong_": "35000",
+      "h_inflable_": "50000",
+      "i_proyector_": "39000",
+      "j_arcade_": "35000",
+      "k_hora_organizacion_": "18000",
+      "l_seña_": "150000",
+      "m_ipc_": "12",
+      "n_mes_": "diciembre",
+      "o_mostrar_mes": "no",
+      "p_texto_alternativo_": "",
+      "q_mostrar_texto_alternativo_": false,
+      "r_parrillero_": "80000",
+      "s_usan_parrilla_": "0",
+      "direccion_mail": "contacto@salonmagic.com.ar",
+      "lema_marca": "¡Tu evento soñado, simple y organizado!",
+      "testimonios": [
+        {
+          "nombre": "Mariana Soria",
+          "calificacion": "5",
+          "fecha": "2026-08-15",
+          "red": "Google",
+          "texto": "¡Excelente experiencia! Festejamos el cumple de 5 de mi hijo y todo fue impecable. Las instalaciones son hermosas y súper cuidadas."
+        },
+        {
+          "nombre": "Carlos Méndez",
+          "calificacion": "5",
+          "fecha": "2026-07-20",
+          "red": "Google",
+          "texto": "Muy lindo lugar, súper amplio y cómodo. La atención del personal y los coordinadores fue un 10 en todo momento."
+        },
+        {
+          "nombre": "Valeria Benítez",
+          "calificacion": "5",
+          "fecha": "2026-06-10",
+          "red": "Google",
+          "texto": "Hicimos un festejo familiar de 50 años y quedamos encantados. La parrilla y el patio al aire libre son lo mejor."
+        }
+      ]
+    },
+    {
+      "cantidad_calificaciones_facebook": "+300",
+      "cantidad_calificaciones_google": "+30",
+      "direccion_mail": "contacto@salonmagic.com.ar",
+      "embed_height_1": "520",
+      "embed_height_2": "622",
+      "embed_height_mobile": "540",
+      "estrellas_facebook": "4.6 / 5",
+      "estrellas_google": "96%",
+      "h_mob_1": "50",
+      "h_pc_1": "520",
+      "lema_marca": "¡Tu evento soñado, simple y organizado!",
+      "link_cuadrado_de_instagram": "https://iili.io/dsFGfNR.png",
+      "link_embebido": "<blockquote class=\"instagram-media\" data-instgrm-captioned data-instgrm-permalink=\"https://www.instagram.com/p/CmrEy6OOU4d/?utm_source=ig_embed&utm_campaign=loading\" data-instgrm-version=\"14\" style=\" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);\"><div style=\"padding:16px;\"> <a href=\"https://www.instagram.com/p/CmrEy6OOU4d/?utm_source=ig_embed&utm_campaign=loading\" style=\" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;\" target=\"_blank\"> <div style=\" display: flex; flex-direction: row; align-items: center;\"> <div style=\"background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;\"></div> <div style=\"display: flex; flex-direction: column; flex-grow: 1; justify-content: center;\"> <div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;\"></div> <div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;\"></div></div></div><div style=\"padding: 19% 0;\"></div> <div style=\"display:block; height:50px; margin:0 auto 12px; width:50px;\"><svg width=\"50px\" height=\"50px\" viewBox=\"0 0 60 60\" version=\"1.1\" xmlns=\"https://www.w3.org/2000/svg\" xmlns:xlink=\"https://www.w3.org/1999/xlink\"><g stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"><g transform=\"translate(-511.000000, -20.000000)\" fill=\"#000000\"><g><path d=\"M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631\"></path></g></g></g></svg></div><div style=\"padding-top: 8px;\"> <div style=\" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;\">Ver esta publicación en Instagram</div></div><div style=\"padding: 12.5% 0;\"></div> <div style=\"display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;\"><div> <div style=\"background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);\"></div> <div style=\"background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;\"></div> <div style=\"background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);\"></div></div><div style=\"margin-left: 8px;\"> <div style=\" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;\"></div> <div style=\" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)\"></div></div><div style=\"margin-left: auto;\"> <div style=\" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);\"></div> <div style=\" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);\"></div> <div style=\" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);\"></div></div></div> <div style=\"display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;\"> <div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;\"></div> <div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;\"></div></div></a><p style=\" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;\"><a href=\"https://www.instagram.com/p/CmrEy6OOU4d/?utm_source=ig_embed&utm_campaign=loading\" style=\" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;\" target=\"_blank\">Una publicación compartida de Salón Magic Eventos (@salonmagiceventos)</a></p></div></blockquote>\n<script async src=\"//www.instagram.com/embed.js\"></script><script async src=\"//www.instagram.com/embed.js\"></script><script async src=\"//www.instagram.com/embed.js\"></script>",
+      "link_embebido_1": "<blockquote class=\"instagram-media\" data-instgrm-captioned data-instgrm-permalink=\"https://www.instagram.com/p/DVZ6MgsDWaM/?utm_source=ig_embed&amp;utm_campaign=loading\" data-instgrm-version=\"14\" style=\" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);\"><div style=\"padding:16px;\"> <a href=\"https://www.instagram.com/p/DVZ6MgsDWaM/?utm_source=ig_embed&amp;utm_campaign=loading\" style=\" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;\" target=\"_blank\"> <div style=\" display: flex; flex-direction: row; align-items: center;\"> <div style=\"background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;\"></div> <div style=\"display: flex; flex-direction: column; flex-grow: 1; justify-content: center;\"> <div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;\"></div> <div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;\"></div></div></div><div style=\"padding: 19% 0;\"></div> <div style=\"display:block; height:50px; margin:0 auto 12px; width:50px;\"><svg width=\"50px\" height=\"50px\" viewBox=\"0 0 60 60\" version=\"1.1\" xmlns=\"https://www.w3.org/2000/svg\" xmlns:xlink=\"https://www.w3.org/1999/xlink\"><g stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"><g transform=\"translate(-511.000000, -20.000000)\" fill=\"#000000\"><g><path d=\"M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631\"></path></g></g></g></svg></div><div style=\"padding-top: 8px;\"> <div style=\" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;\">Ver esta publicación en Instagram</div></div><div style=\"padding: 12.5% 0;\"></div> <div style=\"display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;\"><div> <div style=\"background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);\"></div> <div style=\"background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;\"></div> <div style=\"background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);\"></div></div><div style=\"margin-left: 8px;\"> <div style=\" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;\"></div> <div style=\" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)\"></div></div><div style=\"margin-left: auto;\"> <div style=\" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);\"></div> <div style=\" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);\"></div> <div style=\" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);\"></div></div></div> <div style=\"display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;\"> <div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;\"></div> <div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;\"></div></div></a><p style=\" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;\"><a href=\"https://www.instagram.com/p/DVZ6MgsDWaM/?utm_source=ig_embed&amp;utm_campaign=loading\" style=\" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;\" target=\"_blank\">Una publicación compartida de Salón Magic Eventos (@salonmagiceventos)</a></p></div></blockquote>\n<script async src=\"//www.instagram.com/embed.js\"></script>",
+      "link_embebido_2": "<iframe src=\"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FSalonMagicEventos%2Fposts%2Fpfbid0pTkt6STqWEN9ccZa4rtDe5YjUpuFEgnj5wFtY2gkQKdudHYU4XuAvbVF7qmq9GzPl&show_text=true&width=500\" width=\"500\" height=\"653\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"></iframe><script async src=\"//www.instagram.com/embed.js\"></script>",
+      "link_encuesta_anonima": "https://docs.google.com/forms/d/e/1FAIpQLSdg3n82WhHVod_TxQ9Wxi1zM3lTTOF7ZSEroGv4ctK8nTnn3w/viewform",
+      "link_f_de_facebook": "https://iili.io/dsFl1yl.png",
+      "link_facebook": "https://www.facebook.com/salonmagiceventos",
+      "link_google": "https://www.google.com/search?q=salon+magic+eventos",
+      "link_google_maps": "https://goo.gl/maps/UuXr6cmXSLV32zaq8",
+      "link_iframe_mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0168878894564!2d-58.381555!3d-34.603722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses!2sar!4v1700000000000!5m2!1ses!2sar",
+      "link_imagen_Maps": "https://iili.io/d3RL6va.png",
+      "link_imagen_calendar": "https://iili.io/dsFmHSS.png",
+      "link_imagen_compartir": "https://img.icons8.com/?size=100&id=98959&format=png&color=FFFFFF",
+      "link_imagen_encuesta_anonima": "https://iili.io/dB5WSgp.png",
+      "link_imagen_facebook": "https://iili.io/d3RD4Pp.png",
+      "link_imagen_google_maps": "https://iili.io/dsFS9a4.png",
+      "link_imagen_volver": "https://iili.io/3yFU9cJ.png",
+      "link_imagen_whatsapp": "https://iili.io/dsFeZZu.png",
+      "link_instagram": "https://instagram.com/salonmagiceventos",
+      "link_whatsapp": "https://wa.me/message/IVQAFZIIFEN5G1",
+      "mail_text": "<p>Correo: contacto@salonmagiceventos.com.ar</p>",
+      "nombre_red_1": "Facebook",
+      "nombre_red_2": "Google",
+      "numero_whatsapp": "https://wa.me/5491100000000",
+      "show_mobile_2": false,
+      "w_mob_1": "95%",
+      "w_mob_2": "100%",
+      "whatsapp_text": "<p>Whatsapp: 11-0000-0000</p>",
+      "a_precio_4hs_": "380000",
+      "b_precio_3hs_": "240000",
+      "c_hora_extra_finde_": "70000",
+      "d_hora_extra_semana_": "60000",
+      "e_camarera_": "18000",
+      "f_metegol_": "30000",
+      "g_pingPong_": "35000",
+      "h_inflable_": "50000",
+      "j_arcade_": "35000",
+      "k_hora_organizacion_": "18000",
+      "l_seña_": "150000",
+      "r_parrillero_": "80000",
+      "testimonios": [
+        {
+          "nombre": "Mariana Soria",
+          "calificacion": "5",
+          "fecha": "2026-08-15",
+          "red": "Google",
+          "texto": "¡Excelente experiencia! Festejamos el cumple de 5 de mi hijo y todo fue impecable. Las instalaciones son hermosas y súper cuidadas."
+        },
+        {
+          "nombre": "Carlos Méndez",
+          "calificacion": "5",
+          "fecha": "2026-07-20",
+          "red": "Google",
+          "texto": "Muy lindo lugar, súper amplio y cómodo. La atención del personal y los coordinadores fue un 10 en todo momento."
+        },
+        {
+          "nombre": "Valeria Benítez",
+          "calificacion": "5",
+          "fecha": "2026-06-10",
+          "red": "Google",
+          "texto": "Hicimos un festejo familiar de 50 años y quedamos encantados. La parrilla y el patio al aire libre son lo mejor."
+        }
+      ]
+    },
+    {
+      "a_enero": false,
+      "activeMonthsList": [
+        "2026-05",
+        "2026-06",
+        "2026-07",
+        "2026-08",
+        "2026-09",
+        "2026-10",
+        "2026-11",
+        "2026-12",
+        "2027-01",
+        "2027-02",
+        "2027-03"
+      ],
+      "b_febrero": false,
+      "c_marzo": false,
+      "d_abril": false,
+      "e_mayo": false,
+      "f_junio": false,
+      "fechaFinalCalendario": "2027-03-31",
+      "g_julio": true,
+      "h_agosto": true,
+      "i_septiembre": true,
+      "j_octubre": true,
+      "k_noviembre": true,
+      "l_diciembre": true,
+      "m_enero": false,
+      "n_febrero": false,
+      "o_marzo": false,
+      "p_abril": true,
+      "q_mayo": true,
+      "r_junio": true,
+      "s_julio": false,
+      "t_agosto": false,
+      "u_septiembre": false,
+      "v_octubre": false,
+      "w_noviembre": false,
+      "x_diciembre": false,
+      "y_ano1": "2026",
+      "z_ano2": "2027",
+      "zb_mostrar_ano1": false,
+      "zc_mostrar_ano2": true,
+      "zd_enroque": true,
+      "a_precio_4hs_": "380000",
+      "b_precio_3hs_": "240000",
+      "c_hora_extra_finde_": "70000",
+      "d_hora_extra_semana_": "60000",
+      "e_camarera_": "18000",
+      "f_metegol_": "30000",
+      "g_pingPong_": "35000",
+      "h_inflable_": "50000",
+      "j_arcade_": "35000",
+      "k_hora_organizacion_": "18000",
+      "l_seña_": "150000",
+      "r_parrillero_": "80000",
+      "direccion_mail": "contacto@salonmagic.com.ar",
+      "lema_marca": "¡Tu evento soñado, simple y organizado!",
+      "testimonios": [
+        {
+          "nombre": "Mariana Soria",
+          "calificacion": "5",
+          "fecha": "2026-08-15",
+          "red": "Google",
+          "texto": "¡Excelente experiencia! Festejamos el cumple de 5 de mi hijo y todo fue impecable. Las instalaciones son hermosas y súper cuidadas."
+        },
+        {
+          "nombre": "Carlos Méndez",
+          "calificacion": "5",
+          "fecha": "2026-07-20",
+          "red": "Google",
+          "texto": "Muy lindo lugar, súper amplio y cómodo. La atención del personal y los coordinadores fue un 10 en todo momento."
+        },
+        {
+          "nombre": "Valeria Benítez",
+          "calificacion": "5",
+          "fecha": "2026-06-10",
+          "red": "Google",
+          "texto": "Hicimos un festejo familiar de 50 años y quedamos encantados. La parrilla y el patio al aire libre son lo mejor."
+        }
+      ]
+    },
+    {
+      "finTurnoDia": 16,
+      "finTurnoNoche": 23,
+      "horario_de_alquiler": "Hacemos eventos hasta las 21hs de lunes a lunes.",
+      "horario_de_atencion": "Horario de atención: \nLunes a viernes de 10 a 18 hs.",
+      "inicioTurnoDia": 7,
+      "inicioTurnoNoche": 18,
+      "a_precio_4hs_": "380000",
+      "b_precio_3hs_": "240000",
+      "c_hora_extra_finde_": "70000",
+      "d_hora_extra_semana_": "60000",
+      "e_camarera_": "18000",
+      "f_metegol_": "30000",
+      "g_pingPong_": "35000",
+      "h_inflable_": "50000",
+      "j_arcade_": "35000",
+      "k_hora_organizacion_": "18000",
+      "l_seña_": "150000",
+      "r_parrillero_": "80000",
+      "direccion_mail": "contacto@salonmagic.com.ar",
+      "lema_marca": "¡Tu evento soñado, simple y organizado!",
+      "testimonios": [
+        {
+          "nombre": "Mariana Soria",
+          "calificacion": "5",
+          "fecha": "2026-08-15",
+          "red": "Google",
+          "texto": "¡Excelente experiencia! Festejamos el cumple de 5 de mi hijo y todo fue impecable. Las instalaciones son hermosas y súper cuidadas."
+        },
+        {
+          "nombre": "Carlos Méndez",
+          "calificacion": "5",
+          "fecha": "2026-07-20",
+          "red": "Google",
+          "texto": "Muy lindo lugar, súper amplio y cómodo. La atención del personal y los coordinadores fue un 10 en todo momento."
+        },
+        {
+          "nombre": "Valeria Benítez",
+          "calificacion": "5",
+          "fecha": "2026-06-10",
+          "red": "Google",
+          "texto": "Hicimos un festejo familiar de 50 años y quedamos encantados. La parrilla y el patio al aire libre son lo mejor."
+        }
+      ]
+    },
+    {
+      "cell0Images": [
+        "https://firebasestorage.googleapis.com/v0/b/el-patio-de-salcedo-backup.firebasestorage.app/o/uploads%2F1787180452926_d37mEGf.jpg?alt=media&token=229e9668-455e-4a8e-9386-4ef0d3dd804b",
+        "https://firebasestorage.googleapis.com/v0/b/el-patio-de-salcedo-backup.firebasestorage.app/o/uploads%2F1787180414833_d37p1N1.jpg?alt=media&token=2267e377-163f-433f-b28c-02fdf79f6187",
+        "https://res.cloudinary.com/dp6znoxry/image/upload/v1779400798/gkiekkso9f50asemcpmh.png",
+        "https://res.cloudinary.com/dp6znoxry/image/upload/v1779401061/pjuqdwukgawu2j986fv7.png",
+        "https://firebasestorage.googleapis.com/v0/b/el-patio-de-salcedo-backup.firebasestorage.app/o/uploads%2F1787188848419_d37yfzF.jpg?alt=media&token=51d64ef1-0a6e-451c-8822-d3130f731816",
+        "https://firebasestorage.googleapis.com/v0/b/el-patio-de-salcedo-backup.firebasestorage.app/o/uploads%2F1786940267744_WhatsApp%20Image%202026-08-17%20at%201.15.16%20AM%20(1).jpeg?alt=media&token=16ffe12b-36d3-4ece-b736-97c14a0dc0c8",
+        "https://firebasestorage.googleapis.com/v0/b/el-patio-de-salcedo-backup.firebasestorage.app/o/uploads%2F1786940279903_WhatsApp%20Image%202026-08-17%20at%201.13.53%20AM.jpeg?alt=media&token=b1a8285f-bbd3-42ed-b97f-62131e9f2913",
+        "https://firebasestorage.googleapis.com/v0/b/el-patio-de-salcedo-backup.firebasestorage.app/o/uploads%2F1787180616532_3AZVNhQ.png?alt=media&token=02e596c3-d4f5-4668-9c29-c4ba5587c2a5"
+      ],
+      "cell1Images": [
+        "https://res.cloudinary.com/dp6znoxry/image/upload/v1779413364/tzw7booxouji4uv3jbde.jpg",
+        "https://res.cloudinary.com/dp6znoxry/image/upload/v1779413730/ydv1dfacc8idnoghojpz.jpg",
+        "https://firebasestorage.googleapis.com/v0/b/el-patio-de-salcedo-backup.firebasestorage.app/o/uploads%2F1787188656314_Sin%20t%C3%ADtulo.png?alt=media&token=851af15d-7f66-45b2-89f9-fd6f2e5d68ca"
+      ],
+      "cell2Images": [
+        "https://res.cloudinary.com/dp6znoxry/image/upload/v1779412329/j9ri05luhijpt0ovugjv.jpg",
+        "https://firebasestorage.googleapis.com/v0/b/el-patio-de-salcedo-backup.firebasestorage.app/o/uploads%2F1787176992056_3Atj5rB.png?alt=media&token=35e02c94-45b7-4670-a599-51a06ec78e7d",
+        "https://res.cloudinary.com/dp6znoxry/image/upload/v1779412324/xpjbaww8qtypzgnntcbb.jpg",
+        "https://res.cloudinary.com/dp6znoxry/image/upload/v1779412326/bzbcfaezjfqupted6l2z.jpg",
+        "https://firebasestorage.googleapis.com/v0/b/el-patio-de-salcedo-backup.firebasestorage.app/o/uploads%2F1787176815684_3AtOTLG.png?alt=media&token=cd8ffe07-8ad7-4058-8865-c468ad572cd3",
+        "https://res.cloudinary.com/dp6znoxry/image/upload/v1779412322/x5ouypwyqie1yophnqtl.jpg",
+        "https://res.cloudinary.com/dp6znoxry/image/upload/v1779412336/hpggk1uavdvp6tkvuvhy.jpg",
+        "https://firebasestorage.googleapis.com/v0/b/el-patio-de-salcedo-backup.firebasestorage.app/o/uploads%2F1786937208954_WhatsApp%20Image%202026-08-16%20at%2011.36.53%20PM.jpeg?alt=media&token=8127b124-ba1c-4f6d-9c09-9a626a1f33bf",
+        "https://firebasestorage.googleapis.com/v0/b/el-patio-de-salcedo-backup.firebasestorage.app/o/uploads%2F1787176768166_d37yNqb.jpg?alt=media&token=f7e0b51c-6e07-4373-81f6-1b5431fb1e97"
+      ],
+      "cell3Images": [
+        "https://firebasestorage.googleapis.com/v0/b/el-patio-de-salcedo-backup.firebasestorage.app/o/uploads%2F1787832088525_watermarked_img_5315021097547068137.jpg?alt=media&token=c72e3a39-cae9-4607-93d8-6bffa5fbee8a",
+        "https://res.cloudinary.com/dp6znoxry/image/upload/v1779412379/sgx9etlzs68rdpfv8osb.jpg",
+        "https://res.cloudinary.com/dp6znoxry/image/upload/v1779412386/b9v8h9e6ys6hj2ztseg0.jpg",
+        "https://firebasestorage.googleapis.com/v0/b/el-patio-de-salcedo-backup.firebasestorage.app/o/uploads%2F1787177997004_d3Y9dEG.jpg?alt=media&token=46bd673d-f1e2-4d72-9ab9-23c36f0fa081",
+        "https://firebasestorage.googleapis.com/v0/b/el-patio-de-salcedo-backup.firebasestorage.app/o/uploads%2F1786937531775_WhatsApp%20Image%202026-08-17%20at%2012.31.25%20AM.jpeg?alt=media&token=a4099894-245c-4e36-b2c8-f82cc83e7c6e",
+        "https://firebasestorage.googleapis.com/v0/b/el-patio-de-salcedo-backup.firebasestorage.app/o/uploads%2F1786937540720_WhatsApp%20Image%202026-08-17%20at%2012.31.25%202.jpeg?alt=media&token=0355dbe9-7c4d-439f-b9f7-7e4a40cf8496",
+        "https://firebasestorage.googleapis.com/v0/b/el-patio-de-salcedo-backup.firebasestorage.app/o/uploads%2F1786940470392_d3Y9T4j.png?alt=media&token=55f788aa-1453-49a7-aaf2-dd2e814bbd9b",
+        "https://firebasestorage.googleapis.com/v0/b/el-patio-de-salcedo-backup.firebasestorage.app/o/uploads%2F1786940520135_dojylFn.png?alt=media&token=14e8c92b-6b28-4eba-8c55-901fb2e8a639",
+        "https://firebasestorage.googleapis.com/v0/b/el-patio-de-salcedo-backup.firebasestorage.app/o/uploads%2F1787180288788_dojbIyl.png?alt=media&token=e2a299e0-ea3d-4809-b78e-2744f34439f4"
+      ],
+      "foto1": "https://res.cloudinary.com/dp6znoxry/image/upload/v1779398783/f3rluiroci2v2yrcnirx.jpg",
+      "foto10": "https://iili.io/d37y25B.jpg",
+      "foto11": "https://iili.io/d37yfzF.jpg",
+      "foto12": "",
+      "foto13": "https://iili.io/3AtOTLG.png",
+      "foto14": "https://iili.io/3Atj5rB.png",
+      "foto15": "https://iili.io/3AtO8Qa.png",
+      "foto16": "",
+      "foto17": "https://iili.io/d37yNqb.jpg",
+      "foto18": "https://iili.io/d37yDkN.jpg",
+      "foto19": "https://iili.io/d3Y99Qn.jpg",
+      "foto2": "https://iili.io/3AZSga4.png",
+      "foto20": "https://iili.io/d3Y9dEG.jpg",
+      "foto21": "https://firebasestorage.googleapis.com/v0/b/el-patio-de-salcedo-backup.firebasestorage.app/o/uploads%2F1787427717395_1786937540720_WhatsApp%20Image%202026-08-17%20at%2012.31.25%202.jpeg?alt=media&token=16576b7c-29ac-476b-8c29-18e3696ab698",
+      "foto22": "https://iili.io/d3Y9nj9.jpg",
+      "foto23": "https://firebasestorage.googleapis.com/v0/b/el-patio-de-salcedo-backup.firebasestorage.app/o/uploads%2F1787427806342_1786940470392_d3Y9T4j.png?alt=media&token=f1ab1d22-03e3-4fb3-ac09-04cc80ee3067",
+      "foto24": "https://iili.io/dojylFn.png",
+      "foto25": "https://iili.io/dojbIyl.png",
+      "foto26": "https://iili.io/dow9yej.png",
+      "foto27": "https://iili.io/dowJFj4.png",
+      "foto28": "",
+      "foto29": "https://iili.io/dowdyes.png",
+      "foto3": "https://iili.io/3AZVNhQ.png",
+      "foto30": "https://res.cloudinary.com/dp6znoxry/image/upload/v1779455713/udxpmeef14yrxr44j4w5.png",
+      "foto31": "https://res.cloudinary.com/dp6znoxry/image/upload/v1779411517/byrewspk3numrlgcwnaa.png",
+      "foto32": "",
+      "foto4": "https://iili.io/3AZCaxp.png",
+      "foto5": "",
+      "foto6": "https://iili.io/3Atfm9j.png",
+      "foto7": "https://iili.io/d37mEGf.jpg",
+      "foto8": "https://iili.io/d37p1N1.jpg",
+      "foto9": "https://iili.io/d37pZb9.jpg",
+      "a_precio_4hs_": "380000",
+      "b_precio_3hs_": "240000",
+      "c_hora_extra_finde_": "70000",
+      "d_hora_extra_semana_": "60000",
+      "e_camarera_": "18000",
+      "f_metegol_": "30000",
+      "g_pingPong_": "35000",
+      "h_inflable_": "50000",
+      "j_arcade_": "35000",
+      "k_hora_organizacion_": "18000",
+      "l_seña_": "150000",
+      "r_parrillero_": "80000",
+      "direccion_mail": "contacto@salonmagic.com.ar",
+      "lema_marca": "¡Tu evento soñado, simple y organizado!",
+      "testimonios": [
+        {
+          "nombre": "Mariana Soria",
+          "calificacion": "5",
+          "fecha": "2026-08-15",
+          "red": "Google",
+          "texto": "¡Excelente experiencia! Festejamos el cumple de 5 de mi hijo y todo fue impecable. Las instalaciones son hermosas y súper cuidadas."
+        },
+        {
+          "nombre": "Carlos Méndez",
+          "calificacion": "5",
+          "fecha": "2026-07-20",
+          "red": "Google",
+          "texto": "Muy lindo lugar, súper amplio y cómodo. La atención del personal y los coordinadores fue un 10 en todo momento."
+        },
+        {
+          "nombre": "Valeria Benítez",
+          "calificacion": "5",
+          "fecha": "2026-06-10",
+          "red": "Google",
+          "texto": "Hicimos un festejo familiar de 50 años y quedamos encantados. La parrilla y el patio al aire libre son lo mejor."
+        }
+      ]
+    },
+    {
+      "aclaraciones": {
+        "-ObjIIZVt6UVfl7XB3YW": {
+          "order": 0,
+          "text": "\nNo se permite que toquen bandas de música o traer parlantes externos al salón.",
+          "type": "ban"
+        },
+        "-ObjJHDsqqSfJrB4G-tP": {
+          "order": 1,
+          "text": "Si contrataste una animación por favor comunicalo al personal del salón.",
+          "type": "exclamation"
+        },
+        "-ObjJKERmNpnZCi-e00k": {
+          "order": 2,
+          "text": "Cosas que podés hacer para ganarte nuestro cariño: No tirar papel picado, leer todo este listado de aclaraciones y condiciones de alquiler, leer el recibo que enviamos al reservar y consultar ante cualquier duda.",
+          "type": "green_dot"
+        }
+      },
+      "contenido1": "Salón Magic Eventos",
+      "contenido10": "Recinto techado y climatizado para 50 personas sentadas + 2 baños en planta baja + patio al aire libre con parrilla techada y horno a leña.",
+      "contenido11": "Luces y sonido a disposición",
+      "contenido12": "Equipo de audio de alta fidelidad + Computadora con Spotify y Youtube Premium + Luces en pista de baile + Pantalla gigante + 2 Micrófonos",
+      "contenido13": "Cocina equipada",
+      "contenido14": "Cocina con horno pizzero de 6 moldes + Hornalla + Heladera exhibidora + Freezer de pozo + Cafetera + Horno microondas + Pava eléctrica. Parrilla y horno a leña en el patio descubierto.",
+      "contenido15": "Contratación de adicionales",
+      "contenido16": "Contratación de camareras, alquiler de metegol, ping pong, inflable 3 x 3mts, arcade multijuego, recomendación de caterings, animaciones, mantelería y vajilla.",
+      "contenido17": "Nuestros precios",
+      "contenido18": "Para poder ver los precios tenés que elegir un mes\n",
+      "contenido19": "¿Cómo calculamos nuestras actualizaciones de precios por inflación?\n\n",
+      "contenido2": "",
+      "contenido20": "Calculabamos nuestros precios con 6 meses de anticipación basándonos en el índice de precios al consumidor (IPC) del INDEC, pero a partir del mes de abril de 2025 se decidió mantener los precios sin aumentos confiando en la estabilización de la inflación.",
+      "contenido21": "Aclaraciones importantes",
+      "contenido22": "",
+      "contenido23": "Luego del horario de finalización del evento, tenés una hora para retirar tus pertenencias. No es necesario que limpies o acomodes ya que eso corre por cuenta del salón.",
+      "contenido24": "Se pueden contratar servicios externos al salón como caterings, alquiler de juegos o alquiler de mobiliario, pero debe retirarse todo el mismo día del evento.",
+      "contenido25": "No están incluidas las vajillas, tampoco mantelería fina. Solo brindamos manteles de cuerina negros para las 10 mesas. También podemos recomendarte una empresa de alquiler de vajilla y mantelería.",
+      "contenido26": "No se permite que toquen bandas de música o traer parlantes externos al salón.",
+      "contenido27": "",
+      "contenido28": "Las señas no se devuelven bajo ningún concepto.",
+      "contenido29": "Cosas que podés hacer para ganarte nuestro cariño: No tirar papel picado, leer todo este listado de aclaraciones y condiciones de alquiler, leer el recibo que enviamos al reservar y consultar ante cualquier duda.",
+      "contenido3": "¿Quiénes somos?",
+      "contenido30": "¿Qué dicen de nosotros?",
+      "contenido31": "Salón Magic Eventos",
+      "contenido32": "Opiniones que podés encontrar en nuestras redes.",
+      "contenido33": "Links",
+      "contenido34": "Contacto",
+      "contenido35": "Horarios",
+      "contenido36": "Contactanos",
+      "contenido37": "Enviar WhatsApp a Atención al Cliente y esperar su respuesta de lunes a viernes de 10 a 18h",
+      "contenido38": "Chatear con una IA las 24hs todos los días",
+      "contenido39": "Por favor coordinar las visitas previamente desde el formulario",
+      "contenido39_url": "/horarios",
+      "contenido4": "Salón Magic Eventos es un moderno espacio para eventos ubicado en la Ciudad Autónoma de Buenos Aires con capacidad para 50 personas sentadas o 65 personas en formato cóctel. Ofrecemos instalaciones totalmente equipadas para cumpleaños, reuniones y celebraciones.",
+      "contenido40": " Parece que estamos fuera del horario de atención por whatsapp. Podés elegir alguna de estas opciones:",
+      "contenido5": "Alquilamos las instalaciones de nuestro salón y también contratamos adicionales. No contamos con servicio de catering propio, por lo que podés contratar el que vos prefieras.",
+      "contenido6": "Trabajamos todos los días hasta las 21hs como máximo.",
+      "contenido7": "Por el momento NO realizamos eventos infantiles del tipo \"todo incluido\", donde se incluye la comida, bebida y animación.",
+      "contenido8": "",
+      "contenido9": "Alquiler de espacio",
+      "contenido_nuevo": "Cliqueá sobre la fecha que te interesa en el calendario para ver los precios",
+      "contenido_nuevo_hover": "Texto flotante por defecto",
+      "contenido_nuevo_url": "/precios",
+      "horarios_desc": "¿Querés visitar el salón? Reservá una cita en alguno de nuestros horarios disponibles. ",
+      "reserva_modal_bank_details": "Alias: MAGIC.EVENTOS.MP\nTitular: Salón Magic Eventos S.A.\nBanco: Mercado Pago / Santander Demo",
+      "reserva_modal_cbu": "0000003100003586903570",
+      "reserva_modal_text": "Recordá que para confirmarla necesitamos que realices la seña mediante transferencia bancaria. Aquí tenés los datos:\nEnvíanos el comprobante para efectivizarla. \nSi el pago lo querés hacer en efectivo avisame y coordinamos una visita.",
+      "video_url": "https://youtube.com/shorts/4FEY9tlcWHA?si=aMbtHKl0tkqlFAj_",
+      "whatsapp_reserva_template": "Hola!\n\nQuiero reservar el día *{FECHA}*\n\n*Servicios seleccionados:*\n{CARRITO}\n*Total: ${TOTAL}*\n\nSeña necesaria para reservar: *${SENA}*\n\n¿Cómo continuamos con la reserva?",
+      "a_precio_4hs_": "380000",
+      "b_precio_3hs_": "240000",
+      "c_hora_extra_finde_": "70000",
+      "d_hora_extra_semana_": "60000",
+      "e_camarera_": "18000",
+      "f_metegol_": "30000",
+      "g_pingPong_": "35000",
+      "h_inflable_": "50000",
+      "j_arcade_": "35000",
+      "k_hora_organizacion_": "18000",
+      "l_seña_": "150000",
+      "r_parrillero_": "80000",
+      "direccion_mail": "contacto@salonmagic.com.ar",
+      "lema_marca": "¡Tu evento soñado, simple y organizado!",
+      "testimonios": [
+        {
+          "nombre": "Mariana Soria",
+          "calificacion": "5",
+          "fecha": "2026-08-15",
+          "red": "Google",
+          "texto": "¡Excelente experiencia! Festejamos el cumple de 5 de mi hijo y todo fue impecable. Las instalaciones son hermosas y súper cuidadas."
+        },
+        {
+          "nombre": "Carlos Méndez",
+          "calificacion": "5",
+          "fecha": "2026-07-20",
+          "red": "Google",
+          "texto": "Muy lindo lugar, súper amplio y cómodo. La atención del personal y los coordinadores fue un 10 en todo momento."
+        },
+        {
+          "nombre": "Valeria Benítez",
+          "calificacion": "5",
+          "fecha": "2026-06-10",
+          "red": "Google",
+          "texto": "Hicimos un festejo familiar de 50 años y quedamos encantados. La parrilla y el patio al aire libre son lo mejor."
+        }
+      ]
+    },
+    {
+      "link1": "Clonar proyecto. ¿cómo hacerlo?",
+      "link10": "",
+      "link11": "",
+      "link12": "",
+      "link13": "",
+      "link14": "",
+      "link15": "",
+      "link16": "",
+      "link17": "",
+      "link18": "",
+      "link19": "",
+      "link2": "migracion",
+      "link20": "",
+      "link3": "",
+      "link4": "",
+      "link5": "",
+      "link6": "",
+      "link7": "",
+      "link8": "",
+      "link9": "",
+      "a_precio_4hs_": "380000",
+      "b_precio_3hs_": "240000",
+      "c_hora_extra_finde_": "70000",
+      "d_hora_extra_semana_": "60000",
+      "e_camarera_": "18000",
+      "f_metegol_": "30000",
+      "g_pingPong_": "35000",
+      "h_inflable_": "50000",
+      "j_arcade_": "35000",
+      "k_hora_organizacion_": "18000",
+      "l_seña_": "150000",
+      "r_parrillero_": "80000",
+      "direccion_mail": "contacto@salonmagic.com.ar",
+      "lema_marca": "¡Tu evento soñado, simple y organizado!",
+      "testimonios": [
+        {
+          "nombre": "Mariana Soria",
+          "calificacion": "5",
+          "fecha": "2026-08-15",
+          "red": "Google",
+          "texto": "¡Excelente experiencia! Festejamos el cumple de 5 de mi hijo y todo fue impecable. Las instalaciones son hermosas y súper cuidadas."
+        },
+        {
+          "nombre": "Carlos Méndez",
+          "calificacion": "5",
+          "fecha": "2026-07-20",
+          "red": "Google",
+          "texto": "Muy lindo lugar, súper amplio y cómodo. La atención del personal y los coordinadores fue un 10 en todo momento."
+        },
+        {
+          "nombre": "Valeria Benítez",
+          "calificacion": "5",
+          "fecha": "2026-06-10",
+          "red": "Google",
+          "texto": "Hicimos un festejo familiar de 50 años y quedamos encantados. La parrilla y el patio al aire libre son lo mejor."
+        }
+      ]
+    },
+    {
+      "anio_evento": 2026,
+      "cuit": "",
+      "dia_evento": 2,
+      "fecha_creacion": "2026-09-21T18:37:06.426Z",
+      "mes_evento": 10,
+      "nombre_cliente": "Carolina",
+      "nombre_del_archivo": "2-10-2026",
+      "seña": "200000",
+      "seña_total": "200000",
+      "a_precio_4hs_": "380000",
+      "b_precio_3hs_": "240000",
+      "c_hora_extra_finde_": "70000",
+      "d_hora_extra_semana_": "60000",
+      "e_camarera_": "18000",
+      "f_metegol_": "30000",
+      "g_pingPong_": "35000",
+      "h_inflable_": "50000",
+      "j_arcade_": "35000",
+      "k_hora_organizacion_": "18000",
+      "l_seña_": "150000",
+      "r_parrillero_": "80000",
+      "direccion_mail": "contacto@salonmagic.com.ar",
+      "lema_marca": "¡Tu evento soñado, simple y organizado!",
+      "testimonios": [
+        {
+          "nombre": "Mariana Soria",
+          "calificacion": "5",
+          "fecha": "2026-08-15",
+          "red": "Google",
+          "texto": "¡Excelente experiencia! Festejamos el cumple de 5 de mi hijo y todo fue impecable. Las instalaciones son hermosas y súper cuidadas."
+        },
+        {
+          "nombre": "Carlos Méndez",
+          "calificacion": "5",
+          "fecha": "2026-07-20",
+          "red": "Google",
+          "texto": "Muy lindo lugar, súper amplio y cómodo. La atención del personal y los coordinadores fue un 10 en todo momento."
+        },
+        {
+          "nombre": "Valeria Benítez",
+          "calificacion": "5",
+          "fecha": "2026-06-10",
+          "red": "Google",
+          "texto": "Hicimos un festejo familiar de 50 años y quedamos encantados. La parrilla y el patio al aire libre son lo mejor."
+        }
+      ]
+    },
+    {
+      "contenido1": "",
+      "contenido10": "<p><strong>El&nbsp;salón&nbsp;cuenta&nbsp;con&nbsp;una&nbsp;parte&nbsp;techada&nbsp;con&nbsp;un&nbsp;equipo&nbsp;de&nbsp;sonido&nbsp;calculado&nbsp;para&nbsp;dicho&nbsp;espacio.</strong></p><p><strong>No&nbsp;se&nbsp;permite&nbsp;traer&nbsp;equipos&nbsp;de&nbsp;audio&nbsp;adicionales&nbsp;ni&nbsp;colocar&nbsp;parlantes&nbsp;portátiles&nbsp;en&nbsp;el&nbsp;patio.</strong></p>",
+      "contenido11": "<p><strong>Si&nbsp;contrató&nbsp;algún&nbsp;servicio&nbsp;de&nbsp;animación&nbsp;o&nbsp;entretenimiento&nbsp;(karaoke,&nbsp;cantante,&nbsp;show,&nbsp;animadores&nbsp;infantiles,&nbsp;etc.)&nbsp;</strong></p><p><strong>hágaselo&nbsp;saber&nbsp;a&nbsp;la&nbsp;coordinación,&nbsp;es&nbsp;muy&nbsp;importante&nbsp;acordar&nbsp;lo&nbsp;relativo&nbsp;al&nbsp;sonido.&nbsp;No&nbsp;se&nbsp;permite&nbsp;que&nbsp;toquen&nbsp;bandas&nbsp;en&nbsp;vivo.</strong></p><p><strong>No&nbsp;se&nbsp;permiten&nbsp;animaciones&nbsp;con&nbsp;parlantes&nbsp;o&nbsp;micrófonos&nbsp;en&nbsp;el&nbsp;patio,&nbsp;por&nbsp;cuestiones&nbsp;de&nbsp;habilitación,&nbsp;sólo&nbsp;pueden</strong></p><p><strong>realizarse&nbsp;en&nbsp;el&nbsp;ambiente&nbsp;acustizado&nbsp;(pista&nbsp;de&nbsp;baile).</strong></p>",
+      "contenido12": "La limpieza del salón corre por cuenta del salón, tanto antes como después del evento, no es necesario que traiga elementos de limpieza ni que limpie el salón al retirarse.",
+      "contenido13": "Los baños ya tienen toallas, papel higiénico y jabones. Si necesita algo más, puede traerlo.",
+      "contenido14": "Por favor, evite el uso de papel picado o bengalas de papel metalizado. Destiñen los pisos",
+      "contenido15": "La cocina tiene esponja, esponja metálica, detergente y trapo absorbente. En el horno hay 3 bandejas para calentar. También hay una cafetera para café de filtro, consulte cómo usarla. Si necesita utensilios de cocina, vajilla o repasadores, le pedimos que los traiga usted. No están incluidos los vasos ni platos.",
+      "contenido16": "<p>En&nbsp;total&nbsp;hay&nbsp;50&nbsp;sillas&nbsp;plásticas&nbsp;y&nbsp;10&nbsp;mesas&nbsp;de&nbsp;madera&nbsp;y&nbsp;patas&nbsp;de&nbsp;hierro.</p><p><strong>La&nbsp;dimensión&nbsp;de&nbsp;las&nbsp;mesas&nbsp;es&nbsp;de&nbsp;1,35&nbsp;m&nbsp;de&nbsp;largo&nbsp;x&nbsp;0,65&nbsp;m&nbsp;de&nbsp;ancho&nbsp;y&nbsp;0,80&nbsp;m&nbsp;de&nbsp;alto.</strong></p>",
+      "contenido17": "Es muy importante para nosotros que no haya ruido en la vía pública, evitamos molestar a los vecinos con gritos y bocinazos reiterados a lo largo de los años. Por favor despida a sus invitados dentro del salón, también por cuestiones de seguridad, no es conveniente dejar las puertas abiertas por mucho tiempo.",
+      "contenido18": "En caso de corte de suministro eléctrico, de gas o agua por parte del proveedor del servicio, el salón no se hace responsable. De todas formas el salón cuenta con un grupo electrógeno que puede suministrar energía (sin incluir aires acondicionados) durante algunas horas.",
+      "contenido19": "El armado de las mesas y su configuración corre por cuenta del cliente y debe efectuarse en las horas previas otorgadas.\n\n",
+      "contenido2": "Buenos Aires",
+      "contenido20": "No somos los propietarios del estacionamiento que está en la fachada del salón, por lo tanto pedimos que dejen liberada su entrada. Si necesita bajar mercadería, puede estacionar ahí, pero no por mucho tiempo y al finalizar correrlo a otro lugar.",
+      "contenido21": "",
+      "contenido22": "",
+      "contenido23": "Usted puede encontrar todos los detalles sobre el alquiler en nuestra lista de precios online.",
+      "contenido24": "Administración Salón Magic",
+      "contenido3": "en concepto de seña por el alquiler del salón de eventos \"Salón Magic Eventos\", situado en Av. Corrientes 1234, CABA,",
+      "contenido4": "para el día:",
+      "contenido5": "<p>LAS SEÑAS NO SE DEVUELVEN BAJO NINGÚN CONCEPTO.</p>",
+      "contenido6": "",
+      "contenido7": "La dirección exacta del salón es Av. Corrientes 1234. El día del evento se le entregará la llave de las puertas para su uso exclusivo.",
+      "contenido8": "Los eventos son contratados por hora. En fiestas de 4 horas los clientes pueden venir 2 horas antes del horario en el que citan a los invitados, sin cargo, a traer bebidas (las mismas deben estar previamente enfriadas, ya que por la cantidad, en 2 horas no consiguen llegar a temperatura en ninguna heladera), comidas, otros elementos o decorar el salón. Si son necesarias más horas previas al evento, serán cobradas como horas extras previas y su valor es cercano al 10% o 20% del valor de la hora extra convencional.",
+      "contenido9": "<p><strong class=\"ql-size-large\">No&nbsp;se&nbsp;permite&nbsp;traer&nbsp;elementos&nbsp;el&nbsp;día&nbsp;anterior&nbsp;al&nbsp;evento&nbsp;ni&nbsp;dejarlos&nbsp;posteriormente.</strong></p>",
+      "a_precio_4hs_": "380000",
+      "b_precio_3hs_": "240000",
+      "c_hora_extra_finde_": "70000",
+      "d_hora_extra_semana_": "60000",
+      "e_camarera_": "18000",
+      "f_metegol_": "30000",
+      "g_pingPong_": "35000",
+      "h_inflable_": "50000",
+      "j_arcade_": "35000",
+      "k_hora_organizacion_": "18000",
+      "l_seña_": "150000",
+      "r_parrillero_": "80000",
+      "direccion_mail": "contacto@salonmagic.com.ar",
+      "lema_marca": "¡Tu evento soñado, simple y organizado!",
+      "testimonios": [
+        {
+          "nombre": "Mariana Soria",
+          "calificacion": "5",
+          "fecha": "2026-08-15",
+          "red": "Google",
+          "texto": "¡Excelente experiencia! Festejamos el cumple de 5 de mi hijo y todo fue impecable. Las instalaciones son hermosas y súper cuidadas."
+        },
+        {
+          "nombre": "Carlos Méndez",
+          "calificacion": "5",
+          "fecha": "2026-07-20",
+          "red": "Google",
+          "texto": "Muy lindo lugar, súper amplio y cómodo. La atención del personal y los coordinadores fue un 10 en todo momento."
+        },
+        {
+          "nombre": "Valeria Benítez",
+          "calificacion": "5",
+          "fecha": "2026-06-10",
+          "red": "Google",
+          "texto": "Hicimos un festejo familiar de 50 años y quedamos encantados. La parrilla y el patio al aire libre son lo mejor."
+        }
+      ]
+    },
+    {
+      "contenido1": "Seña: ",
+      "contenido10": "Aires acondicionados frío/calor.",
+      "contenido100": "Aclaración",
+      "contenido101": "Las camareras ayudan a servir la comida y la bebida, calientan comidas pre-hechas, no elaboran comidas. El tiempo mínimo de contratación es por 3 horas. Una camarera puede llegar a atender a 25 personas como máximo, el ideal son 20 personas atendidas por camarerar",
+      "contenido102": "TV de 75 pulgadas para pasar videos, hacer karaoke, está conectada a una pc, podés traer un pendrive o usar internet.",
+      "contenido103": "La hora extra previa se contrata cuando necesitás más tiempo del que ya damos sin cargo, para organizar el salón antes del evento, dejar bebidas, preparar fuego, decorar. No es una hora extra de fiesta con invitados, aunque pueden venir a ayudar algunos parientes y amigos si es necesario o personal de servicios contratados.",
+      "contenido104": "Se trata de un cocinero a cargo de la parrilla para realizar carne asada. El parrillero coordina previamente con vos para pedirte la cantidad de carbón que va a necesitar y los horarios de salida de la comida según lo que le pidas. La vajilla para servir la carne en las mesas no está incluida dentro de este servicio. Tampoco está incluido el servicio de camareras o bandejeo.",
+      "contenido11": "Parrilla techada.",
+      "contenido12": "Juego de sillones y puffs con mesas ratonas.",
+      "contenido13": "No incluye:",
+      "contenido14": "El alquiler no incluye comida, bebida, servicio de camareras o catering.",
+      "contenido15": "El alquiler no incluye animación.",
+      "contenido16": "El salón no incluye vajilla ni mantelería fina, solo manteles de cuerina negra para las 10 mesas.",
+      "contenido17": "Nosotros no alquilamos vajilla y mantelería, tampoco tenemos catering propio, por lo tanto podés contratar los servicios externos que prefieras, pero debe retirarse todo el mismo día del evento. En los Servicios opcionales dejo algunos contactos recomendados.",
+      "contenido18": "Sumá servicios a tu carrito",
+      "contenido19": "Comencemos eligiendo la fecha de tu evento con el botón verde de la parte superior de la página",
+      "contenido2": " y el restante se puede ir pagando hasta el día del evento.",
+      "contenido20": "Alquiler de las instalaciones por 3hs - (Promo de lunes a jueves)",
+      "contenido21": "Alquiler de las instalaciones por 4hs",
+      "contenido22": "Contratación por 3hs de una camarera para 20/25 personas",
+      "contenido23": "Contratación de camarera por hora para 20/25 personas",
+      "contenido24": "Metegol",
+      "contenido25": "Inflable 3x3 mts",
+      "contenido26": "Ping pong",
+      "contenido27": "Arcade multijuego",
+      "contenido28": "Pantalla gigante (Servicio bonificado)",
+      "contenido29": "Hora previa adicional para la organización",
+      "contenido3": "¿Qué incluye el alquiler y qué no?",
+      "contenido30": "Servicio de parrillero",
+      "contenido31": "Hora extra de evento",
+      "contenido32": "Alquiler de vajilla y mesas y sillas para niños, dejo contacto recomendado. ",
+      "contenido33": "Rocío y Candela",
+      "contenido34": "https://wa.me/+5491136414383",
+      "contenido35": "Alquiler de vajilla y mantelería, dejo contacto recomendado. ",
+      "contenido36": "Carlos",
+      "contenido37": "https://wa.me/+5491162066501",
+      "contenido38": "Alquiler de plaza blanda, dejo contacto recomendado. ",
+      "contenido39": "Martina",
+      "contenido4": "Incluye las instalaciones del salón con capacidad para 50 personas sentadas a la mesa o 65 personas si el menú es para comer parados. ",
+      "contenido40": "https://wa.me/+5491125189378",
+      "contenido41": "Catering de pizza y pernil, dejo contacto recomendado. ",
+      "contenido42": "Hugo",
+      "contenido43": "https://wa.me/+5491166819781",
+      "contenido44": "Catering de parrilla premium Los Hierros. Dejo contacto recomendado. ",
+      "contenido45": "Lucas",
+      "contenido46": "https://wa.me/+5491172378964",
+      "contenido47": "Tanto para abonar la seña como el restante se aceptan todos los medios de pago.",
+      "contenido48": "Enviar Whatsapp al salón para concretar una reserva",
+      "contenido49": "Compartir este presupuesto por WhatsApp a un amigo",
+      "contenido5": "Incluye:",
+      "contenido50": "Formas de pago: efectivo, transferencia bancaria, tarjeta de débito o a través de mercado pago con tarjetas de crédito.",
+      "contenido51": "El restante se puede pagar hasta el día del evento. No se devuelven señas bajo ningún concepto.",
+      "contenido52": "Las visitas al salón se coordinan previamente por whatsapp. No se reciben visitas sin previo aviso.",
+      "contenido53": "Las llamadas telefónicas se coordinan previamente por whatsapp. No se atienden llamadas sin previo aviso.",
+      "contenido54": "Fotos en:",
+      "contenido55": "Facebook",
+      "contenido56": "https://www.facebook.com/salonmagiceventos",
+      "contenido57": "Instagram",
+      "contenido58": "https://www.instagram.com/salonmagiceventos",
+      "contenido59": "Fotos de la cocina",
+      "contenido6": "10 Mesas rectangulares y 50 sillas.",
+      "contenido60": "/fotosCocina",
+      "contenido61": "Fotos de los opcionales",
+      "contenido62": "/fotosOpcionales",
+      "contenido63": "Fotos de las instalaciones",
+      "contenido64": "/fotossalon",
+      "contenido65": "Alquiler de instalaciones viernes, sábados, domingos y feriados",
+      "contenido66": "4 horas de fiesta: ",
+      "contenido67": "Hora extra: ",
+      "contenido68": "Alquiler de las instalaciones de lunes a jueves",
+      "contenido69": "Tenés 2 horas sin cargo antes del horario en el que alquilas el salón para decorarlo a tu gusto, ordenar las mesas según la cantidad de invitados, preparar el asado, traer bebidas y comida (recomendamos traer las bebidas previamente enfriadas).",
+      "contenido7": "Cocina con: heladera, freezer, horno pizzero, cafetera (SIN VAJILLA).",
+      "contenido70": "En el caso de necesitar más horas previas al evento para su organización, se alquilan horas previas y podés ver su precio en los Servicios opcionales.",
+      "contenido71": "Tenés 1 hora sin cargo luego de finalizado el evento para retirar tus pertenencias.",
+      "contenido72": "Alquiler de instalaciones",
+      "contenido73": "Alquiler de instalaciones de lunes a jueves",
+      "contenido74": "3 horas de fiesta: ",
+      "contenido75": "Hora extra: ",
+      "contenido76": "Como máximo alquilamos hasta las 21 hs",
+      "contenido77": "Tenés 1 hora y media sin cargo antes del horario en el que alquilas el salón para decorarlo a tu gusto, ordenar las mesas según la cantidad de invitados, preparar el asado, traer bebidas y comida (recomendamos traer las bebidas previamente enfriadas).",
+      "contenido78": "En el caso de necesitar más horas previas al evento para su organización, se alquilan horas previas y podés ver su precio en los Servicios opcionales.",
+      "contenido79": "Tenés 1 hora sin cargo luego de finalizado el evento para retirar tus pertenencias.",
+      "contenido8": "WIFI.",
+      "contenido80": "Seña: ",
+      "contenido81": "Metegol\n",
+      "contenido82": "Inflable 3 x 3 mts",
+      "contenido83": "Ping pong",
+      "contenido84": "Arcade multijuego",
+      "contenido9": "Pista de baile con parlantes y luces + Computadora con Spotify, Youtube Premium y pantalla led de 75 pulgadas.",
+      "contenido98": "Hora extra de evento con invitados",
+      "contenido_aclaraciones_banner": "Aclaraciones",
+      "contenido_banner_servicios_opcionales": "Agregá servicios a tu carrito",
+      "externalRecommendedServices": {
+        "-ObjKItveCm9nrZ4wjJR": {
+          "buttonText": "Rocío y Candela",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/el-patio-de-salcedo-backup.firebasestorage.app/o/uploads%2F1787433538808_361091238_978379470061708_9140922646511305479_n.jpg?alt=media&token=190bec76-95fc-4d5a-8eb1-be179a221906",
+          "socialButtonText": "Instagram",
+          "socialUrl": "https://www.instagram.com/decobyrocio/",
+          "text": "Decoración. Alquiler de vajilla y mesas y sillas para niños, dejo contacto recomendado.",
+          "url": "https://api.whatsapp.com/send/?phone=%2B5491136414383&text&type=phone_number&app_absent=0"
+        },
+        "-ObjKJkbM7YyOS5BWt9d": {
+          "buttonText": "Carlos",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/el-patio-de-salcedo-backup.firebasestorage.app/o/uploads%2F1787433634096_images.jpg?alt=media&token=8b6fbeda-a6f4-44ec-baa5-b5228bcf2f50",
+          "socialButtonText": "Facebook",
+          "socialUrl": "https://www.facebook.com/eventplexok/?locale=es_LA",
+          "text": "Alquiler de vajilla y mantelería, dejo contacto recomendado.",
+          "url": "https://api.whatsapp.com/send/?phone=%2B5491162066501&text&type=phone_number&app_absent=0"
+        },
+        "-ObjKJzGarpIGy51hWXh": {
+          "buttonText": "Martina",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/el-patio-de-salcedo-backup.firebasestorage.app/o/uploads%2F1788405235856_WhatsApp%20Image%202026-08-25%20at%2011.11.32%20AM.jpeg?alt=media&token=73933b11-313d-4163-b018-ca9434031dd0",
+          "text": "Alquiler de plaza blanda, dejo contacto recomendado.",
+          "url": "https://api.whatsapp.com/send/?phone=%2B5491125189378&text&type=phone_number&app_absent=0"
+        },
+        "-ObjKKIMBgwVIAYtp1Yg": {
+          "buttonText": "Hugo",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/el-patio-de-salcedo-backup.firebasestorage.app/o/uploads%2F1787434280637_Captura%20de%20pantalla%202026-08-22%20183041.png?alt=media&token=65387889-f47d-456a-9d73-ac0b229faa0a",
+          "socialButtonText": "Instagram",
+          "socialUrl": "https://www.instagram.com/hugo.pizza.party/",
+          "text": "Catering de pizza y pernil, dejo contacto recomendado.",
+          "url": "https://api.whatsapp.com/send/?phone=%2B5491166819781&text&type=phone_number&app_absent=0"
+        },
+        "-ObjKKZun81kZ9IqDkdg": {
+          "buttonText": "Lucas",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/el-patio-de-salcedo-backup.firebasestorage.app/o/uploads%2F1787434422178_Captura%20de%20pantalla%202026-08-22%20183311.png?alt=media&token=f5459669-f6c4-41c9-9bdc-7c5c47628b1b",
+          "socialButtonText": "Instagram",
+          "socialUrl": "https://www.instagram.com/loshierros.lc/",
+          "text": "Catering de parrilla premium Los Hierros. Dejo contacto recomendado.",
+          "url": "https://api.whatsapp.com/send/?phone=%2B5491172378964&text&type=phone_number&app_absent=0"
+        },
+        "-ObjKKlDEycjReg-bolT": {
+          "buttonText": "Sergio",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/el-patio-de-salcedo-backup.firebasestorage.app/o/uploads%2F1787436399617_images%20(1).jpg?alt=media&token=61e4695b-3850-423a-a242-771aa0b60f9f",
+          "socialButtonText": "Instagram",
+          "socialUrl": "https://www.instagram.com/cabinafotosv",
+          "text": "Fotocabinas - Videos - Espejos inteligentes - Bases 360. Dejo contacto recomendado.",
+          "url": "https://api.whatsapp.com/send/?phone=%2B5491159829700&text&type=phone_number&app_absent=0"
+        },
+        "-ObyNE1MnCS--oltr8qh": {
+          "buttonText": "Alejandro Scarlata",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/el-patio-de-salcedo-backup.firebasestorage.app/o/uploads%2F1787436790006_Captura%20de%20pantalla%202026-08-22%20191238.png?alt=media&token=a5b4a89e-922e-4210-837b-e4ec347e0154",
+          "socialButtonText": "Instagram",
+          "socialUrl": "https://instagram.com/alejandroscarlata.ph",
+          "text": "Fotógrafo",
+          "url": "https://api.whatsapp.com/send/?phone=%2B5491167915531&text&type=phone_number&app_absent=0"
+        },
+        "-P-fZSO7wNljF9vQXCjw": {
+          "buttonText": "We Drink",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/el-patio-de-salcedo-backup.firebasestorage.app/o/uploads%2F1787437997600_Sin%20t%C3%ADtulo.png?alt=media&token=474e5886-628d-41c4-b851-04b0e112ca7b",
+          "socialButtonText": "Instagram",
+          "socialUrl": "https://www.instagram.com/wedrinkeventos?igsi=MTliZTExNzBiY2p3aA%3D%3D",
+          "text": "We drink. Barra de tragos",
+          "url": "https://api.whatsapp.com/send/?phone=%2B5491139389830&text&type=phone_number&app_absent=0"
+        }
+      },
+      "horario_ano_nuevo_1": "Alquilamos hasta las 21 hs como máximo ",
+      "horario_ano_nuevo_31": "¡Alquilamos hasta las 3 am como excepción! ",
+      "horario_finde": "Alquilamos hasta las 12 de la noche como máximo",
+      "horario_navidad": "Año nuevo",
+      "horario_navidad_24": "¡Alquilamos hasta las 3 am como excepción! ",
+      "horario_navidad_24_fixed": "Alquilamos hasta las 21hs como máximo.",
+      "horario_navidad_25": "Alquilamos hasta las 21hs como máximo ",
+      "incluye": {
+        "-OtEC-dAumaUpwTq0PKr": {
+          "order": 0,
+          "text": "10 Mesas rectangulares y 50 sillas.",
+          "type": "check"
+        },
+        "-OtEC-dAumaUpwTq0PKs": {
+          "order": 1,
+          "text": "Cocina con: heladera, freezer, horno pizzero, cafetera (SIN VAJILLA).",
+          "type": "check"
+        },
+        "-OtEC-dAumaUpwTq0PKt": {
+          "order": 2,
+          "text": "WIFI.",
+          "type": "check"
+        },
+        "-OtEC-dAumaUpwTq0PKu": {
+          "order": 3,
+          "text": "Pista de baile con parlantes y luces + Computadora con Spotify, Youtube Premium y pantalla led de 75 pulgadas.",
+          "type": "check"
+        },
+        "-OtEC-dAumaUpwTq0PKv": {
+          "order": 4,
+          "text": "Aires acondicionados frío/calor.",
+          "type": "check"
+        },
+        "-OtEC-dAumaUpwTq0PKw": {
+          "order": 5,
+          "text": "Parrilla techada.",
+          "type": "check"
+        },
+        "-OtEC-dBmA7y_GgW3fRM": {
+          "order": 6,
+          "text": "Juego de sillones y puffs con mesas ratonas.",
+          "type": "check"
+        }
+      },
+      "no_incluye": {
+        "-OtEC-dBmA7y_GgW3fRN": {
+          "order": 0,
+          "text": "El alquiler no incluye comida, bebida, servicio de camareras o catering.",
+          "type": "cross_red"
+        },
+        "-OtEC-dBmA7y_GgW3fRO": {
+          "order": 1,
+          "text": "El alquiler no incluye animación.",
+          "type": "cross_red"
+        },
+        "-OtEC-dBmA7y_GgW3fRP": {
+          "order": 2,
+          "text": "El salón no incluye vajilla ni mantelería fina, solo manteles de cuerina negra para las 10 mesas.",
+          "type": "cross_red"
+        },
+        "-OtEC-dBmA7y_GgW3fRQ": {
+          "order": 3,
+          "text": "Nosotros no alquilamos vajilla y mantelería, tampoco tenemos catering propio, por lo tanto podés contratar los servicios externos que prefieras, pero debe retirarse todo el mismo día del evento. En los Servicios opcionales dejo algunos contactos recomendados.",
+          "type": "cross_red"
+        }
+      },
+      "a_precio_4hs_": "380000",
+      "b_precio_3hs_": "240000",
+      "c_hora_extra_finde_": "70000",
+      "d_hora_extra_semana_": "60000",
+      "e_camarera_": "18000",
+      "f_metegol_": "30000",
+      "g_pingPong_": "35000",
+      "h_inflable_": "50000",
+      "j_arcade_": "35000",
+      "k_hora_organizacion_": "18000",
+      "l_seña_": "150000",
+      "r_parrillero_": "80000",
+      "direccion_mail": "contacto@salonmagic.com.ar",
+      "lema_marca": "¡Tu evento soñado, simple y organizado!",
+      "testimonios": [
+        {
+          "nombre": "Mariana Soria",
+          "calificacion": "5",
+          "fecha": "2026-08-15",
+          "red": "Google",
+          "texto": "¡Excelente experiencia! Festejamos el cumple de 5 de mi hijo y todo fue impecable. Las instalaciones son hermosas y súper cuidadas."
+        },
+        {
+          "nombre": "Carlos Méndez",
+          "calificacion": "5",
+          "fecha": "2026-07-20",
+          "red": "Google",
+          "texto": "Muy lindo lugar, súper amplio y cómodo. La atención del personal y los coordinadores fue un 10 en todo momento."
+        },
+        {
+          "nombre": "Valeria Benítez",
+          "calificacion": "5",
+          "fecha": "2026-06-10",
+          "red": "Google",
+          "texto": "Hicimos un festejo familiar de 50 años y quedamos encantados. La parrilla y el patio al aire libre son lo mejor."
+        }
+      ]
+    },
+    {
+      "cards": [
+        {
+          "color": "#dc2626",
+          "icon": "Ban",
+          "id": "card_7",
+          "items": [
+            "Comida ni bebida (salvo promociones especiales contratadas).",
+            "Vajilla de loza/vidrio, mantelería fina ni insumos descartables de catering.",
+            "Personal de animación, DJ ni shows en vivo no contratados expresamente.",
+            "<p>Camareras o personal de atención o limpieza que no se haya contratado expresamente.</p>"
+          ],
+          "title": "<p>EL SERVICIO NO INCLUYE</p>"
+        },
+        {
+          "color": "#2563eb",
+          "icon": "Clock",
+          "id": "card_1",
+          "items": [
+            "<p>Los eventos son contratados por hora. En fiestas de 4 horas los clientes pueden venir 2 horas antes del horario en el que citan a los invitados. Este tiempo previo es sin cargo para traer bebidas, comidas, otros elementos, preparar asado o decorar el salón. Si son necesarias más horas previas al evento, serán cobradas como horas extras previas y su valor es entre el 10% o 20% del valor de la hora extra convencional. Para eventos de 3hs el tiempo previo sin cargo es de 1,5hs.</p>",
+            "<p><strong>No se permite traer elementos el día anterior al evento ni dejarlos posteriormente.</strong></p>",
+            "<p><strong>Las bebidas deben estar previamente enfriadas, ya que por la cantidad, en 2 horas no consiguen llegar a temperatura en ninguna heladera</strong></p>"
+          ],
+          "title": "<p>HORARIO DE INGRESO AL SALÓN, PREPARACIÓN Y BEBIDAS FRÍAS</p>"
+        },
+        {
+          "color": "#dc2626",
+          "icon": "Volume2",
+          "id": "card_2",
+          "items": [
+            "<p><strong>No se permite traer equipos de audio adicionales.</strong></p>",
+            "<p><strong>No se permiten animaciones con parlantes o micrófonos en el patio, por cuestiones de habilitación, sólo pueden</strong></p><p><strong>realizarse en el ambiente acustizado (pista de baile).</strong></p>",
+            "<p><strong>No se permite que toquen bandas en vivo ni adentro ni afuera.</strong></p>",
+            "<p><strong>Si contrató algún servicio de animación o entretenimiento (karaoke, cantante, show, animadores infantiles, etc.) </strong></p><p><strong>hágaselo saber a la coordinación del salón, es muy importante acordar lo relativo al sonido. </strong></p><p></p>"
+          ],
+          "title": "<p>SONIDO INCLUIDO, PISTA ACUSTIZADA Y PATIO SIN PARLANTES</p>"
+        },
+        {
+          "color": "#dc2626",
+          "icon": "AlertTriangle",
+          "id": "card_3",
+          "items": [
+            "<p><strong>Por favor, evite el uso de papel picado o bengalas de papel metalizado. Destiñen los pisos.</strong></p>"
+          ],
+          "title": "<p>NO PAPEL PICADO, NO BENGALAS</p>"
+        },
+        {
+          "color": "#059669",
+          "icon": "Utensils",
+          "id": "card_4",
+          "items": [
+            "<p>La cocina tiene esponja, esponja metálica, detergente y trapo absorbente. En el horno hay 3 bandejas para calentar. También hay una cafetera para café de filtro, consulte cómo usarla. </p>",
+            "<p>Las limpiezas previa y posterior al evento corren por cuenta del salón. No es necesario que traiga elementos de limpieza ni que limpie el salón al retirarse.</p>",
+            "Los baños ya tienen toallas, papel higiénico y jabones. Si necesita algo más, puede traerlo.",
+            "<p><strong>Si necesita utensilios de cocina, vajilla o repasadores, le pedimos que los traiga usted. No están incluidos los vasos ni platos.</strong></p>"
+          ],
+          "title": "<p>COCINA Y LIMPIEZA FINAL INCLUIDA. VAJILLA NO INCLUIDA</p>"
+        },
+        {
+          "color": "#0891b2",
+          "icon": "Armchair",
+          "id": "card_5",
+          "items": [
+            "<p>En&nbsp;total&nbsp;hay&nbsp;50&nbsp;sillas&nbsp;plásticas&nbsp;y&nbsp;10&nbsp;mesas&nbsp;de&nbsp;madera&nbsp;y&nbsp;patas&nbsp;de&nbsp;hierro.</p><p><strong>La&nbsp;dimensión&nbsp;de&nbsp;las&nbsp;mesas&nbsp;es&nbsp;de&nbsp;1,35&nbsp;m&nbsp;de&nbsp;largo&nbsp;x&nbsp;0,65&nbsp;m&nbsp;de&nbsp;ancho&nbsp;y&nbsp;0,80&nbsp;m&nbsp;de&nbsp;alto.</strong></p>",
+            "El armado de las mesas y su configuración corre por cuenta del cliente y debe efectuarse en las horas previas otorgadas.\n\n"
+          ],
+          "title": "<p>MOBILIARIO Y ARMADO DEL ESPACIO</p>"
+        },
+        {
+          "color": "#0f766e",
+          "icon": "Home",
+          "id": "card_6",
+          "items": [
+            "<p>Por favor despida a sus invitados dentro del salón y no deje las puertas abiertas por mucho tiempo.</p>",
+            "No somos los propietarios del estacionamiento que está en la fachada del salón, por lo tanto pedimos que dejen liberada su entrada. Si necesita bajar mercadería, puede estacionar ahí, pero no por mucho tiempo y al finalizar correrlo a otro lugar.",
+            "<p><strong>El día del evento se le entregará la llave de las puertas para que se maneje con total comodidad. Siempre habrá un referente del salón disponible para cualquier asistencia.</strong></p>",
+            "En caso de corte de suministro eléctrico, de gas o agua por parte del proveedor del servicio, el salón no se hace responsable. De todas formas el salón cuenta con un grupo electrógeno que puede suministrar energía (sin incluir aires acondicionados) durante algunas horas."
+          ],
+          "title": "<p>CONVIVENCIA BARRIAL, SEGURIDAD Y GENERADOR</p>"
+        }
+      ],
+      "contract": {
+        "badgeTitle": "<p>RECIBO</p>",
+        "disclaimer": "<p>El o la cliente leyó las condiciones y toma la responsabilidad de cumplir con lo escrito. De no aceptarlas tiene 48 horas para solicitar el reintegro de la seña, pasado este tiempo la misma no es reembolsable bajo ningún concepto.</p>",
+        "labelCliente": "<p>Recibi de </p>",
+        "labelLugarFecha": "<p>Fecha de hoy:</p>",
+        "showClientSignature": false
+      },
+      "header": {
+        "companyName": "<p>Salón Magic Eventos</p>",
+        "contactLine": "<p><strong>Dirección del salón para las invitaciones:</strong> Av. Corrientes 1234, CABA | </p><p><strong>WhatsApp/Cel:</strong> 11-0000-0000 (Atención al Cliente)</p>",
+        "footerLine": "<p>Salón Magic Eventos • Av. Corrientes 1234, CABA • WhatsApp/Cel: 11-0000-0000</p>",
+        "subtitle1": "<p>contrato</p>",
+        "subtitle2": "<p>RECIBO</p>"
+      },
+      "updatedAt": "2026-09-18T01:07:18.839Z",
+      "a_precio_4hs_": "380000",
+      "b_precio_3hs_": "240000",
+      "c_hora_extra_finde_": "70000",
+      "d_hora_extra_semana_": "60000",
+      "e_camarera_": "18000",
+      "f_metegol_": "30000",
+      "g_pingPong_": "35000",
+      "h_inflable_": "50000",
+      "j_arcade_": "35000",
+      "k_hora_organizacion_": "18000",
+      "l_seña_": "150000",
+      "r_parrillero_": "80000",
+      "direccion_mail": "contacto@salonmagic.com.ar",
+      "lema_marca": "¡Tu evento soñado, simple y organizado!",
+      "testimonios": [
+        {
+          "nombre": "Mariana Soria",
+          "calificacion": "5",
+          "fecha": "2026-08-15",
+          "red": "Google",
+          "texto": "¡Excelente experiencia! Festejamos el cumple de 5 de mi hijo y todo fue impecable. Las instalaciones son hermosas y súper cuidadas."
+        },
+        {
+          "nombre": "Carlos Méndez",
+          "calificacion": "5",
+          "fecha": "2026-07-20",
+          "red": "Google",
+          "texto": "Muy lindo lugar, súper amplio y cómodo. La atención del personal y los coordinadores fue un 10 en todo momento."
+        },
+        {
+          "nombre": "Valeria Benítez",
+          "calificacion": "5",
+          "fecha": "2026-06-10",
+          "red": "Google",
+          "texto": "Hicimos un festejo familiar de 50 años y quedamos encantados. La parrilla y el patio al aire libre son lo mejor."
+        }
+      ]
+    }
+  ],
+  "presupuestos": {
+    "DEMO-001": {
+      "id": "DEMO-001",
+      "nombre": "Lucía Fernández",
+      "email": "lucia.fernandez@ejemplo.com",
+      "telefono": "+54 9 11 4444-1234",
+      "tipoEvento": "Cumpleaños infantil (6 años)",
+      "fecha": "2026-10-10",
+      "horario": "15:00 a 19:00",
+      "invitados": 35,
+      "estado": "Señado",
+      "total": 480000,
+      "sena": 150000,
+      "saldo": 330000,
+      "servicios": [
+        "Alquiler de las instalaciones por 4hs",
+        "Inflable",
+        "Camarera"
+      ],
+      "createdAt": 1789612888146
+    },
+    "DEMO-002": {
+      "id": "DEMO-002",
+      "nombre": "Martín Gómez",
+      "email": "martin.gomez@ejemplo.com",
+      "telefono": "+54 9 11 5555-5678",
+      "tipoEvento": "Bautismo Joaquín",
+      "fecha": "2026-10-17",
+      "horario": "12:00 a 16:00",
+      "invitados": 45,
+      "estado": "Presupuestado",
+      "total": 510000,
+      "sena": 0,
+      "saldo": 510000,
+      "servicios": [
+        "Alquiler de las instalaciones por 4hs",
+        "Servicio de parrillero",
+        "Camarera"
+      ],
+      "createdAt": 1789872088146
+    },
+    "DEMO-003": {
+      "id": "DEMO-003",
+      "nombre": "Valentina Rossi",
+      "email": "valen.rossi@ejemplo.com",
+      "telefono": "+54 9 11 6666-7890",
+      "tipoEvento": "Fiesta de 15 años",
+      "fecha": "2026-11-07",
+      "horario": "20:00 a 01:00",
+      "invitados": 60,
+      "estado": "Confirmado",
+      "total": 620000,
+      "sena": 200000,
+      "saldo": 420000,
+      "servicios": [
+        "Alquiler de las instalaciones por 4hs",
+        "Hora extra",
+        "Metegol",
+        "Arcade multijuego"
+      ],
+      "createdAt": 1789180888146
+    },
+    "DEMO-004": {
+      "id": "DEMO-004",
+      "nombre": "Diego Morales",
+      "email": "diego.morales@ejemplo.com",
+      "telefono": "+54 9 11 7777-4321",
+      "tipoEvento": "Aniversario 25 años",
+      "fecha": "2026-09-05",
+      "horario": "21:00 a 01:00",
+      "invitados": 40,
+      "estado": "Finalizado",
+      "total": 460000,
+      "sena": 150000,
+      "saldo": 0,
+      "facturado": true,
+      "cae": "74391823910245",
+      "servicios": [
+        "Alquiler de las instalaciones por 4hs",
+        "Camarera"
+      ],
+      "createdAt": 1787452888147
+    }
+  },
+  "empleados": {
+    "emp-001": {
+      "id": "emp-001",
+      "nombre": "Agustina López",
+      "rol": "Camarera / Atención",
+      "telefono": "+54 9 11 3333-1111",
+      "valorHora": 6000,
+      "activo": true
+    },
+    "emp-002": {
+      "id": "emp-002",
+      "nombre": "Gonzalo Ruiz",
+      "rol": "Parrillero",
+      "telefono": "+54 9 11 3333-2222",
+      "valorHora": 8000,
+      "activo": true
+    },
+    "emp-003": {
+      "id": "emp-003",
+      "nombre": "Matías Silva",
+      "rol": "Animador / Sonido",
+      "telefono": "+54 9 11 3333-3333",
+      "valorHora": 7000,
+      "activo": true
+    }
+  },
+  "gastos_mensuales": {
+    "2026-08": {
+      "gasto-1": {
+        "concepto": "Luz y Servicios",
+        "monto": 85000,
+        "categoria": "Servicios",
+        "fecha": "2026-08-10"
+      },
+      "gasto-2": {
+        "concepto": "Artículos de Limpieza",
+        "monto": 45000,
+        "categoria": "Insumos",
+        "fecha": "2026-08-12"
+      },
+      "gasto-3": {
+        "concepto": "Mantenimiento Juegos",
+        "monto": 35000,
+        "categoria": "Mantenimiento",
+        "fecha": "2026-08-18"
+      },
+      "gasto-4": {
+        "concepto": "Seguro y Emergencias",
+        "monto": 40000,
+        "categoria": "Fijo",
+        "fecha": "2026-08-05"
+      }
+    },
+    "2026-09": {
+      "gasto-5": {
+        "concepto": "Luz y Servicios",
+        "monto": 92000,
+        "categoria": "Servicios",
+        "fecha": "2026-09-10"
+      },
+      "gasto-6": {
+        "concepto": "Reposición Vajilla",
+        "monto": 28000,
+        "categoria": "Insumos",
+        "fecha": "2026-09-15"
+      },
+      "gasto-7": {
+        "concepto": "Seguro y Emergencias",
+        "monto": 40000,
+        "categoria": "Fijo",
+        "fecha": "2026-09-05"
+      }
+    }
+  },
+  "navbar": {
+    "logoText": "Salón Magic",
+    "showWhatsApp": true,
+    "whatsAppNumber": "+5491100000000"
+  },
+  "floatingButtons": {
+    "whatsapp": {
+      "enabled": true,
+      "number": "+5491100000000",
+      "message": "¡Hola! Quisiera consultar por disponibilidad y presupuesto para un evento."
+    },
+    "phone": {
+      "enabled": true,
+      "number": "+5491100000000"
+    }
+  },
+  "alertas": {
+    "bannerActivo": false,
+    "mensaje": "¡Consultá promociones especiales para eventos de lunes a jueves!"
+  },
+  "feriados_recurrentes": {
+    "01-01": {
+      "monthDay": "01-01",
+      "name": "Año nuevo"
+    },
+    "12-24": {
+      "monthDay": "12-24",
+      "name": "Víspera de navidad"
+    },
+    "12-31": {
+      "monthDay": "12-31",
+      "name": "Víspera de año nuevo"
+    }
+  }
+}

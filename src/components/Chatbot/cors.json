@@ -1,0 +1,8 @@
+[
+  {
+    "origin": ["http://localhost:5173", "https://melishare-redirect-payo.web.app", "https://melishare-redirect-payo.firebaseapp.com"],
+    "method": ["GET", "PUT", "POST", "DELETE", "HEAD"],
+    "maxAgeSeconds": 3600,
+    "responseHeader": ["Content-Type", "Authorization"]
+  }
+]

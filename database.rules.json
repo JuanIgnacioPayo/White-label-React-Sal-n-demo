@@ -1,0 +1,160 @@
+{
+    "rules": {
+        ".read": false,
+        ".write": "auth.token.email === 'payo.juan.ignacio@gmail.com'",
+        "news": {
+            ".read": true,
+            ".write": "auth.token.email === 'payo.juan.ignacio@gmail.com'"
+        },
+        "config": {
+            ".write": "auth.token.email === 'payo.juan.ignacio@gmail.com'",
+            "apiKeys": {
+                ".read": "auth.token.email === 'payo.juan.ignacio@gmail.com'",
+                ".write": "auth.token.email === 'payo.juan.ignacio@gmail.com'",
+                "groq": {
+                    ".read": true
+                },
+                "google_gemini": {
+                    ".read": true
+                }
+            },
+            "afip": {
+                ".read": "auth.token.email === 'payo.juan.ignacio@gmail.com'",
+                ".write": "auth.token.email === 'payo.juan.ignacio@gmail.com'"
+            },
+            "google": {
+                ".read": "auth.token.email === 'payo.juan.ignacio@gmail.com'",
+                ".write": "auth.token.email === 'payo.juan.ignacio@gmail.com'"
+            },
+            "$other": {
+                ".read": true
+            }
+        },
+        "appSettings": {
+            ".read": true,
+            ".write": "auth.token.email === 'payo.juan.ignacio@gmail.com'"
+        },
+        "datosId": {
+            ".read": true,
+            ".write": "auth != null"
+        },
+        "backups": {
+            ".read": true,
+            ".write": "auth.token.email === 'payo.juan.ignacio@gmail.com'"
+        },
+        "$precios_legacy": {
+            ".read": "$precios_legacy.beginsWith('precios_legacy_v')",
+            ".write": "auth.token.email === 'payo.juan.ignacio@gmail.com'"
+        },
+        "feriados_modificados": {
+            ".read": true,
+            ".write": "auth.token.email === 'payo.juan.ignacio@gmail.com'"
+        },
+        "feriados_recurrentes": {
+            ".read": true,
+            ".write": "auth.token.email === 'payo.juan.ignacio@gmail.com'"
+        },
+        "optionalServices": {
+            ".read": true,
+            ".write": "auth.token.email === 'payo.juan.ignacio@gmail.com'"
+        },
+        "serviceNames": {
+            ".read": true,
+            ".write": "auth.token.email === 'payo.juan.ignacio@gmail.com'"
+        },
+        "iaTexts": {
+            ".read": true,
+            ".write": "auth.token.email === 'payo.juan.ignacio@gmail.com'"
+        },
+        "floatingButtons": {
+            ".read": true,
+            ".write": "auth.token.email === 'payo.juan.ignacio@gmail.com'"
+        },
+        "componentOrder": {
+            ".read": true,
+            ".write": "auth.token.email === 'payo.juan.ignacio@gmail.com'"
+        },
+        "navbar": {
+            ".read": true,
+            ".write": "auth.token.email === 'payo.juan.ignacio@gmail.com'"
+        },
+        "siteStats": {
+            ".read": true,
+            ".write": "auth.token.email === 'payo.juan.ignacio@gmail.com'"
+        },
+        "newsStats": {
+            ".read": true,
+            ".write": "auth.token.email === 'payo.juan.ignacio@gmail.com'"
+        },
+        "newsStatus": {
+            ".read": true,
+            ".write": "auth.token.email === 'payo.juan.ignacio@gmail.com'"
+        },
+        "usage_logs": {
+            ".read": "auth != null",
+            ".write": "auth.token.email === 'payo.juan.ignacio@gmail.com'"
+        },
+        "feedback": {
+            ".read": "auth != null",
+            ".write": "auth != null"
+        },
+        "settings": {
+            ".read": true,
+            ".write": "auth != null"
+        },
+        "historialSueldos": {
+            ".read": true,
+            ".write": "auth.token.email === 'payo.juan.ignacio@gmail.com'"
+        },
+        "presupuestos": {
+            ".read": true,
+            ".write": "auth.token.email === 'payo.juan.ignacio@gmail.com'"
+        },
+        "presupuestos_por_id": {
+            ".read": "auth != null || auth.token.email === 'payo.juan.ignacio@gmail.com'",
+            ".write": "auth.token.email === 'payo.juan.ignacio@gmail.com'"
+        },
+        "users": {
+            "$uid": {
+                ".read": "$uid === auth.uid || auth.token.email === 'payo.juan.ignacio@gmail.com'",
+                ".write": "$uid === auth.uid || auth.token.email === 'payo.juan.ignacio@gmail.com'"
+            }
+        },
+        "playground": {
+            ".read": true,
+            ".write": "auth.token.email === 'payo.juan.ignacio@gmail.com'"
+        },
+        "empleados": {
+            ".read": "auth != null",
+            ".write": "auth.token.email === 'payo.juan.ignacio@gmail.com'"
+        },
+        "sueldos_historial": {
+            ".read": "auth != null",
+            ".write": "auth.token.email === 'payo.juan.ignacio@gmail.com'"
+        },
+        "empleados_fotos": {
+            ".read": "auth != null",
+            ".write": "auth.token.email === 'payo.juan.ignacio@gmail.com'"
+        },
+        "gastos_empresa": {
+            ".read": "auth != null",
+            ".write": "auth != null"
+        },
+        "gastos_mensuales": {
+            ".read": "auth != null",
+            ".write": "auth != null"
+        },
+        "empleos": {
+            "vacantes": {
+                ".read": true,
+                ".write": "auth.token.email === 'payo.juan.ignacio@gmail.com'"
+            },
+            "postulaciones": {
+                ".read": true,
+                "$postulacionId": {
+                    ".write": "!data.exists() || auth.token.email === 'payo.juan.ignacio@gmail.com'"
+                }
+            }
+        }
+    }
+}
