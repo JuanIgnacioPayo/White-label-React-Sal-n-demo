@@ -1380,9 +1380,8 @@ exports.setBucketCors = onRequest(async (req, res) => {
 });
 
 exports.testCredentialsStatus = onCall({ cors: true, invoker: 'public' }, async (request) => {
-  // Verificar autorización de administrador
-  if (!request.auth || (request.auth.token.email !== 'payo.juan.ignacio@gmail.com' && !request.auth.token.email.includes('admin') && !request.auth.token.email.includes('demo'))) {
-    throw new HttpsError('permission-denied', 'Only administrators can test credentials.');
+  if (!request.auth) {
+    throw new HttpsError('permission-denied', 'Only authenticated users can test credentials.');
   }
 
   const db = admin.database();

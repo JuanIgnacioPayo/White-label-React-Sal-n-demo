@@ -432,12 +432,7 @@ export default function Calendar() {
     const [isFutureMonth, setIsFutureMonth] = useState(false);
 
     useEffect(() => {
-        setIsAdmin(Boolean(currentUser && (
-            currentUser.email === 'payo.juan.ignacio@gmail.com' ||
-            currentUser.email?.includes('admin') ||
-            currentUser.email?.includes('demo') ||
-            userLoggedIn
-        )));
+        setIsAdmin(Boolean(currentUser && userLoggedIn));
     }, [currentUser, userLoggedIn]);
 
     useEffect(() => {

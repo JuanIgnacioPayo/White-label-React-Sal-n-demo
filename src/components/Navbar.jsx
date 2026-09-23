@@ -67,12 +67,7 @@ export default function Navbar({
   const { userLoggedIn, currentUser } = useAuth();
   const { activeFestiveTheme } = useFestiveTheme();
 
-  const isAdmin = Boolean(currentUser && (
-    currentUser.email === 'payo.juan.ignacio@gmail.com' ||
-    currentUser.email?.includes('admin') ||
-    currentUser.email?.includes('demo') ||
-    userLoggedIn
-  ));
+  const isAdmin = Boolean(currentUser && userLoggedIn);
 
   const [notifications, setNotifications] = useState([]);
   const [showNotifications, setShowNotifications] = useState(false);

@@ -512,7 +512,7 @@ export default function Presupuesto() {
     const { triggerRefetch, calendarEvents } = useAvailability(); // Destructure calendarEvents
     registerLocale('es', es);
     const { currentUser, loading: authLoading } = useAuth();
-    const isAdmin = currentUser && (currentUser.email === 'payo.juan.ignacio@gmail.com' || currentUser.email?.includes('admin') || currentUser.email?.includes('demo'));
+    const isAdmin = !!currentUser;
     
     // Function to check if a date is occupied in Google Calendar
     const isDateOccupiedInGoogleCalendar = useCallback((date) => {
