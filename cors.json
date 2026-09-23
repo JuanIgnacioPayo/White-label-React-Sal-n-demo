@@ -3,7 +3,9 @@
     "origin": [
       "http://localhost:5173",
       "https://melishare-redirect-payo.web.app",
-      "https://melishare-redirect-payo.firebaseapp.com"
+      "https://melishare-redirect-payo.firebaseapp.com",
+      "https://plataforma-salones-demo.web.app",
+      "https://plataforma-salones-demo.firebaseapp.com"
     ],
     "method": [
       "GET",

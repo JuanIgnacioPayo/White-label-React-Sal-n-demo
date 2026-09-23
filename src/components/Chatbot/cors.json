@@ -1,6 +1,6 @@
 [
   {
-    "origin": ["http://localhost:5173", "https://melishare-redirect-payo.web.app", "https://melishare-redirect-payo.firebaseapp.com"],
+  "origin": ["http://localhost:5173", "https://plataforma-salones-demo.web.app", "https://plataforma-salones-demo.firebaseapp.com"],
     "method": ["GET", "PUT", "POST", "DELETE", "HEAD"],
     "maxAgeSeconds": 3600,
     "responseHeader": ["Content-Type", "Authorization"]
