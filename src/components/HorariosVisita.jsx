@@ -17,10 +17,14 @@ const HorariosVisita = ({ isEditable, editingField, setEditingField, onSave, tit
 
     
 
-    const { availableSlotsEvents, scheduledVisitsEvents, budgetEvents, isLoading } = useAvailability();
-    const formattedSlots = getAvailableVisitSlots(availableSlotsEvents, scheduledVisitsEvents, budgetEvents);
+    const { calendarEvents, availableSlotsEvents, scheduledVisitsEvents, budgetEvents, isLoading } = useAvailability();
+    const allBusyEvents = React.useMemo(() => {
+        return [...(calendarEvents || []), ...(budgetEvents || [])];
+    }, [calendarEvents, budgetEvents]);
+    const formattedSlots = getAvailableVisitSlots(availableSlotsEvents, scheduledVisitsEvents, allBusyEvents);
     const { currentUser } = useAuth();
 
+    const [salonWhatsApp, setSalonWhatsApp] = React.useState('');
     const [internalTitle, setInternalTitle] = React.useState('Horarios de visita');
     const [internalDesc, setInternalDesc] = React.useState('A continuación se detallan nuestros próximos horarios de visita. Te esperamos para conocer el salón:');
 
@@ -77,6 +81,18 @@ const HorariosVisita = ({ isEditable, editingField, setEditingField, onSave, tit
                 }
             });
         }
+
+        get(ref(db, 'datosId/25')).then((snapshot) => {
+            if (snapshot.exists()) {
+                const data = snapshot.val();
+                let num = data.numero_whatsapp || data.link_whatsapp || '';
+                num = num.replace(/[^\d]/g, '');
+                if (num) {
+                    if (num.length === 10) num = '549' + num;
+                    setSalonWhatsApp(num);
+                }
+            }
+        });
     }, [propTitle, propDesc]);
 
     const displayTitle = propTitle !== undefined ? propTitle : internalTitle;
@@ -111,7 +127,8 @@ const HorariosVisita = ({ isEditable, editingField, setEditingField, onSave, tit
         // Generar mensaje de WhatsApp
         const humanSlot = bookingSlot.formatted.replace(/ (\d{1,2}:\d{2}) hs/, ' a las $1 hs');
         const finalTemplate = messageTemplate.replace('{fecha_horario}', humanSlot) + ` Mi nombre es ${clientName}.`;
-        const waUrl = `https://wa.me/5491100000000?text=${encodeURIComponent(finalTemplate)}`;
+        const targetNumber = salonWhatsApp || '5491100000000';
+        const waUrl = `https://wa.me/${targetNumber}?text=${encodeURIComponent(finalTemplate)}`;
         
         // Redirigir inmediatamente
         window.open(waUrl, '_blank');
