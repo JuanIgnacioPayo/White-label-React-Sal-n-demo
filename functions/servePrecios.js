@@ -1,3 +1,4 @@
+// Version: 2026.09.24.1 - force Cloud Functions container rebuild
 const admin = require("firebase-admin");
 const fs = require('fs');
 const path = require('path');

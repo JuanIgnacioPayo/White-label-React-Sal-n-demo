@@ -23,8 +23,20 @@
         "function": "agendarVisita"
       },
       {
-        "source": "**",
+        "source": "/precios",
         "function": "precios"
+      },
+      {
+        "source": "/precios/**",
+        "function": "precios"
+      },
+      {
+        "source": "/precios*",
+        "function": "precios"
+      },
+      {
+        "source": "**",
+        "destination": "/index.html"
       }
     ],
     "headers": [

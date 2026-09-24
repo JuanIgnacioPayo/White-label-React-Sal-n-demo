@@ -31,7 +31,7 @@ jobs:
           GOOGLE_APPLICATION_CREDENTIALS: /tmp/service_account.json
         run: |
           cd functions && npm install && cd ..
-          npx firebase-tools deploy --only functions --project melishare-redirect-payo 2>&1 | tee /tmp/functions_deploy.log
+          npx firebase-tools deploy --only functions --force --project melishare-redirect-payo 2>&1 | tee /tmp/functions_deploy.log
 
       - name: Deploy Firebase Database Rules
         env:
