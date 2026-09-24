@@ -364,8 +364,9 @@ export default function CalendarBiturno() {
                 setCalendarEndDate(endDate);
 
                 const apiKey = Clave();
-                const demoCalendarId = "demo@salonmagiceventos.com.ar";
-                const elPatioResponse = await fetch(`https://www.googleapis.com/calendar/v3/calendars/${demoCalendarId}/events?key=${apiKey}&timeMin=${new Date().toISOString()}&timeMax=${new Date(endDate).toISOString()}&singleEvents=true&orderBy=startTime`);
+                const calendarIdSnap = await get(ref(db, 'config/calendarIDs/eventsCalendarId'));
+                const activeCalendarId = (calendarIdSnap.exists() && calendarIdSnap.val()) ? calendarIdSnap.val() : "demo@salonmagiceventos.com.ar";
+                const elPatioResponse = await fetch(`https://www.googleapis.com/calendar/v3/calendars/${activeCalendarId}/events?key=${apiKey}&timeMin=${new Date().toISOString()}&timeMax=${new Date(endDate).toISOString()}&singleEvents=true&orderBy=startTime`);
                 const elPatioData = await elPatioResponse.json();
 
                 const processedStatuses = {};

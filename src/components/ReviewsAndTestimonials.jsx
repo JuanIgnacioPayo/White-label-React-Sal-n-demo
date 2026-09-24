@@ -615,9 +615,9 @@ export default function ReviewsAndTestimonials({
           const data = snapshot25.val();
           setInternalRatingsData([
             // Index 0 (Left) is Google
-            { title: data.nombre_red_2 || 'Google', reviews: `${data.cantidad_calificaciones_facebook || '0'} opiniones`, stars: data.estrellas_facebook || '0.0', image: data.link_imagen_facebook || '', link: data.link_google || '#' },
+            { title: data.nombre_red_2 || 'Google', reviews: `${data.cantidad_calificaciones_google || '0'} opiniones`, stars: data.estrellas_google || '0.0', image: data.link_imagen_Maps || '', link: data.link_google || '#' },
             // Index 1 (Right) is Facebook
-            { title: data.nombre_red_1 || 'Facebook', reviews: `${data.cantidad_calificaciones_google || '0'} opiniones`, stars: data.estrellas_google || '0.0', image: data.link_imagen_Maps || '', link: data.link_facebook || '#' }
+            { title: data.nombre_red_1 || 'Facebook', reviews: `${data.cantidad_calificaciones_facebook || '0'} opiniones`, stars: data.estrellas_facebook || '0.0', image: data.link_imagen_facebook || '', link: data.link_facebook || '#' }
           ]);
         }
 
@@ -877,7 +877,12 @@ export default function ReviewsAndTestimonials({
                   {currentTestimonial && (
                     <TestimonialCardWrapper className={isAnimating ? `animating-${animationDirection}` : ""}>
                       <div className={`testimonial-card-content ${isAnimating ? '' : `entering-${animationDirection}`}`}>
-                        <TestimonialCard onClick={() => ratingsData[0]?.link && window.open(ratingsData[0].link, '_blank')}>
+                        <TestimonialCard onClick={() => {
+                          const targetLink = (currentTestimonial.fullTextLink && currentTestimonial.fullTextLink !== '#') 
+                            ? currentTestimonial.fullTextLink 
+                            : (ratingsData[0]?.link && ratingsData[0].link !== '#' ? ratingsData[0].link : null);
+                          if (targetLink) window.open(targetLink, '_blank');
+                        }}>
                           <div className="card-top-row">
                             <div className="avatar">{currentTestimonial.avatarInitial}</div>
                             <div className="user-info">
@@ -889,7 +894,13 @@ export default function ReviewsAndTestimonials({
                                 {currentTestimonial.photosCount > 0 && <span> • {currentTestimonial.photosCount} fotos</span>}
                               </div>
                             </div>
-                            <button className="report-button" aria-label="Ver opinión completa">
+                            <button className="report-button" aria-label="Ver opinión completa" onClick={(e) => {
+                              e.stopPropagation();
+                              const targetLink = (currentTestimonial.fullTextLink && currentTestimonial.fullTextLink !== '#') 
+                                ? currentTestimonial.fullTextLink 
+                                : (ratingsData[0]?.link && ratingsData[0].link !== '#' ? ratingsData[0].link : null);
+                              if (targetLink) window.open(targetLink, '_blank');
+                            }}>
                               <p>{googleLogoUrl ? <img src={googleLogoUrl} alt="google logo" className="google-logo" /> : <span>🔗</span>}</p>
                             </button>
                           </div>

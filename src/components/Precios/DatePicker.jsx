@@ -53,10 +53,14 @@ const DatePickerComponent = ({
   // 1. Obtener los eventos de Google Calendar
   const fetchBookedDates = async () => {
     try {
+      const db = getDatabase(app);
+      const calendarIdSnap = await get(ref(db, 'config/calendarIDs/eventsCalendarId'));
+      const activeCalendarId = (calendarIdSnap.exists() && calendarIdSnap.val()) ? calendarIdSnap.val() : CALENDAR_ID;
+
       const response = await axios.get(
-        `https://www.googleapis.com/calendar/v3/calendars/${CALENDAR_ID}/events?singleEvents=true&maxResults=2500&key=${GOOGLE_API_KEY}`
+        `https://www.googleapis.com/calendar/v3/calendars/${activeCalendarId}/events?singleEvents=true&maxResults=2500&key=${GOOGLE_API_KEY}`
       );
-      const events = response.data.items;
+      const events = response.data.items || [];
 
       const dates = events.map(event => {
         const start = event.start;

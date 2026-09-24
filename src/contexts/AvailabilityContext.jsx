@@ -161,14 +161,23 @@ export const AvailabilityProvider = ({ children }) => {
                 const endYear = new Date(endDate).getFullYear();
 
                 // Calendario de nuevos horarios de visita
-                const availableSlotsResponse = await fetch(`https://www.googleapis.com/calendar/v3/calendars/${visitSlotsCalendarId}/events?key=${apiKey}&timeMin=${new Date(new Date().getFullYear(), new Date().getMonth(), new Date().getDate()).toISOString()}&timeMax=${new Date(endDate).toISOString()}&singleEvents=true&orderBy=startTime`);
-                const availableSlotsData = await availableSlotsResponse.json();
-                const slotsEvents = availableSlotsData.items ? availableSlotsData.items.map(event => ({
-                    id: event.id,
-                    title: event.summary,
-                    start: event.start.date ? `${event.start.date}T00:00:00` : event.start.dateTime,
-                    end: event.end.date ? `${event.end.date}T00:00:00` : event.end.dateTime,
-                })) : [];
+                let slotsEvents = [];
+                if (visitSlotsCalendarId) {
+                    try {
+                        const availableSlotsResponse = await fetch(`https://www.googleapis.com/calendar/v3/calendars/${visitSlotsCalendarId}/events?key=${apiKey}&timeMin=${new Date(new Date().getFullYear(), new Date().getMonth(), new Date().getDate()).toISOString()}&timeMax=${new Date(endDate).toISOString()}&singleEvents=true&orderBy=startTime`);
+                        const availableSlotsData = await availableSlotsResponse.json();
+                        if (availableSlotsData.items) {
+                            slotsEvents = availableSlotsData.items.map(event => ({
+                                id: event.id,
+                                title: event.summary,
+                                start: event.start.date ? `${event.start.date}T00:00:00` : event.start.dateTime,
+                                end: event.end.date ? `${event.end.date}T00:00:00` : event.end.dateTime,
+                            }));
+                        }
+                    } catch (e) {
+                        console.error("Error fetching available slots:", e);
+                    }
+                }
                 setAvailableSlotsEvents(slotsEvents);
 
                 // Calendario de visitas agendadas (oficial)

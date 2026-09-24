@@ -268,8 +268,8 @@ const ConfiguracionPage = ({ isChatbotFeatureEnabled }) => {
       if (ratingsSnap.exists()) {
         const data = ratingsSnap.val();
         setRatingsData([
-          { title: data.nombre_red_2 || 'Google', reviews: `${data.cantidad_calificaciones_facebook || '0'} opiniones`, stars: data.estrellas_facebook || '0.0', image: data.link_imagen_facebook || '', link: data.link_google || '#' },
-          { title: data.nombre_red_1 || 'Facebook', reviews: `${data.cantidad_calificaciones_google || '0'} opiniones`, stars: data.estrellas_google || '0.0', image: data.link_imagen_Maps || '', link: data.link_facebook || '#' }
+          { title: data.nombre_red_2 || 'Google', reviews: `${data.cantidad_calificaciones_google || '0'} opiniones`, stars: data.estrellas_google || '0.0', image: data.link_imagen_Maps || '', link: data.link_google || '#' },
+          { title: data.nombre_red_1 || 'Facebook', reviews: `${data.cantidad_calificaciones_facebook || '0'} opiniones`, stars: data.estrellas_facebook || '0.0', image: data.link_imagen_facebook || '', link: data.link_facebook || '#' }
         ]);
         setFooterDescription(data.lema_marca || '');
         setFooterLink1({ text: String(data.link_instagram_text || 'Instagram'), url: String(data.link_instagram || '') });
@@ -398,14 +398,14 @@ const ConfiguracionPage = ({ isChatbotFeatureEnabled }) => {
     'main_title': { path: '/datosId/29/contenido30', stateUpdater: setTituloCalificaciones },
     'main_description': { path: '/datosId/29/contenido32', stateUpdater: setSectionDescriptionTestimonials },
     'google_title': { path: '/datosId/25/nombre_red_2', ratingIndex: 0, field: 'title' },
-    'google_reviews': { path: '/datosId/25/cantidad_calificaciones_facebook', ratingIndex: 0, field: 'reviews', isNumeric: true },
-    'google_stars': { path: '/datosId/25/estrellas_facebook', ratingIndex: 0, field: 'stars' },
-    'google_image': { path: '/datosId/25/link_imagen_facebook', ratingIndex: 0, field: 'image' },
+    'google_reviews': { path: '/datosId/25/cantidad_calificaciones_google', ratingIndex: 0, field: 'reviews', isNumeric: true },
+    'google_stars': { path: '/datosId/25/estrellas_google', ratingIndex: 0, field: 'stars' },
+    'google_image': { path: '/datosId/25/link_imagen_Maps', ratingIndex: 0, field: 'image' },
     'google_link': { path: '/datosId/25/link_google', ratingIndex: 0, field: 'link' },
     'facebook_title': { path: '/datosId/25/nombre_red_1', ratingIndex: 1, field: 'title' },
-    'facebook_reviews': { path: '/datosId/25/cantidad_calificaciones_google', ratingIndex: 1, field: 'reviews', isNumeric: true },
-    'facebook_stars': { path: '/datosId/25/estrellas_google', ratingIndex: 1, field: 'stars' },
-    'facebook_image': { path: '/datosId/25/link_imagen_Maps', ratingIndex: 1, field: 'image' },
+    'facebook_reviews': { path: '/datosId/25/cantidad_calificaciones_facebook', ratingIndex: 1, field: 'reviews', isNumeric: true },
+    'facebook_stars': { path: '/datosId/25/estrellas_facebook', ratingIndex: 1, field: 'stars' },
+    'facebook_image': { path: '/datosId/25/link_imagen_facebook', ratingIndex: 1, field: 'image' },
     'facebook_link': { path: '/datosId/25/link_facebook', ratingIndex: 1, field: 'link' },
     'quienes_somos_1': { path: '/datosId/29/contenido3', stateUpdater: (val) => setQuienesSomosData(p => ({ ...p, contenido3: val })) },
     'quienes_somos_2': { path: '/datosId/29/contenido4', stateUpdater: (val) => setQuienesSomosData(p => ({ ...p, contenido4: val })) },
