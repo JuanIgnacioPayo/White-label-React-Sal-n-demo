@@ -20,21 +20,23 @@ jobs:
           projectId: melishare-redirect-payo
           channelId: live
 
+      - name: Setup Service Account Key
+        env:
+          FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_MELISHARE_REDIRECT_PAYO }}
+        run: |
+          node -e "require('fs').writeFileSync('/tmp/service_account.json', process.env.FIREBASE_SERVICE_ACCOUNT_JSON)"
+
       - name: Deploy Firebase Functions
         env:
           GOOGLE_APPLICATION_CREDENTIALS: /tmp/service_account.json
         run: |
-          export GOOGLE_APPLICATION_CREDENTIALS="/tmp/service_account.json"
-          echo '${{ secrets.FIREBASE_SERVICE_ACCOUNT_MELISHARE_REDIRECT_PAYO }}' > /tmp/service_account.json
           cd functions && npm install && cd ..
-          npx firebase-tools deploy --only functions --project melishare-redirect-payo
+          npx firebase-tools deploy --only functions --project melishare-redirect-payo 2>&1 | tee /tmp/functions_deploy.log
 
       - name: Deploy Firebase Database Rules
         env:
           GOOGLE_APPLICATION_CREDENTIALS: /tmp/service_account.json
         run: |
-          export GOOGLE_APPLICATION_CREDENTIALS="/tmp/service_account.json"
-          echo '${{ secrets.FIREBASE_SERVICE_ACCOUNT_MELISHARE_REDIRECT_PAYO }}' > /tmp/service_account.json
           npx firebase-tools deploy --only database --project melishare-redirect-payo
 
       - name: Report success to Firebase
@@ -47,4 +49,10 @@ jobs:
         if: failure()
         env:
           FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_MELISHARE_REDIRECT_PAYO }}
-        run: node scripts/write-deploy-status.cjs failed "El deploy de GitHub Actions fallo."
+        run: |
+          ERR_MSG="El deploy de GitHub Actions fallo."
+          if [ -f /tmp/functions_deploy.log ]; then
+            ERR_MSG=$(tail -n 25 /tmp/functions_deploy.log)
+          fi
+          export DEPLOY_ERROR_MESSAGE="$ERR_MSG"
+          node scripts/write-deploy-status.cjs failed

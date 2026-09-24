@@ -2,7 +2,7 @@ const crypto = require('crypto');
 const https = require('https');
 
 const status = process.argv[2]; // 'success' or 'failed'
-const errorMsg = process.argv[3] || '';
+const errorMsg = process.env.DEPLOY_ERROR_MESSAGE || process.argv[3] || '';
 
 if (!status || (status !== 'success' && status !== 'failed')) {
   console.error('Usage: node write-deploy-status.js <success|failed> [errorMessage]');
