@@ -3,6 +3,11 @@ console.warn("[Deploy Recovery] Chunk desactualizado detectado tras despliegue. 
 
 if (typeof window !== 'undefined') {
   try {
+    if ('caches' in window) {
+      caches.keys().then(function(names) {
+        for (let name of names) caches.delete(name);
+      });
+    }
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.getRegistrations().then(function(regs) {
         for (let r of regs) r.unregister();
@@ -11,7 +16,7 @@ if (typeof window !== 'undefined') {
 
     const lastRecovery = sessionStorage.getItem('last_chunk_recovery');
     const now = Date.now();
-    if (!lastRecovery || (now - parseInt(lastRecovery, 10)) > 4000) {
+    if (!lastRecovery || (now - parseInt(lastRecovery, 10)) > 3000) {
       sessionStorage.setItem('last_chunk_recovery', String(now));
       const url = new URL(window.location.href);
       url.searchParams.set('v', String(now));
